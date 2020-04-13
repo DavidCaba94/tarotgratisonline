@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Oráculo si o no - Tarot Gratis Online</title>
+        <link rel="icon" type="image/png" href="img/bola.png">
+        <meta charset="UTF-8">
+        <meta name="title" content="Compatibilidad de Signos - Tarot Gratis Online">
+        <meta name="description" content="Consulta la compatibilidad entre dos signos del zodiaco con nuestro test gratis. El resultado te hará saber el grado de compatibilidad
+        entre dos personas según su signo del zodiaco. El mejor test de compatibilidad gratis para signos del zodiaco.">
+
+        <script src="libs/jquery-3.2.1/jquery-latest.js"></script>
+        <script src="libs/particles-2.0/particles.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+        <link href="libs/bootstrap-4.0.0/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+        <link href="libs/bootstrap-4.0.0/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
+        <link href="libs/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <script src="libs/bootstrap-4.0.0/js/bootstrap.js"></script>
+        <meta name="viewport" content= "width=device-width, user-scalable=no">
+
+        <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/compatibilidad.css" rel="stylesheet" type="text/css"/>
+        <script src="js/compatibilidad.js"></script>
+        <script src="js/particulas.js"></script>
+
+        <script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163464348-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-163464348-1');
+        </script>
+    </head>
+  <body>
+      <div class="row contenedor-cabecera">
+          <div id="particles-js"></div>
+          <div class="row menu">
+              <a href="/"><div class="logo">TAROT GRATIS</div></a>
+              <a href="tarot"><div class="item">Tirada de tarot</div></a>
+              <a href="oraculo-si-no"><div class="item">Oráculo si o no</div></a>
+              <a href="calculadora-amor"><div class="item">Calculadora del amor</div></a>
+              <a href="compatibilidad"><div class="item">Compatibilidad</div></a>
+              <a href="lectura-mano"><div class="item">Lectura de mano</div><a/>
+              <a href="cartas"><div class="item">Cartas</div></a>
+              <div class="item">Blog</div>
+          </div>
+          <div class="row menu-movil">
+              <a href="/"><div class="logo">TAROT GRATIS</div></a>
+              <div id="btn-menu" class="hamburger-menu">
+                 <div class="bar"></div>
+            </div>
+          </div>
+          <div id="menu-movil-desplegable" class="row menu-movil-desplegable">
+              <a href="tarot"><div class="item">Tirada de tarot</div></a>
+              <a href="oraculo-si-no"><div class="item">Oráculo si o no</div></a>
+              <a href="calculadora-amor"><div class="item">Calculadora del amor</div></a>
+              <a href="compatibilidad"><div class="item">Compatibilidad</div></a>
+              <a href="lectura-mano"><div class="item">Lectura de mano</div><a/>
+              <a href="cartas"><div class="item">Cartas</div></a>
+              <div class="item">Blog</div>
+              <div class="box-redes">
+                  <div class="" data-href="http://tarotgratisonline.com/" data-layout="button" data-size="large">
+                      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftarotgratisonline.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                          <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" />
+                      </a>
+                  </div>
+                  <a href="whatsapp://send?text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online%20http://tarotgratisonline.com">
+                      <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" />
+                  </a>
+                  <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online&tw_p=tweetbutton&url=http%3A%2F%2Ftarotgratisonline.com%2F" class="" data-text="Tarot Gratis Online - Tirada de tarot gratis online" data-url="http://tarotgratisonline.com/" data-show-count="false">
+                      <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" />
+                  </a>
+              </div>
+          </div>
+          <div class="row cabecera">
+              <div class="col-lg-12">
+                  <h1 class="titulo">COMPATIBILIDAD DE SIGNOS</h1>
+                  <h2 class="subtitulo">Consulta la compatibilidad entre dos signos del zodiaco con nuestro test gratis. El resultado te hará saber el grado de compatibilidad
+                  entre dos personas según su signo del zodiaco. Símplemente elige dos signos correspondientes a dos personas diferentes y observa el resultado. Puedes
+                  ayudarte de la <strong>tabla de fechas</strong> de abajo si lo necesitas o leer la <strong>descripción individual</strong> de cada signo.</h2>
+                  <div id="formulario-signos" class="visible">
+                      <p>Tu signo:</p>
+                      <div class="contenedor-signos">
+                          <img class="img-signo" src="img/signos/aries.png" data-id="0"/>
+                          <img class="img-signo" src="img/signos/tauro.png" data-id="1"/>
+                          <img class="img-signo" src="img/signos/geminis.png" data-id="2"/>
+                          <img class="img-signo" src="img/signos/cancer.png" data-id="3"/>
+                          <img class="img-signo" src="img/signos/leo.png" data-id="4"/>
+                          <img class="img-signo" src="img/signos/virgo.png" data-id="5"/>
+                          <img class="img-signo" src="img/signos/libra.png" data-id="6"/>
+                          <img class="img-signo" src="img/signos/escorpio.png" data-id="7"/>
+                          <img class="img-signo" src="img/signos/sagitario.png" data-id="8"/>
+                          <img class="img-signo" src="img/signos/capricornio.png" data-id="9"/>
+                          <img class="img-signo" src="img/signos/acuario.png" data-id="10"/>
+                          <img class="img-signo" src="img/signos/piscis.png" data-id="11"/>
+                      </div>
+                      <p>Su signo:</p>
+                      <div class="contenedor-signos">
+                          <img class="img-signo2" src="img/signos/aries.png" data-id2="0"/>
+                          <img class="img-signo2" src="img/signos/tauro.png" data-id2="1"/>
+                          <img class="img-signo2" src="img/signos/geminis.png" data-id2="2"/>
+                          <img class="img-signo2" src="img/signos/cancer.png" data-id2="3"/>
+                          <img class="img-signo2" src="img/signos/leo.png" data-id2="4"/>
+                          <img class="img-signo2" src="img/signos/virgo.png" data-id2="5"/>
+                          <img class="img-signo2" src="img/signos/libra.png" data-id2="6"/>
+                          <img class="img-signo2" src="img/signos/escorpio.png" data-id2="7"/>
+                          <img class="img-signo2" src="img/signos/sagitario.png" data-id2="8"/>
+                          <img class="img-signo2" src="img/signos/capricornio.png" data-id2="9"/>
+                          <img class="img-signo2" src="img/signos/acuario.png" data-id2="10"/>
+                          <img class="img-signo2" src="img/signos/piscis.png" data-id2="11"/>
+                      </div>
+                      <div id="boton-consulta" class="boton">Consultar</div>
+                  </div>
+                  <div id="respuesta-signos" class="respuesta-signos invisible">
+                      <img id="signo-elegido-1" class="img-signo-respuesta" src="img/signos/aries.png"/>
+                      <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
+                      <p id="porcentaje" class="porcentaje invisible">00%</p>
+                      <img id="signo-elegido-2" class="img-signo-respuesta" src="img/signos/aries.png"/>
+                  </div>
+              </div>
+          </div>
+          <div class="row texto-info">
+              <h3 class="titulo-info">Fechas de los signos del zodiaco</h3>
+              <div class="parrafo-info">
+                  <div class="date-pill">
+                      <p class="signo-pill">Aries</p>
+                      <p class="fecha-pill">21 Marzo - 20 Abril</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Tauro</p>
+                      <p class="fecha-pill">21 Abril - 20 Mayo</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Géminis</p>
+                      <p class="fecha-pill">21 Mayo - 20 Junio</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Cáncer</p>
+                      <p class="fecha-pill">12 Junio - 20 Julio</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Leo</p>
+                      <p class="fecha-pill">21 Julio - 21 Agosto</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Virgo</p>
+                      <p class="fecha-pill">22 Agosto - 22 Septiembre</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Libra</p>
+                      <p class="fecha-pill">23 Septiembre - 22 Octubre</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Escorpio</p>
+                      <p class="fecha-pill">23 Octubre - 22 Noviembre</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Sagitario</p>
+                      <p class="fecha-pill">23 Noviembre - 20 Diciembre</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Capricornio</p>
+                      <p class="fecha-pill">21 Diciembre - 19 Enero</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Acuario</p>
+                      <p class="fecha-pill">20 Enero - 18 Febrero</p>
+                  </div>
+                  <div class="date-pill">
+                      <p class="signo-pill">Piscis</p>
+                      <p class="fecha-pill">19 Febrero - 20 Marzo</p>
+                  </div>
+              </div>
+              <h3 class="titulo-info">Características de los signos del zodiaco</h3>
+              <div class="parrafo-signos">
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/aries.png" alt="Aries"/>
+                      <p class="descripcion-signo">
+                          Aries es el primer signo del zodíaco y simboliza el principio. Eres activo, creativo, aventurero e impulsivo, con reacciones que pueden llegar a ser algo
+                          bruscas. Podríamos decir que tu lema es atreverse ahora, arrepentirse luego. También sueles mostrarte impaciente cuando las cosas no van todo lo deprisa
+                          que, según tú, deberían ir. Vives la vida a mil por hora.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/tauro.png" alt="Tauro"/>
+                      <p class="descripcion-signo">
+                          Te gustan las cosas bonitas que te ofrece la naturaleza, pues en general eres una persona de gustos sencillos que ama y sabe apreciar la belleza en todas
+                          sus vertientes. Tú mismo irradias armonía y sensualidad. Eres realista, con los pies en el suelo.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/geminis.png" alt="Géminis"/>
+                      <p class="descripcion-signo">
+                          El signo de Géminis es un signo dual, lo que te permite adaptarte fácilmente a cualquier situación. Sensible e intuitivo, te gusta aprender cosas nuevas
+                          y rodearte de gente dispuesta a compartir tus ideales.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/cancer.png" alt="Cáncer"/>
+                      <p class="descripcion-signo">
+                          Eres una persona muy sensible. A imagen del cangrejo, posees un caparazón duro para protegerte del exterior. Tu interior es frágil, tiendes a pasar a lo
+                          largo de tu vida por altibajos emocionales, y sueles retrotraerte a tu infancia en busca de respuestas sobre tu “yo” actual. En ocasiones te enfrentas a
+                          la vida con cierto miedo hacia el futuro.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/leo.png" alt="Leo"/>
+                      <p class="descripcion-signo">
+                          Leo personifica al León. Es fuerte, admirado por todos y su poder es el motor de su vida. A menudo caes en la superficialidad y la ostentación, aunque
+                          también hay que decir que eres mucho más que la imagen que los demás se hacen de ti.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/virgo.png" alt="Virgo"/>
+                      <p class="descripcion-signo">
+                          Prudente y razonable, posees en ocasiones un espíritu analítico, en ocasiones crítico, sobre ti mismo y sobre los que te rodean. Eres meticuloso y te
+                          gustan las cosas bien hechas, pero ¡ojo! bien hechas a tu manera, que es la única válida a tu modo de entender. Puedes llegar a obsesionarte por pequeños
+                          detalles que los demás apenas ven.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/libra.png" alt="Libra"/>
+                      <p class="descripcion-signo">
+                          Eres dulce y seductor. Te gusta rodearte de belleza y armonía, tu realización personal pasa por el contacto y la forma de relacionarte con los demás.
+                          Inquieto y curioso por naturaleza, tiendes a sentirte a menudo frustrado e insatisfecho cuando crees o presientes que las cosas no van por el camino que
+                          tú quisieras. Te comprometes difícilmente, pero cuando lo haces tu compromiso es firme.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/escorpio.png" alt="Escorpio"/>
+                      <p class="descripcion-signo">
+                          El Escorpio es el signo del instinto, de la potencia, de la seguridad, así como del mundo interior, de los fantasmas que cada uno alberga en su interior.
+                          Eres una persona extrema en todo lo que emprendes, te haces notar sin quererlo, pues tu paso firme, seguro y fuerte se hace sentir. No pasas desapercibido.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/sagitario.png" alt="Sagitario"/>
+                      <p class="descripcion-signo">
+                          Te caracterizas por tu personalidad independiente, franca y amable, abierta a los demás, a los nuevos desafíos, pero también abierto a ti mismo y a
+                          indagar en tus expectativas personales. Eres idealista, generoso y sincero, no tienes miedo de tus palabras. Te gusta rodearte de sabiduría y
+                          conocimientos, tú mismo eres un sabio y un filósofo. Tu temperamento es propenso al buen humor y al optimismo.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/capricornio.png" alt="Capricornio"/>
+                      <p class="descripcion-signo">
+                          Con tu gran ambición, no podemos dejar de introducir las tendencias vitales de tu signo Capricornio sin mencionar desde ya tu enorme disciplina en el
+                          trabajo, aunque también en otros ámbitos de tu vida, en busca continua de una realización profesional y, por extensión, personal. Discreto y tranquilo,
+                          recorres el camino fijado en tu vida sin hacer notar tus intenciones, lo que te vuelve misterioso e imprevisible de cara a los demás.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/acuario.png" alt="Acuario"/>
+                      <p class="descripcion-signo">
+                          Eres un ser social y siempre sueles rodearte de amigos y de gente conocida. Eres idealista, expansivo, con un gran sentido de la justicia y de la
+                          tolerancia, te comprometes en ese sentido con tal de ayudar en la medida de lo posible a hacer de tu mundo un lugar mejor. Simbolizas la esperanza y
+                          los sueños, la espiritualidad aplicada a la vida real.
+                      </p>
+                  </div>
+                  <div class="separador"></div>
+                  <div class="contenedor-signo">
+                      <img class="imagen-signo" src="img/signos/piscis.png" alt="Piscis"/>
+                      <p class="descripcion-signo">
+                          Eres un signo dual, difícil de describir, pues tu imaginación y mundo interior no tienen límites. Tú mismo puedes tener en ocasiones dificultad para
+                          determinar dónde termina lo real y dónde empieza lo imaginario. Tu gran sensibilidad e intuición incrementan tu receptividad a aquellas cosas
+                          difícilmente perceptibles para los signos más terrenales, por así decirlo, como los signos de tierra. Pero también eres más vulnerable y frágil que
+                          los demás signos.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer">
+          <a href="/">TAROT GRATIS ONLINE</a>
+          <p class="copyright">©2020 TAROTGRATISONLINE</p>
+          <div class="box-redes">
+              <div class="" data-href="http://tarotgratisonline.com/" data-layout="button" data-size="large">
+                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftarotgratisonline.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                      <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" />
+                  </a>
+              </div>
+              <a href="whatsapp://send?text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online%20http://tarotgratisonline.com">
+                  <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" />
+              </a>
+              <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online&tw_p=tweetbutton&url=http%3A%2F%2Ftarotgratisonline.com%2F" class="" data-text="Tarot Gratis Online - Tirada de tarot gratis online" data-url="http://tarotgratisonline.com/" data-show-count="false">
+                  <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" />
+              </a>
+          </div>
+      </div>
+  </body>
+</html>

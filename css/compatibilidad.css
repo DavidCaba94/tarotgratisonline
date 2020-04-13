@@ -1,0 +1,270 @@
+.visible {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}
+
+.cabecera {
+    height: 100% !important;
+}
+
+.respuesta-signos {
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#formulario-signos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.texto-generico {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.texto-pregunta {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.texto-respuesta {
+    margin-top: -30px;
+    margin-bottom: 70px;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.subtitulo {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.contenedor-signos {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-signo {
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.img-signo2 {
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.img-signo-seleccionado {
+    background-image: url("../img/signo-seleccionado.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#boton-consulta {
+    margin-top: 40px;
+}
+
+.img-signo-respuesta {
+    margin: 20px;
+}
+
+.porcentaje {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.parrafo-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.parrafo-signos {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor-signo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.separador {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #ffffff24;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen-signo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.descripcion-signo {
+    max-width: 770px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.date-pill {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.signo-pill {
+    font-weight: 700;
+}
+
+.fecha-pill {
+    font-weight: 200;
+}
+
+/*ANIMACIÓN CARGANDO*/
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+/*FIN ANIMACIÓN CARGANDO*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .cabecera {
+        padding-top: 50px;
+    }
+
+    .respuesta-signos {
+        display: none;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .lds-ellipsis {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    input[type=text] {
+        width: 900px;
+        margin-top: 150px;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .subtitulo {
+        font-size: 24px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .img-signo {
+        width: 80px;
+    }
+
+    .img-signo2 {
+        width: 80px;
+    }
+}
