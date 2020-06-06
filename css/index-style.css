@@ -385,6 +385,30 @@ body {
     text-align: justify;
 }
 
+/* PUBLICIDAD */
+.box-publicidad {
+	width: 100%;
+	background-color: #000000;
+}
+
+.modulo-publicidad {
+	max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#SC_TBlock_764196 .adaptiveImg,
+#SC_TBlock_763922 .adaptiveImg {
+    max-width: 180px !important;
+}
+
+#SC_TBlock_764196 .ts-wrapper>div.contentTeaser .content-story,
+#SC_TBlock_763922 .ts-wrapper>div.contentTeaser .content-story {
+    max-width: 180px !important;
+    margin: 0 auto !important;
+}
+/* FIN PUBLICIDAD */
+
 /*ANIMACIÓN SLIDE FLECHA*/
 .slideDown{
 	animation-name: slideDown;
