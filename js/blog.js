@@ -10,7 +10,7 @@ $(document).ready(function(){
 	});
 
 	const xhttp = new XMLHttpRequest();
-    xhttp.open('GET', '../json/posts.json', true);
+    xhttp.open('GET', '/json/posts.json', true);
     xhttp.send();
 
     xhttp.onreadystatechange = function() {
@@ -20,8 +20,24 @@ $(document).ready(function(){
             for(let item of posts) {
                 arrayPosts.push(item);
             }
+
+			cargarPosts();
         }
     }
-
-	console.log(arrayPosts);
 });
+
+function cargarPosts() {
+	$("#contenedor-blog").html('');
+	arrayPosts = arrayPosts.reverse();
+	for(var i = 0; i < arrayPosts.length; i++){
+        if(arrayPosts[i] != undefined){
+            $("#contenedor-blog").append(
+				'<div class="box-post">'+
+                    '<h2 class="titulo-post">'+ arrayPosts[i].titulo +'</h2>'+
+                    '<p class="subtitulo-post">'+ arrayPosts[i].descripcion +'</p>'+
+                    '<a href="'+ arrayPosts[i].url +'"><div class="btn-post">Ir al post</div></a>'+
+                '</div>'
+            );
+        }
+    }
+}
