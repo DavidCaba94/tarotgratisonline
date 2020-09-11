@@ -1,20 +1,8 @@
 [
     {
             "id": "1",
-            "titulo": "Título de prueba",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ullamcorper elit. Donec a malesuada libero. Nunc at posuere ipsum. Donec volutpat urna vitae massa ullamcorper pellentesque. Maecenas sem nulla, elementum accumsan augue vitae, lacinia hendrerit quam. Ut eu sollicitudin nunc, feugiat cursus tellus. Aenean urna velit, scelerisque sit amet est vitae, venenatis feugiat tellus. Mauris a tincidunt nibh. Aenean porttitor dignissim enim, quis gravida massa sodales ac. Phasellus aliquet accumsan rutrum. Donec massa nisi, congue a maximus in, efficitur...",
-            "url": "/blog/post-de-prueba"
-    },
-    {
-            "id": "2",
-            "titulo": "Título de prueba",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ullamcorper elit. Donec a malesuada libero. Nunc at posuere ipsum. Donec volutpat urna vitae massa ullamcorper pellentesque. Maecenas sem nulla, elementum accumsan augue vitae, lacinia hendrerit quam. Ut eu sollicitudin nunc, feugiat cursus tellus. Aenean urna velit, scelerisque sit amet est vitae, venenatis feugiat tellus. Mauris a tincidunt nibh. Aenean porttitor dignissim enim, quis gravida massa sodales ac. Phasellus aliquet accumsan rutrum. Donec massa nisi, congue a maximus in, efficitur...",
-            "url": "/blog/post-de-prueba"
-    },
-    {
-            "id": "3",
-            "titulo": "Título de prueba",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ullamcorper elit. Donec a malesuada libero. Nunc at posuere ipsum. Donec volutpat urna vitae massa ullamcorper pellentesque. Maecenas sem nulla, elementum accumsan augue vitae, lacinia hendrerit quam. Ut eu sollicitudin nunc, feugiat cursus tellus. Aenean urna velit, scelerisque sit amet est vitae, venenatis feugiat tellus. Mauris a tincidunt nibh. Aenean porttitor dignissim enim, quis gravida massa sodales ac. Phasellus aliquet accumsan rutrum. Donec massa nisi, congue a maximus in, efficitur...",
-            "url": "/blog/post-de-prueba"
+            "titulo": "QUÉ ES EL TAROT",
+            "descripcion": "En este artículo vamos a hablar sobre qué es el tarot y de qué forma te puede ayudar para crecer y evolucionar día tras día.",
+            "url": "/blog/que-es-el-tarot"
     }
 ]
