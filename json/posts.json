@@ -4,5 +4,17 @@
             "titulo": "QUÉ ES EL TAROT",
             "descripcion": "En este artículo vamos a hablar sobre qué es el tarot y de qué forma te puede ayudar para crecer y evolucionar día tras día. El tarot es una herramienta de crecimiento personal que está compuesta por 22 arcanos mayores y 56 arcanos menores. Todos ellos representan diferentes arquetipos de la vida y situaciones que vivimos todas las personas. Los mayores tienen un trasfondo...",
             "url": "/blog/que-es-el-tarot"
+    },
+    {
+            "id": "2",
+            "titulo": "EL TAROT Y EL DESTINO",
+            "descripcion": "¿Cuántas veces en tu vida has pedido al Universo, a las estrellas, a las fuerzas superiores (o como tú prefieras llamarle) una señal, algo que indicara el camino, que te diera esperanza en esos momentos difíciles o que te ayudase a tomar esa decisión… Y quizá fuiste testigo de un acto mágico, de un milagro, de una sincronicidad inexplicable; personas que aparecen en tu camino de formas misteriosas, llamadas inesperadas, luces en el cielo, números que se te repiten constantemente.",
+            "url": "/blog/el-tarot-y-el-destino"
+    },
+    {
+            "id": "3",
+            "titulo": "CREACIÓN Y MANIFESTACIÓN CONSCIENTE",
+            "descripcion": "Todos los seres humanos tenemos la capacidad de manifestar y crear cosas en la realidad, el problema es que la mayoría de las personas pasa la mayor parte de su vida creando de forma inconsciente (¿O acaso nunca has oído hablar del inconsciente colectivo?).",
+            "url": "/blog/creacion-y-manifestacion-consciente"
     }
 ]
