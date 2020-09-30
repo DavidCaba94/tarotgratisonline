@@ -34,5 +34,11 @@
             "titulo": "TAROT DEL AMOR",
             "descripcion": "En este artículo vamos a hablar sobre el tarot del amor, sobre todo lo que hay que saber a la hora de consultar al tarot por amor. Quédate hasta el final para aprender más sobre el mundo del tarot. El tema del amor es algo muy recurrido a la hora de hacer una consulta o lectura de tarot. Y es que la necesidad de amor, de relaciones armoniosas es algo que nos preocupa a la mayoría...",
             "url": "/blog/tarot-del-amor"
+    },
+    {
+            "id": "7",
+            "titulo": "APRENDIENDO EL SIGNIFICADO DE CADA CARTA DE TAROT",
+            "descripcion": "Antes que nada me gustaría aclarar que esta entrada no es en sí de una forma muy técnica de aprender a leer cada significado de cada carta de nuestra baraja, sino más bien una serie de consejos que a mi en lo personal me han servido para poder aprenderlas de una manera más dinámica que estudiar cada una. Pero como siempre digo en mis videos...",
+            "url": "/blog/aprendiendo-significado-cartas-tarot"
     }
 ]
