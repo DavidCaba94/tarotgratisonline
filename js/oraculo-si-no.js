@@ -17,6 +17,7 @@ $(document).ready(function(){
             $("#respuesta-oraculo").addClass("visible");
             var respuestaOraculo = comprobarRespuesta();
             $("#texto-respuesta").text(respuestaOraculo);
+            escribirFicheroPreguntas(pregunta, respuestaOraculo);
             setTimeout(function() {
                 $("#loading").removeClass("visible");
                 $("#loading").addClass("invisible");
@@ -71,4 +72,17 @@ function camposRellenos() {
     }
 
     return relleno;
+}
+
+function escribirFicheroPreguntas(pregunta, respuesta) {
+    var stringLine = JSON.parse('{ "pregunta":"'+ pregunta +'", "respuesta":"'+ respuesta +'"}');
+    $.ajax({
+        type: "GET",
+        dataType : 'json',
+        async: false,
+        url: '/js/save_json.php',
+        data: { data: JSON.stringify(stringLine) },
+        success: function () { },
+        failure: function() { }
+    });
 }
