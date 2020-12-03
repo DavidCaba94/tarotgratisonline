@@ -385,6 +385,10 @@ body {
     text-align: justify;
 }
 
+.img-idioma {
+	width: 30px;
+}
+
 /* BUBBLE EXPERTOS */
 
 .bubble-expertos {
@@ -679,4 +683,9 @@ body {
 		justify-content: space-around;
 		flex-wrap: nowrap;
 	}
+
+	.img-idioma {
+		width: 20px;
+	}
+	
 }
