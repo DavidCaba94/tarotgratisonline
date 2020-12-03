@@ -22,10 +22,10 @@ function generarCartas(){
     for(var i=0; i<22; i++){
         $("#tablero-tarot").append('<div id="card" class="carta carta-'+repartoCartas[i]+'" onclick="voltearCarta('+repartoCartas[i]+')">'+
                                         '<div class="front">'+
-                                            '<img class="img-carta" src="img/reverso2.png" />'+
+                                            '<img class="img-carta" src="/img/reverso2.png" />'+
                                         '</div>'+
                                         '<div class="back">'+
-                                            '<img class="img-carta-volteada" src="img/cartas/carta-'+repartoCartas[i]+'.png" />'+
+                                            '<img class="img-carta-volteada" src="/img/cartas/carta-'+repartoCartas[i]+'.png" />'+
                                         '</div>'+
                                     '</div>');
         $(".carta-"+repartoCartas[i]).click();
@@ -85,7 +85,7 @@ function generarRespuesta(){
         for(var i=0; i<3; i++){
             $("#contenedor-cartas").append('<div class="row carta-respuesta">'+
                                                 '<div class="col-12 col-md-4">'+
-                                                    '<img class="img-carta-respuesta" src="img/cartas/carta-'+cartasVolteadas[i]+'.png" />'+
+                                                    '<img class="img-carta-respuesta" src="/img/cartas/carta-'+cartasVolteadas[i]+'.png" />'+
                                                 '</div>'+
                                                 '<div class="col-12 col-md-8">'+
                                                     '<h3 class="titulo-carta">'+titulosCartas[cartasVolteadas[i]]+'</h3>'+
