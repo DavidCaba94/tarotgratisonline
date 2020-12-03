@@ -1,4 +1,19 @@
 $(document).ready(function(){
+	var idioma = navigator.language;
+	var resIdioma = idioma.split("-");
+	var idiomaActual = resIdioma[0];
+	var urlActual = window.location.href;
+	var arrayUrl = urlActual.split("/");
+	var paginaActual = arrayUrl[arrayUrl.length-1];
+	var urlNuevaEN = "http://tarotgratisonline.es/en/";
+	var urlNuevaES = "http://tarotgratisonline.es/";
+
+	if(!urlActual.includes("/en/") && idiomaActual == "en") {
+		window.location.replace(urlNuevaEN + paginaActual);
+	} else if(urlActual.includes("/en/") && idiomaActual == "es") {
+		window.location.replace(urlNuevaES + paginaActual);
+	}
+
 	$('.hamburger-menu').on('click', function() {
 	    $('.bar').toggleClass('animate');
 	});
