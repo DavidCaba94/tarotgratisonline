@@ -4,7 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
@@ -49,6 +48,51 @@
 </url>
 <url>
   <loc>http://tarotgratisonline.com/blog/entradas</loc>
+  <lastmod>2020-09-07T17:46:10+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://tarotgratisonline.com/en</loc>
+  <lastmod>2020-09-07T17:46:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://tarotgratisonline.com/en/tarot</loc>
+  <lastmod>2020-09-07T17:46:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tarotgratisonline.com/en/oraculo-si-no</loc>
+  <lastmod>2020-09-07T17:46:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tarotgratisonline.com/en/calculadora-amor</loc>
+  <lastmod>2020-09-07T17:46:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tarotgratisonline.com/en/compatibilidad</loc>
+  <lastmod>2020-09-07T17:46:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tarotgratisonline.com/en/lectura-mano</loc>
+  <lastmod>2020-09-07T17:46:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tarotgratisonline.com/en/cartas</loc>
+  <lastmod>2020-09-07T17:46:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tarotgratisonline.com/en/expertos</loc>
+  <lastmod>2020-09-19T17:46:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://tarotgratisonline.com/en/blog/entradas</loc>
   <lastmod>2020-09-07T17:46:10+00:00</lastmod>
   <priority>0.60</priority>
 </url>
