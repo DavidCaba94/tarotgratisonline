@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	/*
 	var idioma = navigator.language;
 	var resIdioma = idioma.split("-");
 	var idiomaActual = resIdioma[0];
@@ -13,6 +14,7 @@ $(document).ready(function(){
 	} else if(urlActual.includes("/en/") && idiomaActual == "es") {
 		window.location.replace(urlNuevaES + paginaActual);
 	}
+	*/
 
 	$('.hamburger-menu').on('click', function() {
 	    $('.bar').toggleClass('animate');

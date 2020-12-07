@@ -32,8 +32,8 @@ $(document).ready(function(){
 
 function generarRespuesta() {
     $("#porcentaje").text(compatibilidad[signo1][signo2]+"%");
-    $("#signo-elegido-1").attr("src","img/signos/"+signosNumerados[signo1]+".png");
-    $("#signo-elegido-2").attr("src","img/signos/"+signosNumerados[signo2]+".png");
+    $("#signo-elegido-1").attr("src","/img/signos/"+signosNumerados[signo1]+".png");
+    $("#signo-elegido-2").attr("src","/img/signos/"+signosNumerados[signo2]+".png");
     $("#formulario-signos").removeClass("visible");
     $("#formulario-signos").addClass("invisible");
     $("#respuesta-signos").removeClass("invisible");
