@@ -2,9 +2,29 @@ var cartasVolteadas = [];
 var totalVolteadas = 0;
 var repartoCartas = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21];
 var primeraEjecucion = true;
+var bubbleProductosOpen = true;
 
 
 $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+		loop:true,
+		margin:0,
+		nav:false,
+		dots:true,
+		items:1,
+		autoplay:true
+    });
+
+    $('.cabecera-bubble-productos').on('click', function() {
+		$('.desplegable-productos').slideToggle();
+		bubbleProductosOpen = !bubbleProductosOpen;
+		if(bubbleProductosOpen) {
+			$('#btn-cerrar').html("×");
+		} else {
+			$('#btn-cerrar').html("&#129045");
+		}
+    });
+    
     $('.hamburger-menu').on('click', function() {
         $('.bar').toggleClass('animate');
     });
