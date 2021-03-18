@@ -1,5 +1,6 @@
 var bubbleProductosOpen = true;
 $(document).ready(function(){
+    /*
     $('.owl-carousel').owlCarousel({
 		loop:true,
 		margin:0,
@@ -18,7 +19,8 @@ $(document).ready(function(){
 			$('#btn-cerrar').html("&#129045");
 		}
     });
-    
+    */
+
     $('.hamburger-menu').on('click', function() {
         $('.bar').toggleClass('animate');
     });

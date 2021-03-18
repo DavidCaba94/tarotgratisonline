@@ -17,7 +17,7 @@ $(document).ready(function(){
 		window.location.replace(urlNuevaES + paginaActual);
 	}
 	*/
-
+	/*
 	$('.owl-carousel').owlCarousel({
 		loop:true,
 		margin:0,
@@ -26,7 +26,7 @@ $(document).ready(function(){
 		items:1,
 		autoplay:true
 	});
-
+*/
 	$('.hamburger-menu').on('click', function() {
 	    $('.bar').toggleClass('animate');
 	});
@@ -34,7 +34,7 @@ $(document).ready(function(){
 	$('#btn-menu').on('click', function() {
 	    $('#menu-movil-desplegable').slideToggle();
 	});
-
+/*
 	$('.cabecera-bubble-productos').on('click', function() {
 		$('.desplegable-productos').slideToggle();
 		bubbleProductosOpen = !bubbleProductosOpen;
@@ -44,7 +44,7 @@ $(document).ready(function(){
 			$('#btn-cerrar').html("&#129045");
 		}
 	});
-
+*/
 });
 
 /*ANIMACIÓN FLECHA SLIDE*/
