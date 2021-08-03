@@ -52,5 +52,11 @@
             "titulo": "SIGNIFICADO DE LOS NÚMEROS (0-9) EN NUMEROLOGÍA Y COMO UTILIZARLOS",
             "descripcion": "¿Ha pensado alguna vez en el significado de los números en la numerología? ¿Cómo el número 10 saca a la leyenda de la manada? ¿Por qué el número 13 provoca un escalofrío en el corazón de la gente? Hay numerosas respuestas a esto, pero sólo una verdad detrás de todo - Numerología.",
             "url": "/blog/significado-numeros-numerologia"
+    },
+    {
+            "id": "10",
+            "titulo": "RESPUESTA RÁPIDA A SU PREGUNTA CON EL TAROT DEL SI O NO",
+            "descripcion": "¿Necesitas café? Sí. ¿Estás cansado? No. Qué bueno será si tu vida también se simplifica como un Sí o un No. Bueno, no puedes simplificar del todo los problemas de tu vida, pero con el Tarot, puedes tomar algunas decisiones efectivas en un sí o un no directo.",
+            "url": "/blog/respuesta-rapida-pregunta-tarot-si-no"
     }
 ]
