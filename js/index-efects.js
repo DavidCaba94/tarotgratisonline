@@ -8,8 +8,8 @@ $(document).ready(function(){
 	var urlActual = window.location.href;
 	var arrayUrl = urlActual.split("/");
 	var paginaActual = arrayUrl[arrayUrl.length-1];
-	var urlNuevaEN = "http://tarotgratisonline.es/en/";
-	var urlNuevaES = "http://tarotgratisonline.es/";
+	var urlNuevaEN = "https://tarotgratisonline.es/en/";
+	var urlNuevaES = "https://tarotgratisonline.es/";
 
 	if(!urlActual.includes("/en/") && idiomaActual == "en") {
 		window.location.replace(urlNuevaEN + paginaActual);
