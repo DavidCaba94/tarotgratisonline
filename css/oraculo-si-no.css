@@ -44,6 +44,19 @@
     font-size: 24px;
 }
 
+.enlace-externo-oraculo {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(0.25turn, rgb(138, 17, 219), rgb(39, 216, 223), rgb(53, 230, 171));
+    border-image-slice: 1;
+}
+
+.click-aqui {
+  color: aquamarine;
+}
+
 input[type=text] {
     width: 320px;
     padding: 12px 20px;
