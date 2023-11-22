@@ -41,3 +41,65 @@ function cargarPosts() {
         }
     }
 }
+
+/*
+¿Qué significa soñar con caer?
+
+¿Qué significa soñar con volar?
+
+¿Qué significa soñar con perder dientes?
+
+¿Qué significa soñar con ser perseguido?
+
+¿Qué significa soñar con nadar?
+
+¿Qué significa soñar con estar desnudo en público?
+
+¿Qué significa soñar con estar atrapado?
+
+¿Qué significa soñar con encontrar dinero?
+
+¿Qué significa soñar con estar embarazado?
+
+¿Qué significa soñar con viajar sin rumbo?
+
+¿Qué significa soñar con encontrar un nuevo cuarto?
+
+¿Qué significa soñar con llegar tarde?
+
+¿Qué significa soñar con vivir un desastre natural?
+
+¿Qué significa soñar con ser famoso?
+
+¿Qué significa soñar con ser infiel?
+
+¿Qué significa soñar con conducir un vehículo sin control?
+
+¿Qué significa soñar con animales?
+
+¿Qué significa soñar con comer en exceso?
+
+¿Qué significa soñar con ser asesinado?
+
+¿Qué significa soñar con ver a un ser querido fallecido?
+
+¿Qué significa soñar con ser perseguido por un animal?
+
+¿Qué significa soñar con escalar?
+
+¿Qué significa soñar con desnudarse frente a un público?
+
+¿Qué significa soñar con conducir un vehículo en agua?
+
+¿Qué significa soñar con ser abandonado?
+
+¿Qué significa soñar con estar en un examen?
+
+¿Qué significa soñar con presenciar un accidente?
+
+¿Qué significa soñar con hablar en público?
+
+¿Qué significa soñar con estar perdido?
+
+¿Qué significa soñar con caminar descalzo?
+*/

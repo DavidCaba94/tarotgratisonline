@@ -25,6 +25,12 @@
     padding: 20px;
 }
 
+.titulo-centrado {
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .titulo-post {
     text-align: center;
 }

@@ -58,5 +58,11 @@
             "titulo": "RESPUESTA RÁPIDA A SU PREGUNTA CON EL TAROT DEL SI O NO",
             "descripcion": "¿Necesitas café? Sí. ¿Estás cansado? No. Qué bueno será si tu vida también se simplifica como un Sí o un No. Bueno, no puedes simplificar del todo los problemas de tu vida, pero con el Tarot, puedes tomar algunas decisiones efectivas en un sí o un no directo.",
             "url": "/blog/respuesta-rapida-pregunta-tarot-si-no"
+    },
+    {
+            "id": "11",
+            "titulo": "¿Qué significa soñar con caer? Explorando los Misterios de los Sueños Nocturnos",
+            "descripcion": "Soñar con caer es una experiencia común que puede despertar sentimientos de desconcierto y ansiedad. Aunque la interpretación de los sueños es subjetiva y puede variar según cada individuo, explorar los posibles significados de este sueño puede arrojar luz sobre aspectos de nuestra vida y emociones subyacentes.",
+            "url": "/blog/significado-soñar-con-caer"
     }
 ]
