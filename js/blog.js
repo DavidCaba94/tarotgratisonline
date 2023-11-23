@@ -43,10 +43,6 @@ function cargarPosts() {
 }
 
 /*
-¿Qué significa soñar con caer?
-
-¿Qué significa soñar con volar?
-
 ¿Qué significa soñar con perder dientes?
 
 ¿Qué significa soñar con ser perseguido?
