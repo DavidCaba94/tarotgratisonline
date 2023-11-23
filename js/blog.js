@@ -43,10 +43,6 @@ function cargarPosts() {
 }
 
 /*
-¿Qué significa soñar con perder dientes?
-
-¿Qué significa soñar con ser perseguido?
-
 ¿Qué significa soñar con nadar?
 
 ¿Qué significa soñar con estar desnudo en público?
