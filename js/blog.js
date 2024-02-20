@@ -43,12 +43,6 @@ function cargarPosts() {
 }
 
 /*
-¿Qué significa soñar con nadar?
-
-¿Qué significa soñar con estar desnudo en público?
-
-¿Qué significa soñar con estar atrapado?
-
 ¿Qué significa soñar con encontrar dinero?
 
 ¿Qué significa soñar con estar embarazado?

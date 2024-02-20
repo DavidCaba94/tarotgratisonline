@@ -47,6 +47,8 @@
     margin: 0 auto;
     margin-top: 30px;
     font-size: 22px;
+    line-height: 1.2;
+    text-align: justify;
 }
 
 .contenedor-signos {
