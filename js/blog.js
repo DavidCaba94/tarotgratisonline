@@ -9,6 +9,14 @@ $(document).ready(function(){
 	    $('#menu-movil-desplegable').slideToggle();
 	});
 
+    $('#btn-tarot').on('click', function() {
+	    $('#menu-tarot-desplegable').slideToggle();
+	});
+
+	$('#btn-tarot-movil').on('click', function() {
+	    $('#menu-tarot-desplegable-movil').slideToggle();
+	});
+
 	const xhttp = new XMLHttpRequest();
     xhttp.open('GET', '/json/posts.json', true);
     xhttp.send();

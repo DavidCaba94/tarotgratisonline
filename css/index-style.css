@@ -79,6 +79,36 @@ body {
 	font-weight: 200;
 }
 
+.menu-tarot-desplegable {
+	position: absolute;
+    width: 100%;
+    top: 80px;
+    display: none;
+    background-color: #000000f2;
+    padding-top: 20px;
+    z-index: 99;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.menu-tarot-desplegable-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.menu-tarot-desplegable-movil {
+	position: relative;
+    width: 100%;
+    display: none;
+    background-color: #000000f2;
+    padding-top: 20px;
+    z-index: 99;
+    font-size: 16px;
+    font-weight: 300;
+}
+
 .item {
 	text-align: center;
     height: 30px;
@@ -512,7 +542,7 @@ body {
   width: 40px;
   height: 40px;
   margin: -20px 0 0 -20px;
-  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
   border-left: none;
   border-top: none;
   border-right: 2px #fff solid;

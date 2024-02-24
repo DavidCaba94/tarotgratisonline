@@ -32,6 +32,14 @@ $(document).ready(function(){
         $('#menu-movil-desplegable').slideToggle();
     });
 
+    $('#btn-tarot').on('click', function() {
+	    $('#menu-tarot-desplegable').slideToggle();
+	});
+
+	$('#btn-tarot-movil').on('click', function() {
+	    $('#menu-tarot-desplegable-movil').slideToggle();
+	});
+
     inicializarPreguntas();
 
     $("#boton-siguiente").on('click', function() {

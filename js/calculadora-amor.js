@@ -28,6 +28,14 @@ $(document).ready(function(){
 	    $('#menu-movil-desplegable').slideToggle();
 	});
 
+    $('#btn-tarot').on('click', function() {
+	    $('#menu-tarot-desplegable').slideToggle();
+	});
+
+	$('#btn-tarot-movil').on('click', function() {
+	    $('#menu-tarot-desplegable-movil').slideToggle();
+	});
+
     $("#boton-amor").click(function() {
         if(camposRellenos() == 0){
             var nombre1 = $("#nombre-1").val();
