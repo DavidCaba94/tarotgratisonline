@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tarotgratisonline.com/sitemap/sitemap.xml

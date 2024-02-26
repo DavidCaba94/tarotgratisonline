@@ -24,7 +24,7 @@
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
 }
@@ -42,6 +42,28 @@
     margin-top: 35px;
     width: 180px;
     height: 251px;
+}
+
+#formulario-oraculo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+input[type=text] {
+  width: 320px;
+  padding: 12px 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: "Josefin Sans", Sans-serif;
+  font-weight: 200;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  background-color: #000000ba;
+  color: white;
+}
+
+input[type=text]:focus {
+  outline: none;
 }
 
 /*ANIMACIÓN CARGANDO*/
@@ -114,13 +136,20 @@
     max-width: 900px;
     height: fit-content;
     margin: 0 auto;
-    border-bottom: 1px solid #ffffff24;
     padding-bottom: 30px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .titulo-carta {
     margin-top: 30px;
+    font-size: 20px;
+}
+
+.text-respuesta {
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 60px;
 }
 
 .descripcion-carta {
@@ -141,13 +170,16 @@
     }
 
     .titulo-carta {
-        text-align: left;
+        text-align: center;
     }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-
+  input[type=text] {
+      width: 900px;
+      margin-top: 50px;
+  }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
