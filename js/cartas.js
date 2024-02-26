@@ -1,25 +1,5 @@
 var bubbleProductosOpen = true;
 $(document).ready(function(){
-	/*
-	$('.owl-carousel').owlCarousel({
-		loop:true,
-		margin:0,
-		nav:false,
-		dots:true,
-		items:1,
-		autoplay:true
-    });
-
-    $('.cabecera-bubble-productos').on('click', function() {
-		$('.desplegable-productos').slideToggle();
-		bubbleProductosOpen = !bubbleProductosOpen;
-		if(bubbleProductosOpen) {
-			$('#btn-cerrar').html("×");
-		} else {
-			$('#btn-cerrar').html("&#129045");
-		}
-	});
-	*/
 	$('.hamburger-menu').on('click', function() {
 	    $('.bar').toggleClass('animate');
 	});
@@ -35,13 +15,4 @@ $(document).ready(function(){
 	$('#btn-tarot-movil').on('click', function() {
 	    $('#menu-tarot-desplegable-movil').slideToggle();
 	});
-
 });
-
-/*ANIMACIÓN FLECHA SLIDE*/
-document.addEventListener('DOMContentLoaded', function() {
-	setTimeout(function() {
-		document.getElementById('flecha-slide').className = 'slideDown';
-	}, 1000);
-}, false);
-/*FIN ANIMACIÓN FLECHA SLIDE*/
