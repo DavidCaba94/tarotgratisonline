@@ -16,6 +16,14 @@ $(document).ready(function(){
 	    $('#menu-tarot-desplegable-movil').slideToggle();
 	});
 
+    $('#btn-horoscopo').on('click', function() {
+	    $('#menu-horoscopo-desplegable').slideToggle();
+	});
+
+	$('#btn-horoscopo-movil').on('click', function() {
+	    $('#menu-horoscopo-desplegable-movil').slideToggle();
+	});
+
     $("#boton-amor").click(function() {
         if(camposRellenos() == 0){
             var nombre1 = $("#nombre-1").val();

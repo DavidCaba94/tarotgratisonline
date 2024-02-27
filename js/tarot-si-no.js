@@ -20,6 +20,14 @@ $(document).ready(function(){
 	    $('#menu-tarot-desplegable-movil').slideToggle();
 	});
 
+    $('#btn-horoscopo').on('click', function() {
+	    $('#menu-horoscopo-desplegable').slideToggle();
+	});
+
+	$('#btn-horoscopo-movil').on('click', function() {
+	    $('#menu-horoscopo-desplegable-movil').slideToggle();
+	});
+
     $('#btn-nueva-tirada').on('click', function() {
         primeraEjecucion = true;
         cartasVolteadas = [];

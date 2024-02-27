@@ -19,6 +19,14 @@ $(document).ready(function(){
 	    $('#menu-tarot-desplegable-movil').slideToggle();
 	});
 
+    $('#btn-horoscopo').on('click', function() {
+	    $('#menu-horoscopo-desplegable').slideToggle();
+	});
+
+	$('#btn-horoscopo-movil').on('click', function() {
+	    $('#menu-horoscopo-desplegable-movil').slideToggle();
+	});
+
     inicializarPreguntas();
 
     $("#boton-siguiente").on('click', function() {
