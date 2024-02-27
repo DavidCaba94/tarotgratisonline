@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Calculadora del Amor - Tarot Gratis Online</title>
+        <title>Horóscopo Diario - Tarot Gratis Online</title>
         <link rel="icon" type="image/png" href="img/bola.png">
         <meta charset="UTF-8">
-        <meta name="title" content="Calculadora del Amor - Tarot Gratis Online">
-        <meta name="description" content="Descubre la verdadera compatibilidad con nuestra emocionante calculadora del amor gratis. ¿Quieres saber si estás destinado a 
-        vivir un romance de cuento de hadas? Nuestra herramienta te revelará la conexión profunda entre tú y tu pareja, explorando aspectos más allá de lo físico. Con la 
-        combinación única de la calculadora del amor y el tarot, desentrañarás los misterios del corazón y encontrarás respuestas que te sorprenderán. ¿Es amor verdadero 
-        o solo una ilusión? Descúbrelo ahora de forma gratuita y haz que tu historia de amor sea aún más extraordinaria.">
+        <meta name="title" content="Horóscopo Diario - Tarot Gratis Online">
+        <meta name="description" content="">
 
         <script src="libs/jquery-3.2.1/jquery-latest.js"></script>
         <script src="libs/particles-2.0/particles.js"></script>
@@ -21,8 +18,8 @@
         <meta name="viewport" content= "width=device-width">
 
         <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
-        <link href="css/calculadora-amor.css" rel="stylesheet" type="text/css"/>
-        <script src="js/calculadora-amor.js"></script>
+        <link href="css/horoscopo.css" rel="stylesheet" type="text/css"/>
+        <script src="js/horoscopo.js"></script>
         <script src="js/particulas.js"></script>
 
         <script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -50,9 +47,9 @@
               <div id="btn-horoscopo" class="item">Horóscopo</div>
               <a href="cartas"><div class="item">Cartas</div></a>
               <a href="blog/entradas"><div class="item">Blog</div></a>
-              <a href="en/love-calculator">
+              <a href="en/daily-horoscope">
                 <div class="item">
-                    <img class="img-idioma" src="img/paises/uk-idioma.png" alt="Bandera UK" />
+                    <img class="img-idioma" src="img/paises/uk-idioma.png" alt="Bandera UK"/>
                 </div>
               </a>
           </div>
@@ -94,9 +91,9 @@
               <a href="cartas"><div class="item">Cartas</div></a>
               <a href="blog/entradas"><div class="item">Blog</div></a>
               <a href="expertos"><div class="item">Nuestros expertos</div></a>
-              <a href="en/love-calculator">
+              <a href="en/daily-horoscope">
                 <div class="item">
-                    <img class="img-idioma" src="img/paises/uk-idioma.png" alt="Bandera UK" />
+                    <img class="img-idioma" src="img/paises/uk-idioma.png" alt="Bandera UK"/>
                 </div>
               </a>
               <div class="box-redes">
@@ -121,64 +118,24 @@
           </a>
           <div class="row cabecera">
               <div class="col-lg-12">
-                  <h1 class="titulo">CALCULADORA DEL AMOR</h1>
-                  <p class="subtitulo">Descubre la verdadera compatibilidad con nuestra emocionante <strong>calculadora del amor gratis</strong>. ¿Quieres saber si estás 
-                    destinado a vivir un romance de cuento de hadas? Nuestra herramienta te revelará la conexión profunda entre tú y tu pareja, explorando aspectos más allá 
-                    de lo físico. Con la combinación única de la <strong>calculadora del amor y el tarot</strong>, desentrañarás los misterios del corazón y encontrarás 
-                    respuestas que te sorprenderán. ¿Es amor verdadero o solo una ilusión? Descúbrelo ahora de forma gratuita y haz que tu historia de amor sea aún más 
-                    extraordinaria.</p>
-                  <div id="formulario-amor" class="visible">
-                      <input id="nombre-1" type="text" placeholder="Escribe aquí tu nombre..."><br>
-                      <input id="nombre-2" type="text" placeholder="Nombre de la otra persona...">
-                      <div id="boton-amor" class="boton">Calcular</div>
-                  </div>
-                  <div id="respuesta-amor" class="respuesta-amor invisible">
-                      <p class="texto-generico">Consulta de compatibilidad para:</p>
-                      <p id="texto-nombres" class="texto-pregunta">Nombres pareja</p>
-                      <div id="loading" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
-                      <div id="porcentajes-respuesta" class="invisible">
-                          <p class="nombre-parametro">Amor <span id="porcentaje-parametro-1" class="porcentaje-parametro">50%</span></p>
-                          <div class="meter white nostripes">
-                          	<span id="porcentaje-1"></span>
-                          </div>
-                          <p class="nombre-parametro">Amistad <span id="porcentaje-parametro-2" class="porcentaje-parametro">50%</span></p>
-                          <div class="meter white nostripes">
-                          	<span id="porcentaje-2"></span>
-                          </div>
-                          <p class="nombre-parametro">Afinidad <span id="porcentaje-parametro-3" class="porcentaje-parametro">50%</span></p>
-                          <div class="meter white nostripes">
-                          	<span id="porcentaje-3"></span>
-                          </div>
-                          <p class="nombre-parametro">Sexo <span id="porcentaje-parametro-4" class="porcentaje-parametro">50%</span></p>
-                          <div class="meter white nostripes">
-                          	<span id="porcentaje-4"></span>
-                          </div>
-                          <p class="nombre-parametro">Pasión <span id="porcentaje-parametro-5" class="porcentaje-parametro">50%</span></p>
-                          <div class="meter white nostripes">
-                          	<span id="porcentaje-5"></span>
-                          </div>
-                      </div>
-                      <div id="boton-nueva-pregunta" class="boton">Consultar de nuevo</div>
-                  </div>
+                    <h1 class="titulo">HORÓSCOPO DIARIO</h1>
+                    <p class="subtitulo"></p>
+                    <div id="formulario-oraculo" class="visible">
+                        <input id="email" type="text" placeholder="Escribe aquí tu email...">
+                        <div id="boton-oraculo" class="boton">Solicitar</div>
+                    </div>
               </div>
           </div>
           <div class="row texto-info">
-              <h2 class="titulo-info">¿En qué consiste la calculadora del amor?</h2>
-              <p class="parrafo-info">Nuestra calculadora del amor es totalmente gratis y te ayuda a medir la compatibilidad que hay entre tu y la otra persona. La calculadora mide
-                  cinco parámetros fundamentales en la vida de toda pareja, que son: Amor, Amistad, Afinidad, Sexo y Pasión. Si estás conociendo a una persona y necesitas saber
-                  si sois realmente compatibles o si vuestra relación tendrá futuro, la calculadora del amor te ayudará a despejar todas tus dudas.<br><br>
-                  Llegados a este punto, seguramente te interese saber cómo funciona la calculadora del amor. Pues bien, te lo vamos a aclarar. La calculadora se rige principalmente
-                  por la compatibilidad entre nombres, a parte de otros factores. Esta técnica se viene usando desde hace mucho tiempo, pero no es la única que usa la calculadora
-                  para obtener el resultado. También se rige por el estado de ánimo y la alineación de los astros en ese mismo instante. Es por eso que a veces el resultado de una
-                  misma prueba puede variar en momentos diferentes.
-              </p>
-              <h2 class="titulo-info">¿Realmente funciona la calculadora del amor?</h2>
-              <p class="parrafo-info">Como bien hemos dicho, la calculadora del amor se rige por diferentes parámetros personales que tienen que ver con el nombre, el estado de
-                  ánimo y la alineación de los astros, entre otros muchos. Esto significa que el resultado que emite es fiable para ese mismo instante con esos parámetros recogidos
-                  pero que pueden variar con el tiempo. Por eso mismo lo mas importante en estos casos es el sentido común y medir realmente la compatibilidad con otra persona
-                  con actos del día a día. Tómate este test como una mera orientación e incluso con carácter de pasatiempo y recuerda, mide la compatibilidad día a día personalmente,
-                  que es la fuente que te dará el resultado más fiable.
-              </p>
+              <h2 class="titulo-info"></h2>
+              <p class="parrafo-info"></p>
+              <h2 class="titulo-info"></h2>
+              <p class="parrafo-info"></p>
+              <h2 class="titulo-info"></h2>
+              <p class="parrafo-info"></p>
+              <h2 class="titulo-info"></h2>
+              <p class="parrafo-info"></p>
+              <p class="parrafo-info"></p>
           </div>
       </div>
       <div class="footer">
@@ -187,14 +144,14 @@
           <div class="box-redes">
               <div class="" data-href="https://tarotgratisonline.com/" data-layout="button" data-size="large">
                   <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftarotgratisonline.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
-                      <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" alt="Icono Facebook"/>
+                      <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" alt="Icono Facebook" />
                   </a>
               </div>
               <a href="whatsapp://send?text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online%20https://tarotgratisonline.com">
                   <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" alt="Icono Whatsapp" />
               </a>
               <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online&tw_p=tweetbutton&url=http%3A%2F%2Ftarotgratisonline.com%2F" class="" data-text="Tarot Gratis Online - Tirada de tarot gratis online" data-url="https://tarotgratisonline.com/" data-show-count="false">
-                  <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" alt="Icono Twitter"/>
+                  <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" alt="Icono Twitter" />
               </a>
           </div>
       </div>
