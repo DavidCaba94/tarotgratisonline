@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Oracle yes or no - Free Tarot Online</title>
+        <title>Free 2024 Horoscope - Free Tarot Online</title>
         <link rel="icon" type="image/png" href="../img/bola.png">
         <meta charset="UTF-8">
-        <meta name="title" content="Oracle yes or no - Free Tarot Online">
-        <meta name="description" content="The yes or no oracle solves your doubts and questions. The best free yes or no oracle to ask questions and solve your concerns.
-        If you have to make a decision or are looking for an answer, our yes or no oracle will help you make that decision and give you that answer you are looking for. The most used oracle
-        and reliable of the whole internet.">
+        <meta name="title" content="Free 2024 Horoscope - Free Tarot Online">
+        <meta name="description" content="Find out what the year 2024 has in store for you by consulting our free online horoscope. On our website, we offer you detailed 
+        and personalized predictions for each zodiac sign, based on the influence of the stars and planets in your life. Get valuable information about love, career, 
+        finances and more that will help you make informed decisions and make the most of opportunities in the new year. Don't miss the opportunity to start 2024 on the 
+        right foot and discover what destiny has in store for you.">
 
         <script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
         <script src="../libs/particles-2.0/particles.js"></script>
@@ -20,8 +21,8 @@
         <meta name="viewport" content= "width=device-width">
 
         <link href="../css/index-style.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/oraculo-si-no.css" rel="stylesheet" type="text/css"/>
-        <script src="../js/oraculo-si-no.js"></script>
+        <link href="../css/horoscopo.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/horoscopo-anual.js"></script>
         <script src="../js/particulas.js"></script>
 
         <script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -49,7 +50,7 @@
             <div id="btn-horoscopo" class="item">Horoscope</div>
             <a href="/en/cards"><div class="item">Cards</div></a>
             <a href="/en/blog/entradas"><div class="item">Blog</div></a>
-            <a href="/oraculo-si-no">
+            <a href="/horoscopo-2024">
                 <div class="item">
                     <img class="img-idioma" src="../img/paises/sp-idioma.png" alt="Spain flag"/>
                 </div>
@@ -93,7 +94,7 @@
             <a href="/en/cards"><div class="item">Cards</div></a>
             <a href="/en/blog/entradas"><div class="item">Blog</div></a>
             <a href="/en/experts"><div class="item">Our experts</div></a>
-            <a href="/calculadora-amor">
+            <a href="/horoscopo-2024">
                 <div class="item">
                     <img class="img-idioma" src="../img/paises/sp-idioma.png" alt="Spain flag" />
                 </div>
@@ -120,43 +121,65 @@
           </a>
           <div class="row cabecera">
               <div class="col-lg-12">
-                  <h1 class="titulo">ORACLE YES OR NO</h1>
-                  <p class="subtitulo">The yes or no oracle solves your doubts and questions. The best free yes or no oracle to ask questions and solve your concerns.
-                    If you have to make a decision or are looking for an answer, our yes or no oracle will help you make that decision and give you that answer you are looking for.</p>
+                  <h1 class="titulo">FREE 2024 HOROSCOPE</h1>
+                  <div id="text-dia"></div>
+                  <p class="subtitulo">Find out what the year <strong>2024</strong> has in store for you by consulting our <strong>free online horoscope</strong>. On our 
+                    website, we offer you <strong>detailed and personalized predictions for each zodiac sign</strong>, based on the influence of the stars and planets in 
+                    your life. Get valuable information about love, career, finances and more that will help you make informed decisions and make the most of opportunities 
+                    in the new year. Don't miss the opportunity to start 2024 on the right foot and discover what destiny has in store for you.</p>
                   <div id="formulario-oraculo" class="visible">
-                      <input id="pregunta" type="text" placeholder="Write here your question...">
-                      <div id="boton-oraculo" class="boton">Ask</div>
-                  </div>
-                  <div id="respuesta-oraculo" class="respuesta-oraculo invisible">
-                      <p class="texto-generico">To your question:</p>
-                      <p id="texto-pregunta" class="texto-pregunta">Question</p>
-                      <p class="texto-generico">The oracle said...</p>
-                      <div id="loading" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
-                      <p id="texto-respuesta" class="texto-respuesta invisible">Answer</p>
-                      <div id="boton-nueva-pregunta" class="boton">Ask again</div>
-                  </div>
+                    <p>Select your zodiac sign</p>
+                    <div class="box-signos">
+                        <img class="img-signo" src="../img/signos/aries.png" alt="Aries" data-id="0"/>
+                        <img class="img-signo" src="../img/signos/tauro.png" alt="Tauro" data-id="1"/>
+                        <img class="img-signo" src="../img/signos/geminis.png" alt="Géminis" data-id="2"/>
+                        <img class="img-signo" src="../img/signos/cancer.png" alt="Cáncer" data-id="3"/>
+                        <img class="img-signo" src="../img/signos/leo.png" alt="Leo" data-id="4"/>
+                        <img class="img-signo" src="../img/signos/virgo.png" alt="Virgo" data-id="5"/>
+                        <img class="img-signo" src="../img/signos/libra.png" alt="Libra" data-id="6"/>
+                        <img class="img-signo" src="../img/signos/escorpio.png" alt="Escorpio" data-id="7"/>
+                        <img class="img-signo" src="../img/signos/sagitario.png" alt="Sagitario" data-id="8"/>
+                        <img class="img-signo" src="../img/signos/capricornio.png" alt="Capricornio" data-id="9"/>
+                        <img class="img-signo" src="../img/signos/acuario.png" alt="Acuario" data-id="10"/>
+                        <img class="img-signo" src="../img/signos/piscis.png" alt="Piscis" data-id="11"/>
+                    </div>
+                    <p>Write your email to receive your horoscope reading</p>
+                    <input id="email" type="text" placeholder="Enter your email here...">
+                    <div id="boton-solicitar" class="boton">Request</div>
+                </div>
+                <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
+                <p id="send-message" class="send-message invisible">Your horoscope has been sent to the email address you provided. If you don't see it in your inbox, 
+                    check your  spam folder</p>
               </div>
           </div>
           <div class="row texto-info">
-              <h2 class="titulo-info">Is the yes or no oracle reliable?</h2>
-              <p class="parrafo-info">We all have a fixed destiny in life and what happens to us is already written from the beginning. Coincidences do not exist and it is something that
-                we must have assumed. Our yes or no oracle is free and willing to answer as many questions as you need. If you need one more print run
-                we recommend our complete print run of <a href="/tarot"><strong><u>free online tarot</u></strong></a>.<br><br>
-                It should be noted that our online oracle is reliable, but it is still an online game. And although, as we have said, destiny is written for everyone,
-                it is always advisable in cases of extreme seriousness to go to a professional who will provide you with a custom-made tarot print.<br><br>
-                However, enjoy the experience that our online yes or no oracle provides, completely free, as many times as you need and always with meaning
-                common and taking the answers as a mere orientation, not as an absolute truth.
-              </p>
-              <h2 class="titulo-info">What is an oracle?</h2>
-              <p class="parrafo-info">The word oracle can be used with various meanings, all coming from ancient and not so ancient civilizations that have
-                The Earth has been populated over the years.<br><br>
-                The first definition we can find refers to a message or answer that the ancient priests and pythonesses gave in the name of a god or a
-                The Church was a divine response to the requests and questions of the faithful.<br><br>
-                We can also define it as a sacred place where people went to make different consultations to the gods. See the
-                <a href="https://es.wikipedia.org/wiki/Or%C3%A1culo_de_Delfos"><strong><u>Oracle of Delphi</u></strong></a>.<br><br>
-                Finally, another valid meaning for this word defines him as a wise and authorized person who acts as an intermediary between the god and the faithful who perform the
-                consultation. This opinion is generally considered to be indisputable.
-              </p>
+            <h2 class="titulo-info">What is the yearly horoscope?</h2>
+            <p class="parrafo-info">The yearly horoscope is a powerful tool used by millions of people around the world to get an overview of the astrological energies that 
+                will influence their lives throughout the year. This resource offers personalized predictions for each zodiac sign, providing guidance on potential events 
+                and challenges that could arise in different areas of life, such as love, career, finances and health. Expert astrologers carefully examine the position of 
+                the planets and other celestial bodies at the time of a person's birth, as well as the planetary transits that will occur throughout the year, to provide 
+                accurate and detailed forecasts.</p>
+            <p class="parrafo-info">By consulting the yearly horoscope, people can gain a deeper understanding of themselves and the cosmic forces that influence their lives. 
+                This information enables them to better prepare for future events and make informed decisions about how to approach different situations. In addition, the 
+                yearly horoscope can provide a sense of direction and purpose, helping people align their actions with the forces of the universe to achieve greater success 
+                and personal fulfillment in the year ahead.</p>
+            <p class="parrafo-info">Regardless of whether someone is a firm believer in astrology or simply interested in exploring what the yearly horoscope has to say, 
+                this tool offers a fascinating perspective on celestial influences and how they can impact our lives throughout the year. Whether for guidance on important 
+                decisions or simply out of curiosity, the yearly horoscope remains a popular source of information and reflection for many on their journey toward 
+                self-discovery and personal growth.</p>
+            <h2 class="titulo-info">Is the yearly horoscope reliable?</h2>
+            <p class="parrafo-info">The reliability of the yearly horoscope has been the subject of debate and discussion over the years, with divergent opinions on its 
+                validity and accuracy. Those who believe in astrology argue that the yearly horoscope offers a useful and insightful guide to the cosmic energies that 
+                influence our lives, based on expert interpretation of planetary movements and other celestial phenomena. Trained astrologers closely examine the position 
+                of the planets at the time of a person's birth, as well as planetary transits throughout the year, to offer personalized and detailed forecasts.</p>
+            <p class="parrafo-info">However, skeptics argue that the yearly horoscope lacks a scientific basis and that its predictions are vague and generalized, allowing 
+                them to be applied to a wide variety of situations. They argue that astrologers' subjective interpretation and lack of solid empirical evidence undermine the 
+                credibility of the annual horoscope as a reliable predictive tool. Despite these criticisms, many astrology advocates continue to rely on the annual horoscope 
+                as a valuable guide for making important decisions and understanding the cosmic influences in their lives.</p>
+            <p class="parrafo-info">Ultimately, the reliability of the yearly horoscope may vary according to the individual interpretation and experience of the astrologer, 
+                as well as the individual's willingness to accept and apply the advice offered. For some, the yearly horoscope is a reliable source of guidance and insight, 
+                while for others, it may simply be a form of entertainment or personal reflection. As with any self-knowledge tool, the reliability of the yearly horoscope 
+                depends largely on each individual's perspective and beliefs.</p>
           </div>
       </div>
       <div class="footer">

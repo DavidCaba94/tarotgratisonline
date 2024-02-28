@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Oracle yes or no - Free Tarot Online</title>
+        <title>Free Monthly Horoscope - Free Tarot Online</title>
         <link rel="icon" type="image/png" href="../img/bola.png">
         <meta charset="UTF-8">
-        <meta name="title" content="Oracle yes or no - Free Tarot Online">
-        <meta name="description" content="The yes or no oracle solves your doubts and questions. The best free yes or no oracle to ask questions and solve your concerns.
-        If you have to make a decision or are looking for an answer, our yes or no oracle will help you make that decision and give you that answer you are looking for. The most used oracle
-        and reliable of the whole internet.">
+        <meta name="title" content="Free Monthly Horoscope - Free Tarot Online">
+        <meta name="description" content="Discover what destiny has in store for you this month with our free monthly horoscope. On our website, we offer you accurate 
+        and personalized predictions for each zodiac sign, giving you invaluable guidance to face challenges and make the most of the opportunities that come your way. 
+        Don't miss the opportunity to get a clear vision of your future and make informed decisions to achieve your goals. Don't miss the opportunity to get a clear vision 
+        of your future and make informed decisions to achieve your goals. Consult your monthly horoscope right now and let us be your compass on life's journey!">
 
         <script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
         <script src="../libs/particles-2.0/particles.js"></script>
@@ -20,8 +21,8 @@
         <meta name="viewport" content= "width=device-width">
 
         <link href="../css/index-style.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/oraculo-si-no.css" rel="stylesheet" type="text/css"/>
-        <script src="../js/oraculo-si-no.js"></script>
+        <link href="../css/horoscopo.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/horoscopo-mensual.js"></script>
         <script src="../js/particulas.js"></script>
 
         <script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -49,7 +50,7 @@
             <div id="btn-horoscopo" class="item">Horoscope</div>
             <a href="/en/cards"><div class="item">Cards</div></a>
             <a href="/en/blog/entradas"><div class="item">Blog</div></a>
-            <a href="/oraculo-si-no">
+            <a href="/horoscopo-mensual">
                 <div class="item">
                     <img class="img-idioma" src="../img/paises/sp-idioma.png" alt="Spain flag"/>
                 </div>
@@ -93,7 +94,7 @@
             <a href="/en/cards"><div class="item">Cards</div></a>
             <a href="/en/blog/entradas"><div class="item">Blog</div></a>
             <a href="/en/experts"><div class="item">Our experts</div></a>
-            <a href="/calculadora-amor">
+            <a href="/horoscopo-mensual">
                 <div class="item">
                     <img class="img-idioma" src="../img/paises/sp-idioma.png" alt="Spain flag" />
                 </div>
@@ -120,43 +121,61 @@
           </a>
           <div class="row cabecera">
               <div class="col-lg-12">
-                  <h1 class="titulo">ORACLE YES OR NO</h1>
-                  <p class="subtitulo">The yes or no oracle solves your doubts and questions. The best free yes or no oracle to ask questions and solve your concerns.
-                    If you have to make a decision or are looking for an answer, our yes or no oracle will help you make that decision and give you that answer you are looking for.</p>
+                  <h1 class="titulo">FREE MONTHLY HOROSCOPE</h1>
+                  <div id="text-dia"></div>
+                  <p class="subtitulo">Discover what destiny has in store for you this month with our <strong>free monthly horoscope</strong>. On our website, we offer you 
+                    <strong>accurate and personalized predictions</strong> for each zodiac sign, giving you invaluable guidance to face challenges and make the most of the 
+                    opportunities that come your way. Don't miss the opportunity to get a clear vision of your future and make informed decisions to achieve your goals. 
+                    Don't miss the opportunity to get a clear vision of your future and make informed decisions to achieve your goals. Consult your monthly horoscope right 
+                    now and let us be your compass on life's journey!</p>
                   <div id="formulario-oraculo" class="visible">
-                      <input id="pregunta" type="text" placeholder="Write here your question...">
-                      <div id="boton-oraculo" class="boton">Ask</div>
-                  </div>
-                  <div id="respuesta-oraculo" class="respuesta-oraculo invisible">
-                      <p class="texto-generico">To your question:</p>
-                      <p id="texto-pregunta" class="texto-pregunta">Question</p>
-                      <p class="texto-generico">The oracle said...</p>
-                      <div id="loading" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
-                      <p id="texto-respuesta" class="texto-respuesta invisible">Answer</p>
-                      <div id="boton-nueva-pregunta" class="boton">Ask again</div>
-                  </div>
+                    <p>Select your zodiac sign</p>
+                    <div class="box-signos">
+                        <img class="img-signo" src="../img/signos/aries.png" alt="Aries" data-id="0"/>
+                        <img class="img-signo" src="../img/signos/tauro.png" alt="Tauro" data-id="1"/>
+                        <img class="img-signo" src="../img/signos/geminis.png" alt="Géminis" data-id="2"/>
+                        <img class="img-signo" src="../img/signos/cancer.png" alt="Cáncer" data-id="3"/>
+                        <img class="img-signo" src="../img/signos/leo.png" alt="Leo" data-id="4"/>
+                        <img class="img-signo" src="../img/signos/virgo.png" alt="Virgo" data-id="5"/>
+                        <img class="img-signo" src="../img/signos/libra.png" alt="Libra" data-id="6"/>
+                        <img class="img-signo" src="../img/signos/escorpio.png" alt="Escorpio" data-id="7"/>
+                        <img class="img-signo" src="../img/signos/sagitario.png" alt="Sagitario" data-id="8"/>
+                        <img class="img-signo" src="../img/signos/capricornio.png" alt="Capricornio" data-id="9"/>
+                        <img class="img-signo" src="../img/signos/acuario.png" alt="Acuario" data-id="10"/>
+                        <img class="img-signo" src="../img/signos/piscis.png" alt="Piscis" data-id="11"/>
+                    </div>
+                    <p>Write your email to receive your horoscope reading</p>
+                    <input id="email" type="text" placeholder="Enter your email here...">
+                    <div id="boton-solicitar" class="boton">Request</div>
+                </div>
+                <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
+                <p id="send-message" class="send-message invisible">Your horoscope has been sent to the email address you provided. If you don't see it in your inbox, 
+                    check your  spam folder</p>
               </div>
           </div>
           <div class="row texto-info">
-              <h2 class="titulo-info">Is the yes or no oracle reliable?</h2>
-              <p class="parrafo-info">We all have a fixed destiny in life and what happens to us is already written from the beginning. Coincidences do not exist and it is something that
-                we must have assumed. Our yes or no oracle is free and willing to answer as many questions as you need. If you need one more print run
-                we recommend our complete print run of <a href="/tarot"><strong><u>free online tarot</u></strong></a>.<br><br>
-                It should be noted that our online oracle is reliable, but it is still an online game. And although, as we have said, destiny is written for everyone,
-                it is always advisable in cases of extreme seriousness to go to a professional who will provide you with a custom-made tarot print.<br><br>
-                However, enjoy the experience that our online yes or no oracle provides, completely free, as many times as you need and always with meaning
-                common and taking the answers as a mere orientation, not as an absolute truth.
-              </p>
-              <h2 class="titulo-info">What is an oracle?</h2>
-              <p class="parrafo-info">The word oracle can be used with various meanings, all coming from ancient and not so ancient civilizations that have
-                The Earth has been populated over the years.<br><br>
-                The first definition we can find refers to a message or answer that the ancient priests and pythonesses gave in the name of a god or a
-                The Church was a divine response to the requests and questions of the faithful.<br><br>
-                We can also define it as a sacred place where people went to make different consultations to the gods. See the
-                <a href="https://es.wikipedia.org/wiki/Or%C3%A1culo_de_Delfos"><strong><u>Oracle of Delphi</u></strong></a>.<br><br>
-                Finally, another valid meaning for this word defines him as a wise and authorized person who acts as an intermediary between the god and the faithful who perform the
-                consultation. This opinion is generally considered to be indisputable.
-              </p>
+            <h2 class="titulo-info">What is the monthly horoscope?</h2>
+            <p class="parrafo-info">The monthly horoscope is an invaluable tool for those seeking to better understand the cosmic energies influencing their lives. This 
+                resource provides an overview of astrological trends and planetary events that may affect each zodiac sign during the current month. From changes in the 
+                workplace to opportunities in love, the monthly horoscope provides guidance on how to make the most of celestial influences and how to navigate the challenges 
+                that may arise.</p>
+            <p class="parrafo-info">Each zodiac sign has its own monthly horoscope, tailored to the unique characteristics of its personality and individual circumstances. 
+                These astrological predictions are based on the position of the planets at the time of each person's birth, as well as the planetary transits that occur 
+                during the month in question. By regularly consulting their monthly horoscope, individuals can gain a greater understanding of themselves, as well as useful 
+                guidance for making important decisions in different aspects of their lives.</p>
+            <p class="parrafo-info">Whether it's for information about their career, relationships, health or general well-being, the monthly horoscope provides a holistic 
+                view of the energies at play. By understanding how these astrological influences may affect them, individuals can make more informed and proactive decisions, 
+                aligning their actions with cosmic forces to achieve greater success and satisfaction in life.</p>
+            <h2 class="titulo-info">The Reliability of the Monthly Horoscope</h2>
+            <p class="parrafo-info">The reliability of the monthly horoscope lies in its solid astrological foundation and the meticulous interpretation of celestial 
+                patterns by expert astrologers. Unlike daily horoscopes, which offer a more specific view of the day, the monthly horoscope provides a broader overview of 
+                planetary influences over an extended period. By analyzing planetary transits and their impact on each zodiac sign for an entire month, astrologers can offer 
+                more detailed and accurate predictions on important topics, such as love, career, finances and health.</p>
+            <p class="parrafo-info">The reliability of the monthly horoscope is enhanced by its ability to identify trends and patterns that can influence a person's life 
+                over a longer period. By understanding the cosmic energies at play, individuals can better prepare for challenges and take advantage of opportunities as they 
+                arise. In addition, the expert interpretation of astrologers allows the monthly horoscope to offer practical advice and valuable insights on how to maximize 
+                the potential of each zodiac sign in the month ahead. In short, the reliability of the monthly horoscope lies in its ability to provide useful and insightful 
+                guidance that can help people make informed decisions and navigate through life with confidence and clarity.</p>
           </div>
       </div>
       <div class="footer">
