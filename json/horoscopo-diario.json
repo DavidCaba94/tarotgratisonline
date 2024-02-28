@@ -1,0 +1,3062 @@
+[
+    {
+        "signo": "aries",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": "Hoy, Aries, es un día propicio para iniciar nuevos proyectos con entusiasmo y energía. Tu naturaleza emprendedora te llevará a grandes logros si mantienes tu determinación."
+            },
+            {
+                "dia": 2,
+                "prediccion": "La paciencia será clave hoy para ti, Aries. Enfrenta los desafíos con serenidad y evita cualquier confrontación innecesaria. Mantén la armonía en tus relaciones personales y laborales."
+            },
+            {
+                "dia": 3,
+                "prediccion": "Tu cuerpo y mente necesitan cuidados hoy, Aries. Dedica tiempo a actividades que te relajen y recarguen energías. El autocuidado es esencial para mantener tu vitalidad."
+            },
+            {
+                "dia": 4,
+                "prediccion": "Se abren nuevas oportunidades profesionales para ti, Aries. Mantén los ojos abiertos y sé proactivo en la búsqueda de crecimiento laboral. Tu determinación te llevará lejos."
+            },
+            {
+                "dia": 5,
+                "prediccion": "Confía en tu intuición hoy, Aries. Escucha la voz de tu interior al tomar decisiones importantes. Tu sabiduría interior te guiará hacia el camino correcto."
+            },
+            {
+                "dia": 6,
+                "prediccion": "Hoy, Aries, tu creatividad estará en su punto máximo. Explora nuevas formas de expresión y encuentra inspiración en tu entorno. El arte y la creatividad te brindarán una sensación de libertad."
+            },
+            {
+                "dia": 7,
+                "prediccion": "Es un día para fortalecer tus lazos emocionales, Aries. Dedica tiempo a expresar gratitud y amor a tus seres queridos. La conexión emocional te traerá alegría y satisfacción."
+            },
+            {
+                "dia": 8,
+                "prediccion": "Mantén una actitud optimista hoy, Aries. Aunque puedan surgir desafíos, tu positividad y determinación te ayudarán a superarlos con éxito. ¡Tú puedes!"
+            },
+            {
+                "dia": 9,
+                "prediccion": "Hoy, Aries, es importante resolver cualquier malentendido o conflicto pendiente. Comunica tus sentimientos de manera clara y busca soluciones constructivas. La armonía en tus relaciones es fundamental."
+            },
+            {
+                "dia": 10,
+                "prediccion": "Enfócate en tus metas a largo plazo hoy, Aries. Establece un plan de acción claro y trabaja con determinación hacia tus objetivos. Tu perseverancia te llevará a alcanzar grandes logros."
+            },
+            {
+                "dia": 11,
+                "prediccion": "Hoy, Aries, busca la sabiduría en los consejos de personas de confianza. Sus perspectivas pueden ofrecerte una nueva visión sobre tus situaciones actuales. Escucha con atención y considera sus opiniones."
+            },
+            {
+                "dia": 12,
+                "prediccion": "La exploración y la aventura te llaman hoy, Aries. Abre tu mente a nuevas experiencias y desafíos. Sal de tu zona de confort y descubre nuevas pasiones y oportunidades."
+            },
+            {
+                "dia": 13,
+                "prediccion": "Practica la gratitud hoy, Aries. Reconoce las bendiciones en tu vida y expresa tu aprecio por ellas. La gratitud te abrirá las puertas a más abundancia y felicidad."
+            },
+            {
+                "dia": 14,
+                "prediccion": "Cuida tu bienestar físico y mental hoy, Aries. Dedica tiempo a actividades que nutran tu cuerpo y alma. La salud es tu mayor riqueza, así que asegúrate de cuidarla."
+            },
+            {
+                "dia": 15,
+                "prediccion": "Prepárate para el crecimiento personal y espiritual hoy, Aries. Busca oportunidades de aprendizaje y desarrollo. El autoconocimiento te llevará a un nivel más profundo de realización."
+            },
+            {
+                "dia": 16,
+                "prediccion": "Mantén la calma y la compostura ante cualquier situación estresante, Aries. Tu capacidad para mantener la serenidad te ayudará a superar cualquier obstáculo con gracia y determinación."
+            },
+            {
+                "dia": 17,
+                "prediccion": "Hoy, Aries, es un día para expresar tu creatividad y originalidad. Confía en tus habilidades y deja volar tu imaginación. El mundo está esperando tus ideas innovadoras."
+            },
+            {
+                "dia": 18,
+                "prediccion": "Dedica tiempo a conectar con tu familia y seres queridos hoy, Aries. Fortalecer los lazos emocionales te brindará un profundo sentido de pertenencia y apoyo."
+            },
+            {
+                "dia": 19,
+                "prediccion": "Mantén una mente abierta y flexible hoy, Aries. Los cambios están en el horizonte, y tu capacidad para adaptarte te llevará lejos. Abraza la evolución y el crecimiento."
+            },
+            {
+                "dia": 20,
+                "prediccion": "Hoy, Aries, es un buen momento para reflexionar sobre tu desarrollo personal. Considera dónde estás y hacia dónde quieres ir. Las introspecciones te brindarán claridad y dirección."
+            },
+            {
+                "dia": 21,
+                "prediccion": "Confía en tu intuición hoy, Aries. Tu sabiduría interior te guiará hacia las decisiones correctas. Escucha tu voz interior y sigue tu instinto."
+            },
+            {
+                "dia": 22,
+                "prediccion": "Dedica tiempo a la meditación y la contemplación hoy, Aries. Busca la tranquilidad en tu interior y encuentra respuestas a tus preguntas más profundas. La calma te espera en el silencio."
+            },
+            {
+                "dia": 23,
+                "prediccion": "Mantén una actitud positiva y optimista ante la vida, Aries. Tu energía positiva atraerá más oportunidades y alegrías a tu vida. Cree en ti mismo y en tus capacidades."
+            },
+            {
+                "dia": 24,
+                "prediccion": "Hoy, Aries, colabora con otros en proyectos creativos. El trabajo en equipo te llevará más lejos que intentar hacerlo solo. Aprovecha la sinergia de las ideas compartidas."
+            },
+            {
+                "dia": 25,
+                "prediccion": "Hoy es un día para destacar tus habilidades únicas, Aries. Confía en tus talentos y habilidades, y no temas mostrarlos al mundo. Tu autenticidad es tu mayor fortaleza."
+            },
+            {
+                "dia": 26,
+                "prediccion": "Deja ir el pasado y enfócate en el presente hoy, Aries. Libérate de las cargas emocionales que te impiden avanzar. El perdón y la aceptación te liberarán."
+            },
+            {
+                "dia": 27,
+                "prediccion": "Mantén la calma y la compostura hoy, Aries. Ante cualquier desafío, confía en tu capacidad para enfrentarlo con serenidad y determinación. La paz interior es tu mayor fortaleza."
+            },
+            {
+                "dia": 28,
+                "prediccion": "Hoy, Aries, expresa gratitud hacia los demás. Reconoce y aprecia las contribuciones de aquellos que te rodean. La gratitud fortalecerá tus relaciones y te llenará de alegría."
+            },
+            {
+                "dia": 29,
+                "prediccion": "Dedica tiempo a cuidar tu bienestar físico y emocional hoy. Prioriza el autocuidado y haz elecciones que te nutran y te fortalezcan."
+            },
+            {
+                "dia": 30,
+                "prediccion": "Mantén una actitud abierta y receptiva ante nuevas oportunidades y experiencias. La vida está llena de posibilidades emocionantes."
+            },
+            {
+                "dia": 31,
+                "prediccion": "Confía en tu intuición y sigue adelante con confianza hoy. Tienes el poder de crear la vida que deseas."
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": "Hoy es un día perfecto para tomar riesgos calculados y aventurarte en nuevos territorios, Aries. Tu valentía y determinación te llevarán lejos, así que no temas explorar lo desconocido."
+            },
+            {
+                "dia": 2,
+                "prediccion": "La energía del día te invita a enfocarte en tus metas personales y profesionales, Aries. Es momento de planificar estratégicamente tus pasos futuros y trabajar con diligencia hacia tus objetivos más ambiciosos."
+            },
+            {
+                "dia": 3,
+                "prediccion": "Prepárate para un día de emociones intensas, Aries. Tu pasión y determinación estarán en su punto máximo, lo que te permitirá superar cualquier obstáculo que se presente en tu camino con valentía y resolución."
+            },
+            {
+                "dia": 4,
+                "prediccion": "Hoy es un buen día para fortalecer tus relaciones personales, Aries. Dedica tiempo a conectarte con tus seres queridos y amigos cercanos, compartiendo risas y momentos significativos que fortalezcan los lazos afectivos."
+            },
+            {
+                "dia": 5,
+                "prediccion": "Mantén una mente abierta y receptiva hoy, Aries. Se avecinan cambios significativos en tu vida, y tu capacidad para adaptarte y fluir con las circunstancias te permitirá aprovechar al máximo las oportunidades que se presenten."
+            },
+            {
+                "dia": 6,
+                "prediccion": "Hoy, tu creatividad estará en su punto máximo, Aries. Es un día ideal para dejar volar tu imaginación y explorar nuevas formas de expresión artística o proyectos creativos que te apasionen."
+            },
+            {
+                "dia": 7,
+                "prediccion": "Aries, este es un día para enfocarte en tu bienestar físico y mental. Dedica tiempo a actividades que nutran tu cuerpo y alma, como el ejercicio, la meditación o simplemente disfrutar de momentos de tranquilidad."
+            },
+            {
+                "dia": 8,
+                "prediccion": "Hoy, tu capacidad para liderar y tomar decisiones será fundamental, Aries. Confía en tu intuición y en tu experiencia para guiar a otros hacia el éxito, demostrando tu valía como líder natural."
+            },
+            {
+                "dia": 9,
+                "prediccion": "Es momento de dejar atrás cualquier resentimiento o conflicto del pasado, Aries. Practica el perdón y la compasión, liberándote de cargas emocionales que te impidan avanzar y crecer en tu camino."
+            },
+            {
+                "dia": 10,
+                "prediccion": "Este es un día ideal para buscar nuevas oportunidades laborales o profesionales, Aries. Mantente alerta a cualquier posibilidad de crecimiento o avance en tu carrera, y no temas tomar medidas audaces para alcanzar tus metas."
+            },
+            {
+                "dia": 11,
+                "prediccion": "Hoy, tu vida amorosa estará en el centro de atención, Aries. Es un momento para fortalecer los lazos afectivos con tu pareja, compartiendo momentos íntimos y expresando tu amor y gratitud de manera sincera."
+            },
+            {
+                "dia": 12,
+                "prediccion": "Aries, tu capacidad para comunicarte de manera clara y persuasiva será tu mayor activo hoy. Aprovecha esta habilidad para influir positivamente en los demás y para expresar tus ideas y opiniones de manera efectiva."
+            },
+            {
+                "dia": 13,
+                "prediccion": "Hoy, tu enfoque estará en la búsqueda de la verdad y la autenticidad, Aries. No temas cuestionar las creencias o situaciones establecidas, y sigue tu propio camino hacia la autenticidad y la integridad."
+            },
+            {
+                "dia": 14,
+                "prediccion": "Aries, este es un día para practicar la gratitud y el aprecio por las pequeñas cosas de la vida. Reconoce y celebra las bendiciones que tienes en tu vida, cultivando una actitud de agradecimiento y alegría."
+            },
+            {
+                "dia": 15,
+                "prediccion": "Hoy es un buen día para poner en práctica tus habilidades de liderazgo y organización, Aries. Toma la iniciativa en proyectos importantes y demuestra tu capacidad para guiar y motivar a otros hacia el éxito."
+            },
+            {
+                "dia": 16,
+                "prediccion": "La energía del día te invita a abrazar la espontaneidad y la aventura, Aries. No temas salir de tu zona de confort y explorar nuevos horizontes, siguiendo tu corazón y tus impulsos más profundos."
+            },
+            {
+                "dia": 17,
+                "prediccion": "Aries, este es un día para enfocarte en el equilibrio y la armonía en todas las áreas de tu vida. Dedica tiempo a cuidar tus relaciones personales, tu salud y tu bienestar emocional, buscando siempre un estado de paz interior."
+            },
+            {
+                "dia": 18,
+                "prediccion": "Hoy, tu intuición estará especialmente aguda, Aries. Confía en tus corazonadas y en tus instintos más profundos para tomar decisiones importantes, sabiendo que tienes la sabiduría necesaria para guiarte en la dirección correcta."
+            },
+            {
+                "dia": 19,
+                "prediccion": "Este es un día para cultivar relaciones significativas y duraderas, Aries. Dedica tiempo a fortalecer los lazos con tus amigos y seres queridos, compartiendo momentos de alegría y conexión que enriquezcan tu vida."
+            },
+            {
+                "dia": 20,
+                "prediccion": "Aries, hoy es un día para enfocarte en tu crecimiento personal y espiritual. Dedica tiempo a la reflexión y la contemplación, explorando tu interior y buscando respuestas a las preguntas más profundas de tu corazón"
+            },
+            {
+                "dia": 21,
+                "prediccion": "Hoy, tu determinación y voluntad serán inquebrantables, Aries. No dejes que nada te detenga en tu búsqueda de tus metas y sueños, y sigue adelante con valentía y confianza en ti mismo."
+            },
+            {
+                "dia": 22,
+                "prediccion": "Aries, este es un día para dejar ir cualquier preocupación o estrés que esté pesando sobre ti. Libérate de las cargas emocionales y mentales que te impiden avanzar, y encuentra la paz y la serenidad en el momento presente."
+            },
+            {
+                "dia": 23,
+                "prediccion": "La energía del día te invita a ser más consciente y presente en tu vida, Aries. Vive cada momento con plenitud y gratitud, reconociendo la belleza y la maravilla que te rodea en cada instante."
+            },
+            {
+                "dia": 24,
+                "prediccion": "Hoy es un buen día para expresar tu creatividad y originalidad, Aries. Deja volar tu imaginación y encuentra nuevas formas de expresarte a ti mismo, ya sea a través del arte, la música, la escritura u otras formas de expresión."
+            },
+            {
+                "dia": 25,
+                "prediccion": "Aries, este es un día para tomar el control de tu destino y hacer realidad tus sueños más grandes. Confía en tus habilidades y en tu capacidad para manifestar tus deseos más profundos, y trabaja con determinación hacia tus metas con la certeza de que el universo conspira a tu favor."
+            },
+            {
+                "dia": 26,
+                "prediccion": "Hoy es un buen día para buscar la paz interior y la claridad mental, Aries. Dedica tiempo a la meditación y la introspección, conectando con tu ser interior para encontrar respuestas y guía en tu camino."
+            },
+            {
+                "dia": 27,
+                "prediccion": "Aries, este día te invita a ser más compasivo contigo mismo y con los demás. Practica la empatía y la comprensión, recordando que todos estamos en este viaje juntos y que el amor es la fuerza más poderosa del universo."
+            },
+            {
+                "dia": 28,
+                "prediccion": "Hoy es un día para celebrar tus éxitos y logros, Aries. Reconoce todo lo que has alcanzado hasta ahora y permítete disfrutar de tu progreso. Celebra tus victorias con gratitud y humildad."
+            },
+            {
+                "dia": 29,
+                "prediccion": "Aries, este día te brinda la oportunidad de profundizar en tus relaciones más cercanas. Dedica tiempo a fortalecer los lazos afectivos con tus seres queridos, compartiendo momentos de amor, apoyo y conexión."
+            },
+            {
+                "dia": 30,
+                "prediccion": "Hoy es un día para liberarte de cualquier limitación autoimpuesta, Aries. Abraza tu poder y potencial ilimitados, y atrévete a soñar en grande. El universo está lleno de posibilidades esperando a ser exploradas por ti."
+            },
+            {
+                "dia": 31,
+                "prediccion": "Aries, este día te recuerda que eres el arquitecto de tu destino. Toma las riendas de tu vida con determinación y coraje, sabiendo que tienes todo lo necesario para crear la realidad que deseas. ¡Confía en ti mismo y sigue adelante con valentía!"
+            }
+        ]
+    },
+    {
+        "signo": "tauro",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    },
+    {
+        "signo": "geminis",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    },
+    {
+        "signo": "cancer",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    },
+    {
+        "signo": "leo",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    },
+    {
+        "signo": "virgo",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    },
+    {
+        "signo": "libra",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    },
+    {
+        "signo": "escorpio",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    },
+    {
+        "signo": "sagitario",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    },
+    {
+        "signo": "capricornio",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    },
+    {
+        "signo": "acuario",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    },
+    {
+        "signo": "piscis",
+        "prediccionesPar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ],
+        "prediccionesImpar": [
+            {
+                "dia": 1,
+                "prediccion": ""
+            },
+            {
+                "dia": 2,
+                "prediccion": ""
+            },
+            {
+                "dia": 3,
+                "prediccion": ""
+            },
+            {
+                "dia": 4,
+                "prediccion": ""
+            },
+            {
+                "dia": 5,
+                "prediccion": ""
+            },
+            {
+                "dia": 6,
+                "prediccion": ""
+            },
+            {
+                "dia": 7,
+                "prediccion": ""
+            },
+            {
+                "dia": 8,
+                "prediccion": ""
+            },
+            {
+                "dia": 9,
+                "prediccion": ""
+            },
+            {
+                "dia": 10,
+                "prediccion": ""
+            },
+            {
+                "dia": 11,
+                "prediccion": ""
+            },
+            {
+                "dia": 12,
+                "prediccion": ""
+            },
+            {
+                "dia": 13,
+                "prediccion": ""
+            },
+            {
+                "dia": 14,
+                "prediccion": ""
+            },
+            {
+                "dia": 15,
+                "prediccion": ""
+            },
+            {
+                "dia": 16,
+                "prediccion": ""
+            },
+            {
+                "dia": 17,
+                "prediccion": ""
+            },
+            {
+                "dia": 18,
+                "prediccion": ""
+            },
+            {
+                "dia": 19,
+                "prediccion": ""
+            },
+            {
+                "dia": 20,
+                "prediccion": ""
+            },
+            {
+                "dia": 21,
+                "prediccion": ""
+            },
+            {
+                "dia": 22,
+                "prediccion": ""
+            },
+            {
+                "dia": 23,
+                "prediccion": ""
+            },
+            {
+                "dia": 24,
+                "prediccion": ""
+            },
+            {
+                "dia": 25,
+                "prediccion": ""
+            },
+            {
+                "dia": 26,
+                "prediccion": ""
+            },
+            {
+                "dia": 27,
+                "prediccion": ""
+            },
+            {
+                "dia": 28,
+                "prediccion": ""
+            },
+            {
+                "dia": 29,
+                "prediccion": ""
+            },
+            {
+                "dia": 30,
+                "prediccion": ""
+            },
+            {
+                "dia": 31,
+                "prediccion": ""
+            }
+        ]
+    }
+]

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Horóscopo Diario - Tarot Gratis Online</title>
+        <title>Horóscopo Diario Gratis - Tarot Gratis Online</title>
         <link rel="icon" type="image/png" href="img/bola.png">
         <meta charset="UTF-8">
-        <meta name="title" content="Horóscopo Diario - Tarot Gratis Online">
-        <meta name="description" content="">
+        <meta name="title" content="Horóscopo Diario Gratis - Tarot Gratis Online">
+        <meta name="description" content="¡Descubre lo que los astros tienen reservado para ti cada día! Con nuestro horóscopo diario gratuito, recibirás predicciones 
+        precisas y perspicaces que te ayudarán a aprovechar al máximo cada jornada. Nuestro equipo de expertos astrólogos ha dedicado años de estudio y práctica para 
+        brindarte consejos valiosos sobre amor, trabajo, salud y más. No dejes que las oportunidades pasen desapercibidas, consulta tu horóscopo diario con nosotros y 
+        comienza tu día con el conocimiento necesario para tomar decisiones informadas y alcanzar tus objetivos.">
 
         <script src="libs/jquery-3.2.1/jquery-latest.js"></script>
         <script src="libs/particles-2.0/particles.js"></script>
@@ -19,7 +22,7 @@
 
         <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
         <link href="css/horoscopo.css" rel="stylesheet" type="text/css"/>
-        <script src="js/horoscopo.js"></script>
+        <script src="js/horoscopo-diario.js"></script>
         <script src="js/particulas.js"></script>
 
         <script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -118,24 +121,63 @@
           </a>
           <div class="row cabecera">
               <div class="col-lg-12">
-                    <h1 class="titulo">HORÓSCOPO DIARIO</h1>
-                    <p class="subtitulo"></p>
+                    <h1 class="titulo">HORÓSCOPO DIARIO GRATIS</h1>
+                    <div id="text-dia"></div>
+                    <p class="subtitulo">¡Descubre lo que los astros tienen reservado para ti cada día! Con nuestro <strong>horóscopo diario gratuito</strong>, recibirás <strong>
+                        predicciones precisas</strong> y perspicaces que te ayudarán a aprovechar al máximo cada jornada. Nuestro equipo de expertos astrólogos ha dedicado 
+                        años de estudio y práctica para brindarte <strong>consejos valiosos sobre amor, trabajo, salud y más</strong>. No dejes que las oportunidades pasen 
+                        desapercibidas, <strong>consulta tu horóscopo diario</strong> con nosotros y comienza tu día con el conocimiento necesario para tomar decisiones 
+                        informadas y alcanzar tus objetivos.</p>
                     <div id="formulario-oraculo" class="visible">
+                        <p>Selecciona tu signo del zodiaco</p>
+                        <div class="box-signos">
+                            <img class="img-signo" src="img/signos/aries.png" alt="Aries" data-id="0"/>
+                            <img class="img-signo" src="img/signos/tauro.png" alt="Tauro" data-id="1"/>
+                            <img class="img-signo" src="img/signos/geminis.png" alt="Géminis" data-id="2"/>
+                            <img class="img-signo" src="img/signos/cancer.png" alt="Cáncer" data-id="3"/>
+                            <img class="img-signo" src="img/signos/leo.png" alt="Leo" data-id="4"/>
+                            <img class="img-signo" src="img/signos/virgo.png" alt="Virgo" data-id="5"/>
+                            <img class="img-signo" src="img/signos/libra.png" alt="Libra" data-id="6"/>
+                            <img class="img-signo" src="img/signos/escorpio.png" alt="Escorpio" data-id="7"/>
+                            <img class="img-signo" src="img/signos/sagitario.png" alt="Sagitario" data-id="8"/>
+                            <img class="img-signo" src="img/signos/capricornio.png" alt="Capricornio" data-id="9"/>
+                            <img class="img-signo" src="img/signos/acuario.png" alt="Acuario" data-id="10"/>
+                            <img class="img-signo" src="img/signos/piscis.png" alt="Piscis" data-id="11"/>
+                        </div>
+                        <p>Escribe tu email para recibir la lectura de tu horóscopo</p>
                         <input id="email" type="text" placeholder="Escribe aquí tu email...">
-                        <div id="boton-oraculo" class="boton">Solicitar</div>
+                        <div id="boton-solicitar" class="boton">Solicitar</div>
                     </div>
+                    <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
+                    <p id="send-message" class="send-message invisible">Tu horóscopo se ha enviado a la dirección de correo que has proporcionado. Si no lo ves en tu bandeja de entrada revisa la 
+                        carpeta de spam</p>
               </div>
           </div>
           <div class="row texto-info">
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <p class="parrafo-info"></p>
+              <h2 class="titulo-info">Comprendiendo el Horóscopo Diario</h2>
+              <p class="parrafo-info">El horóscopo diario es una práctica que se remonta a siglos atrás y se basa en la interpretación de la posición y movimiento de los 
+                planetas, las estrellas y otros cuerpos celestes en relación con los signos zodiacales. Cada día, astrólogos y expertos en el campo elaboran predicciones y 
+                consejos basados en esta información astral, que se cree que influye en diversos aspectos de la vida humana.</p>
+              <p class="parrafo-info">Cada signo zodiacal tiene asignadas ciertas características y tendencias, y el horóscopo diario utiliza estas características como 
+                base para las predicciones. A través de la observación de la posición de los astros en el momento del nacimiento y su movimiento posterior, los astrólogos 
+                crean pronósticos que abarcan áreas como el amor, la carrera, la salud y las relaciones interpersonales.</p>
+              <p class="parrafo-info">Es importante recordar que el horóscopo diario es una herramienta de reflexión y no una ciencia exacta. Si bien muchas personas 
+                encuentran valor y orientación en estas predicciones, es fundamental tomarlas con un espíritu crítico y entender que el destino está en gran parte en nuestras 
+                propias manos. La interpretación del horóscopo diario puede variar según la escuela de pensamiento y la práctica individual del astrólogo, por lo que es 
+                recomendable explorar diferentes fuentes y enfoques para obtener una visión más completa.</p>
+              <h2 class="titulo-info">La Fiabilidad del Horóscopo Diario</h2>
+              <p class="parrafo-info">El horóscopo diario es una herramienta utilizada por muchas personas para obtener orientación y perspectiva sobre su vida cotidiana. 
+                Sin embargo, la fiabilidad de estas predicciones puede variar según varios factores. En primer lugar, la precisión del horóscopo diario depende en gran medida 
+                de la habilidad y experiencia del astrólogo que lo elabora. Un astrólogo con un profundo conocimiento de la astrología y una capacidad para interpretar 
+                correctamente los movimientos planetarios puede ofrecer predicciones más precisas y útiles.</p>
+              <p class="parrafo-info">Además, la fiabilidad del horóscopo diario también puede verse afectada por la interpretación subjetiva de los aspectos astrológicos y 
+                la aplicación de estos principios a la vida cotidiana. Mientras que algunos astrólogos pueden basar sus predicciones en métodos científicos y observaciones 
+                objetivas, otros pueden adoptar un enfoque más intuitivo y basado en la experiencia personal. Esta variabilidad en los métodos de interpretación puede influir 
+                en la fiabilidad percibida del horóscopo diario para diferentes personas.</p>
+              <p class="parrafo-info">En última instancia, la fiabilidad del horóscopo diario es una cuestión individual y subjetiva. Algunas personas pueden encontrar que 
+                las predicciones son sorprendentemente precisas y relevantes para su vida, mientras que otras pueden considerarlas como meras generalizaciones o 
+                entretenimiento. Es importante recordar que el horóscopo diario es una herramienta para la reflexión y la exploración personal, y cada persona tiene la 
+                libertad de interpretarlo según su propia experiencia y creencias.</p>
           </div>
       </div>
       <div class="footer">

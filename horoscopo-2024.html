@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Horóscopo 2024 - Tarot Gratis Online</title>
+        <title>Horóscopo 2024 Gratis - Tarot Gratis Online</title>
         <link rel="icon" type="image/png" href="img/bola.png">
         <meta charset="UTF-8">
-        <meta name="title" content="Horóscopo 2024 - Tarot Gratis Online">
-        <meta name="description" content="">
+        <meta name="title" content="Horóscopo 2024 Gratis - Tarot Gratis Online">
+        <meta name="description" content="Descubre lo que el año 2024 tiene reservado para ti consultando nuestro horóscopo gratuito en línea. En nuestra página web, 
+        te ofrecemos predicciones detalladas y personalizadas para cada signo del zodiaco, basadas en la influencia de los astros y planetas en tu vida. Obtén información 
+        valiosa sobre amor, carrera, finanzas y más, que te ayudará a tomar decisiones informadas y a aprovechar al máximo las oportunidades que se presenten en el nuevo 
+        año. No te pierdas la oportunidad de comenzar el 2024 con el pie derecho y descubre lo que el destino tiene preparado para ti. ¡Consulta tu horóscopo de 2024 ahora 
+        mismo y déjanos ser tu guía en este viaje de autodescubrimiento y realización personal!">
 
         <script src="libs/jquery-3.2.1/jquery-latest.js"></script>
         <script src="libs/particles-2.0/particles.js"></script>
@@ -19,7 +23,7 @@
 
         <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
         <link href="css/horoscopo.css" rel="stylesheet" type="text/css"/>
-        <script src="js/horoscopo.js"></script>
+        <script src="js/horoscopo-anual.js"></script>
         <script src="js/particulas.js"></script>
 
         <script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -118,24 +122,68 @@
           </a>
           <div class="row cabecera">
               <div class="col-lg-12">
-                    <h1 class="titulo">HORÓSCOPO 2024</h1>
-                    <p class="subtitulo"></p>
+                    <h1 class="titulo">HORÓSCOPO 2024 GRATIS</h1>
+                    <p class="subtitulo">Descubre lo que el año <strong>2024</strong> tiene reservado para ti consultando nuestro <strong>horóscopo gratuito</strong> en 
+                        línea. En nuestra página web, te ofrecemos <strong>predicciones detalladas y personalizadas para cada signo del zodiaco</strong>, basadas en la 
+                        influencia de los astros y planetas en tu vida. Obtén información valiosa sobre amor, carrera, finanzas y más, que te ayudará a tomar decisiones 
+                        informadas y a aprovechar al máximo las oportunidades que se presenten en el nuevo año. No te pierdas la oportunidad de comenzar el 2024 con el pie 
+                        derecho y descubre lo que el destino tiene preparado para ti.
+                    </p>
                     <div id="formulario-oraculo" class="visible">
+                        <p>Selecciona tu signo del zodiaco</p>
+                        <div class="box-signos">
+                            <img class="img-signo" src="img/signos/aries.png" alt="Aries" data-id="0"/>
+                            <img class="img-signo" src="img/signos/tauro.png" alt="Tauro" data-id="1"/>
+                            <img class="img-signo" src="img/signos/geminis.png" alt="Géminis" data-id="2"/>
+                            <img class="img-signo" src="img/signos/cancer.png" alt="Cáncer" data-id="3"/>
+                            <img class="img-signo" src="img/signos/leo.png" alt="Leo" data-id="4"/>
+                            <img class="img-signo" src="img/signos/virgo.png" alt="Virgo" data-id="5"/>
+                            <img class="img-signo" src="img/signos/libra.png" alt="Libra" data-id="6"/>
+                            <img class="img-signo" src="img/signos/escorpio.png" alt="Escorpio" data-id="7"/>
+                            <img class="img-signo" src="img/signos/sagitario.png" alt="Sagitario" data-id="8"/>
+                            <img class="img-signo" src="img/signos/capricornio.png" alt="Capricornio" data-id="9"/>
+                            <img class="img-signo" src="img/signos/acuario.png" alt="Acuario" data-id="10"/>
+                            <img class="img-signo" src="img/signos/piscis.png" alt="Piscis" data-id="11"/>
+                        </div>
+                        <p>Escribe tu email para recibir la lectura de tu horóscopo</p>
                         <input id="email" type="text" placeholder="Escribe aquí tu email...">
-                        <div id="boton-oraculo" class="boton">Solicitar</div>
+                        <div id="boton-solicitar" class="boton">Solicitar</div>
                     </div>
+                    <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
+                    <p id="send-message" class="send-message invisible">Tu horóscopo se ha enviado a la dirección de correo que has proporcionado. Si no lo ves en tu bandeja de entrada revisa la 
+                        carpeta de spam</p>
               </div>
           </div>
           <div class="row texto-info">
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <p class="parrafo-info"></p>
+              <h2 class="titulo-info">¿Qué es el horoscopo anual?</h2>
+              <p class="parrafo-info">El horóscopo anual es una herramienta poderosa utilizada por millones de personas en todo el mundo para obtener una visión general 
+                de las energías astrológicas que influirán en sus vidas durante todo el año. Este recurso ofrece predicciones personalizadas para cada signo del zodiaco, 
+                brindando orientación sobre los posibles eventos y desafíos que podrían surgir en diferentes áreas de la vida, como el amor, la carrera, las finanzas y la 
+                salud. Los astrólogos expertos examinan cuidadosamente la posición de los planetas y otros cuerpos celestes en el momento del nacimiento de una persona, así 
+                como los tránsitos planetarios que ocurrirán a lo largo del año, para ofrecer pronósticos precisos y detallados.</p>
+              <p class="parrafo-info">Al consultar el horóscopo anual, las personas pueden obtener una comprensión más profunda de sí mismas y de las fuerzas cósmicas que 
+                influyen en sus vidas. Esta información les permite prepararse mejor para los eventos futuros y tomar decisiones informadas sobre cómo abordar diferentes 
+                situaciones. Además, el horóscopo anual puede proporcionar una sensación de dirección y propósito, ayudando a las personas a alinear sus acciones con las 
+                fuerzas del universo para lograr un mayor éxito y realización personal en el año venidero.</p>
+              <p class="parrafo-info">Independientemente de si alguien es un creyente firme en la astrología o simplemente está interesado en explorar lo que el horóscopo 
+                anual tiene que decir, esta herramienta ofrece una perspectiva fascinante sobre las influencias celestiales y cómo pueden impactar nuestras vidas a lo largo 
+                del año. Ya sea para obtener orientación sobre decisiones importantes o simplemente por curiosidad, el horóscopo anual sigue siendo una fuente popular de 
+                información y reflexión para muchos en su viaje hacia el autodescubrimiento y el crecimiento personal.</p>
+              <h2 class="titulo-info">¿Es fiable el horóscopo anual?</h2>
+              <p class="parrafo-info">La fiabilidad del horóscopo anual ha sido objeto de debate y discusión a lo largo de los años, con opiniones divergentes sobre su 
+                validez y precisión. Aquellos que creen en la astrología argumentan que el horóscopo anual ofrece una guía útil y perspicaz sobre las energías cósmicas que 
+                influyen en nuestras vidas, basada en la interpretación experta de los movimientos planetarios y otros fenómenos celestiales. Los astrólogos capacitados 
+                examinan detenidamente la posición de los planetas en el momento del nacimiento de una persona, así como los tránsitos planetarios durante todo el año, 
+                para ofrecer pronósticos personalizados y detallados.</p>
+              <p class="parrafo-info">Sin embargo, los escépticos sostienen que el horóscopo anual carece de base científica y que sus predicciones son vagas y generalizadas, 
+                lo que permite que se apliquen a una amplia variedad de situaciones. Argumentan que la interpretación subjetiva de los astrólogos y la falta de pruebas 
+                empíricas sólidas socavan la credibilidad del horóscopo anual como una herramienta predictiva confiable. A pesar de estas críticas, muchos defensores de la 
+                astrología continúan confiando en el horóscopo anual como una guía valiosa para tomar decisiones importantes y comprender las influencias cósmicas en sus 
+                vidas.</p>
+              <p class="parrafo-info">En última instancia, la fiabilidad del horóscopo anual puede variar según la interpretación individual y la experiencia del astrólogo, 
+                así como la disposición del individuo para aceptar y aplicar los consejos ofrecidos. Para algunos, el horóscopo anual es una fuente confiable de orientación 
+                y comprensión, mientras que para otros, puede ser simplemente una forma de entretenimiento o reflexión personal. Como con cualquier herramienta de 
+                autoconocimiento, la fiabilidad del horóscopo anual depende en gran medida de la perspectiva y las creencias de cada individuo.</p>
           </div>
       </div>
       <div class="footer">

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Horóscopo Mensual - Tarot Gratis Online</title>
+        <title>Horóscopo Mensual Gratis - Tarot Gratis Online</title>
         <link rel="icon" type="image/png" href="img/bola.png">
         <meta charset="UTF-8">
-        <meta name="title" content="Horóscopo Mensual - Tarot Gratis Online">
-        <meta name="description" content="">
+        <meta name="title" content="Horóscopo Mensual Gratis - Tarot Gratis Online">
+        <meta name="description" content="Descubre lo que el destino tiene reservado para ti este mes con nuestro horóscopo mensual gratuito. En nuestra página web, te 
+        ofrecemos predicciones precisas y personalizadas para cada signo del zodiaco, brindándote una guía invaluable para enfrentar los desafíos y aprovechar al máximo 
+        las oportunidades que se presenten en tu camino. No te pierdas la oportunidad de obtener una visión clara de tu futuro y tomar decisiones informadas para alcanzar 
+        tus metas. ¡Consulta tu horóscopo mensual ahora mismo y déjanos ser tu brújula en el viaje de la vida!">
 
         <script src="libs/jquery-3.2.1/jquery-latest.js"></script>
         <script src="libs/particles-2.0/particles.js"></script>
@@ -19,7 +22,7 @@
 
         <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
         <link href="css/horoscopo.css" rel="stylesheet" type="text/css"/>
-        <script src="js/horoscopo.js"></script>
+        <script src="js/horoscopo-mensual.js"></script>
         <script src="js/particulas.js"></script>
 
         <script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -118,24 +121,63 @@
           </a>
           <div class="row cabecera">
               <div class="col-lg-12">
-                    <h1 class="titulo">HORÓSCOPO MENSUAL</h1>
-                    <p class="subtitulo"></p>
+                    <h1 class="titulo">HORÓSCOPO MENSUAL GRATIS</h1>
+                    <div id="text-dia"></div>
+                    <p class="subtitulo">Descubre lo que el destino tiene reservado para ti este mes con nuestro <strong>horóscopo mensual gratuito</strong>. En nuestra 
+                        página web, te ofrecemos <strong>predicciones precisas y personalizadas</strong> para cada signo del zodiaco, brindándote una guía invaluable para 
+                        enfrentar los desafíos y aprovechar al máximo las oportunidades que se presenten en tu camino. No te pierdas la oportunidad de obtener una visión 
+                        clara de tu futuro y tomar decisiones informadas para alcanzar tus metas. ¡Consulta tu horóscopo mensual ahora mismo y déjanos ser tu brújula en 
+                        el viaje de la vida!</p>
                     <div id="formulario-oraculo" class="visible">
+                        <p>Selecciona tu signo del zodiaco</p>
+                        <div class="box-signos">
+                            <img class="img-signo" src="img/signos/aries.png" alt="Aries" data-id="0"/>
+                            <img class="img-signo" src="img/signos/tauro.png" alt="Tauro" data-id="1"/>
+                            <img class="img-signo" src="img/signos/geminis.png" alt="Géminis" data-id="2"/>
+                            <img class="img-signo" src="img/signos/cancer.png" alt="Cáncer" data-id="3"/>
+                            <img class="img-signo" src="img/signos/leo.png" alt="Leo" data-id="4"/>
+                            <img class="img-signo" src="img/signos/virgo.png" alt="Virgo" data-id="5"/>
+                            <img class="img-signo" src="img/signos/libra.png" alt="Libra" data-id="6"/>
+                            <img class="img-signo" src="img/signos/escorpio.png" alt="Escorpio" data-id="7"/>
+                            <img class="img-signo" src="img/signos/sagitario.png" alt="Sagitario" data-id="8"/>
+                            <img class="img-signo" src="img/signos/capricornio.png" alt="Capricornio" data-id="9"/>
+                            <img class="img-signo" src="img/signos/acuario.png" alt="Acuario" data-id="10"/>
+                            <img class="img-signo" src="img/signos/piscis.png" alt="Piscis" data-id="11"/>
+                        </div>
+                        <p>Escribe tu email para recibir la lectura de tu horóscopo</p>
                         <input id="email" type="text" placeholder="Escribe aquí tu email...">
-                        <div id="boton-oraculo" class="boton">Solicitar</div>
+                        <div id="boton-solicitar" class="boton">Solicitar</div>
                     </div>
+                    <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
+                    <p id="send-message" class="send-message invisible">Tu horóscopo se ha enviado a la dirección de correo que has proporcionado. Si no lo ves en tu bandeja de entrada revisa la 
+                        carpeta de spam</p>
               </div>
           </div>
           <div class="row texto-info">
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <h2 class="titulo-info"></h2>
-              <p class="parrafo-info"></p>
-              <p class="parrafo-info"></p>
+              <h2 class="titulo-info">¿Qué es el horoscopo mensual?</h2>
+              <p class="parrafo-info">El horóscopo mensual es una herramienta invaluable para aquellos que buscan comprender mejor las energías cósmicas que influyen en sus 
+                vidas. Este recurso ofrece una visión general de las tendencias astrológicas y los eventos planetarios que pueden afectar a cada signo del zodiaco durante 
+                el mes en curso. Desde cambios en el ámbito laboral hasta oportunidades en el amor, el horóscopo mensual proporciona orientación sobre cómo aprovechar al 
+                máximo las influencias celestiales y cómo navegar por los desafíos que puedan surgir.</p>
+              <p class="parrafo-info">Cada signo del zodiaco tiene su propio horóscopo mensual, adaptado a las características únicas de su personalidad y circunstancias 
+                individuales. Estas predicciones astrológicas se basan en la posición de los planetas en el momento del nacimiento de cada persona, así como en los tránsitos 
+                planetarios que ocurren durante el mes en cuestión. Al consultar regularmente su horóscopo mensual, los individuos pueden obtener una mayor comprensión de 
+                sí mismos, así como una guía útil para tomar decisiones importantes en diferentes aspectos de sus vidas.</p>
+              <p class="parrafo-info">Ya sea para obtener información sobre su carrera, relaciones, salud o bienestar general, el horóscopo mensual proporciona una visión 
+                holística de las energías que están en juego. Al comprender cómo estas influencias astrológicas pueden afectarlos, las personas pueden tomar decisiones más 
+                informadas y proactivas, alineando sus acciones con las fuerzas cósmicas para lograr un mayor éxito y satisfacción en la vida.</p>
+              <h2 class="titulo-info">La Fiabilidad del Horóscopo Mensual</h2>
+              <p class="parrafo-info">La fiabilidad del horóscopo mensual radica en su fundamento astrológico sólido y en la meticulosa interpretación de los patrones 
+                celestiales por parte de astrólogos expertos. A diferencia de los horóscopos diarios, que ofrecen una visión más específica del día, el horóscopo mensual 
+                proporciona una panorámica más amplia de las influencias planetarias a lo largo de un período extendido. Al analizar los tránsitos planetarios y su impacto 
+                en cada signo del zodiaco durante un mes completo, los astrólogos pueden ofrecer predicciones más detalladas y precisas sobre los temas importantes, como el 
+                amor, la carrera, las finanzas y la salud.</p>
+              <p class="parrafo-info">La fiabilidad del horóscopo mensual se ve reforzada por su capacidad para identificar tendencias y patrones que pueden influir en la 
+                vida de una persona durante un período más prolongado. Al comprender las energías cósmicas en juego, los individuos pueden prepararse mejor para los desafíos 
+                y aprovechar las oportunidades que se presenten. Además, la interpretación experta de los astrólogos permite que el horóscopo mensual ofrezca consejos 
+                prácticos y perspectivas valiosas sobre cómo maximizar el potencial de cada signo del zodiaco en el mes por venir. En resumen, la fiabilidad del horóscopo 
+                mensual radica en su capacidad para proporcionar orientación útil y perspicaz que puede ayudar a las personas a tomar decisiones informadas y a navegar por 
+                la vida con confianza y claridad.</p>
           </div>
       </div>
       <div class="footer">

@@ -10,53 +10,18 @@
     height: 100% !important;
 }
 
-.respuesta-oraculo {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 #formulario-oraculo {
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.texto-generico {
-    font-size: 18px;
-    font-weight: 200;
-}
-
-.texto-pregunta {
-    font-size: 24px;
-    font-weight: 400;
-}
-
-.texto-respuesta {
-    margin-top: -30px;
-    margin-bottom: 70px;
-    font-size: 72px;
-    font-weight: 700;
 }
 
 .subtitulo {
     max-width: 900px;
     margin: 0 auto;
     margin-top: 30px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.2;
     text-align: justify;
-}
-
-.enlace-externo-oraculo {
-    max-width: 650px;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid transparent;
-    border-image: linear-gradient(0.25turn, rgb(138, 17, 219), rgb(39, 216, 223), rgb(53, 230, 171));
-    border-image-slice: 1;
-}
-
-.click-aqui {
-  color: aquamarine;
 }
 
 input[type=text] {
@@ -74,6 +39,43 @@ input[type=text] {
 
 input[type=text]:focus {
     outline: none;
+}
+
+.send-message {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #85ff7a;
+}
+
+.box-signos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.img-signo {
+  width: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.img-signo-seleccionado {
+  background-image: url("../img/signo-seleccionado.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#text-dia {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /*ANIMACIÓN CARGANDO*/
@@ -158,5 +160,9 @@ input[type=text]:focus {
 @media (min-width: 1200px) {
     .cabecera {
         height: 100% !important;
+    }
+
+    .subtitulo {
+      font-size: 24px;
     }
 }
