@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Free 2024 Horoscope - Free Tarot Online</title>
+        <title>Today's Free Horoscope - Free Tarot Online</title>
         <link rel="icon" type="image/png" href="../img/bola.png">
         <meta charset="UTF-8">
-        <meta name="title" content="Free 2024 Horoscope - Free Tarot Online">
-        <meta name="description" content="Find out what the year 2024 has in store for you by consulting our free online horoscope. On our website, we offer you detailed 
-        and personalized predictions for each zodiac sign, based on the influence of the stars and planets in your life. Get valuable information about love, career, 
-        finances and more that will help you make informed decisions and make the most of opportunities in the new year. Don't miss the opportunity to start 2024 on the 
-        right foot and discover what destiny has in store for you.">
+        <meta name="title" content="Today's Free Horoscope - Free Tarot Online">
+        <meta name="description" content="Ready to start your day off on the right foot? Check your free horoscope today on our website and find out what the stars reveal 
+        about your day. With accurate predictions and helpful tips, our horoscope will give you a fresh perspective to face the day with confidence. Consult your horoscope 
+        for today and let the cosmic influences guide you on your path to success.">
 
         <script src="../libs/jquery-3.2.1/jquery-latest.js"></script>
         <script src="../libs/particles-2.0/particles.js"></script>
@@ -22,7 +21,7 @@
 
         <link href="../css/index-style.css" rel="stylesheet" type="text/css"/>
         <link href="../css/horoscopo.css" rel="stylesheet" type="text/css"/>
-        <script src="../js/horoscopo-anual.js"></script>
+        <script src="../js/horoscopo-hoy.js"></script>
         <script src="../js/particulas.js"></script>
 
         <script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -50,7 +49,7 @@
             <div id="btn-horoscopo" class="item">Horoscope</div>
             <a href="/en/cards"><div class="item">Cards</div></a>
             <a href="/en/blog/entradas"><div class="item">Blog</div></a>
-            <a href="/horoscopo-2024">
+            <a href="/horoscopo-hoy">
                 <div class="item">
                     <img class="img-idioma" src="../img/paises/sp-idioma.png" alt="Spain flag"/>
                 </div>
@@ -96,7 +95,7 @@
             <a href="/en/cards"><div class="item">Cards</div></a>
             <a href="/en/blog/entradas"><div class="item">Blog</div></a>
             <a href="/en/experts"><div class="item">Our experts</div></a>
-            <a href="/horoscopo-2024">
+            <a href="/horoscopo-hoy">
                 <div class="item">
                     <img class="img-idioma" src="../img/paises/sp-idioma.png" alt="Spain flag" />
                 </div>
@@ -123,65 +122,66 @@
           </a>
           <div class="row cabecera">
               <div class="col-lg-12">
-                  <h1 class="titulo">FREE 2024 HOROSCOPE</h1>
-                  <div id="text-dia"></div>
-                  <p class="subtitulo">Find out what the year <strong>2024</strong> has in store for you by consulting our <strong>free online horoscope</strong>. On our 
-                    website, we offer you <strong>detailed and personalized predictions for each zodiac sign</strong>, based on the influence of the stars and planets in 
-                    your life. Get valuable information about love, career, finances and more that will help you make informed decisions and make the most of opportunities 
-                    in the new year. Don't miss the opportunity to start 2024 on the right foot and discover what destiny has in store for you.</p>
-                  <div id="formulario-oraculo" class="visible">
-                    <p>Select your zodiac sign</p>
-                    <div class="box-signos">
-                        <img class="img-signo" src="../img/signos/aries.png" alt="Aries" data-id="0"/>
-                        <img class="img-signo" src="../img/signos/tauro.png" alt="Tauro" data-id="1"/>
-                        <img class="img-signo" src="../img/signos/geminis.png" alt="Géminis" data-id="2"/>
-                        <img class="img-signo" src="../img/signos/cancer.png" alt="Cáncer" data-id="3"/>
-                        <img class="img-signo" src="../img/signos/leo.png" alt="Leo" data-id="4"/>
-                        <img class="img-signo" src="../img/signos/virgo.png" alt="Virgo" data-id="5"/>
-                        <img class="img-signo" src="../img/signos/libra.png" alt="Libra" data-id="6"/>
-                        <img class="img-signo" src="../img/signos/escorpio.png" alt="Escorpio" data-id="7"/>
-                        <img class="img-signo" src="../img/signos/sagitario.png" alt="Sagitario" data-id="8"/>
-                        <img class="img-signo" src="../img/signos/capricornio.png" alt="Capricornio" data-id="9"/>
-                        <img class="img-signo" src="../img/signos/acuario.png" alt="Acuario" data-id="10"/>
-                        <img class="img-signo" src="../img/signos/piscis.png" alt="Piscis" data-id="11"/>
-                    </div>
-                    <p>Write your email to receive your horoscope reading</p>
-                    <input id="email" type="text" placeholder="Enter your email here...">
-                    <div id="boton-solicitar" class="boton">Request</div>
+                <h1 class="titulo">TODAY'S FREE HOROSCOPE</h1>
+                <div id="text-dia"></div>
+                <p class="subtitulo">Ready to start your day off on the right foot? Check your <strong>free horoscope today</strong> on our website and find out what the 
+                stars reveal about your day. With <strong>accurate predictions and helpful tips</strong>, our horoscope will give you a fresh perspective to face the 
+                day with confidence. Consult your horoscope for today and let the cosmic influences guide you on your path to success.</p>
+                <div id="loading" class="lds-ellipsis visible"><div></div><div></div><div></div><div></div></div>
+                <div id="box-horoscopos" class="box-horoscopos invisible">
+                    <h2 class="nombre-signo">Aries <span class="fecha-signo">(March 21 - April 20)</span></h2>
+                    <p id="pred-aries" class="prediccion"></p>
+                    <h2 class="nombre-signo">Taurus <span class="fecha-signo">(April 21 - May 20)</span></h2>
+                    <p id="pred-tauro" class="prediccion"></p>
+                    <h2 class="nombre-signo">Gemini <span class="fecha-signo">(May 21 - June 20)</span></h2>
+                    <p id="pred-geminis" class="prediccion"></p>
+                    <h2 class="nombre-signo">Cancer <span class="fecha-signo">(June 12 - July 20)</span></h2>
+                    <p id="pred-cancer" class="prediccion"></p>
+                    <h2 class="nombre-signo">Leo <span class="fecha-signo">(July 21 - August 21)</span></h2>
+                    <p id="pred-leo" class="prediccion"></p>
+                    <h2 class="nombre-signo">Virgo <span class="fecha-signo">(August 22 - September 22)</span></h2>
+                    <p id="pred-virgo" class="prediccion"></p>
+                    <h2 class="nombre-signo">Libra <span class="fecha-signo">(September 23 - October 22)</span></h2>
+                    <p id="pred-libra" class="prediccion"></p>
+                    <h2 class="nombre-signo">Scorpio <span class="fecha-signo">(October 23 - November 22)</span></h2>
+                    <p id="pred-escorpio" class="prediccion"></p>
+                    <h2 class="nombre-signo">Sagittarius <span class="fecha-signo">(November 23 - December 20)</span></h2>
+                    <p id="pred-sagitario" class="prediccion"></p>
+                    <h2 class="nombre-signo">Capricorn <span class="fecha-signo">(December 21 - January 19)</span></h2>
+                    <p id="pred-capricornio" class="prediccion"></p>
+                    <h2 class="nombre-signo">Aquarius <span class="fecha-signo">(January 20 - February 18)</span></h2>
+                    <p id="pred-acuario" class="prediccion"></p>
+                    <h2 class="nombre-signo">Pisces <span class="fecha-signo">(February 19 - March 20)</span></h2>
+                    <p id="pred-piscis" class="prediccion"></p>
                 </div>
-                <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
-                <p id="send-message" class="send-message invisible">Your horoscope has been sent to the email address you provided. If you don't see it in your inbox, 
-                    check your  spam folder</p>
               </div>
           </div>
           <div class="row texto-info">
-            <h2 class="titulo-info">What is the yearly horoscope?</h2>
-            <p class="parrafo-info">The yearly horoscope is a powerful tool used by millions of people around the world to get an overview of the astrological energies that 
-                will influence their lives throughout the year. This resource offers personalized predictions for each zodiac sign, providing guidance on potential events 
-                and challenges that could arise in different areas of life, such as love, career, finances and health. Expert astrologers carefully examine the position of 
-                the planets and other celestial bodies at the time of a person's birth, as well as the planetary transits that will occur throughout the year, to provide 
-                accurate and detailed forecasts.</p>
-            <p class="parrafo-info">By consulting the yearly horoscope, people can gain a deeper understanding of themselves and the cosmic forces that influence their lives. 
-                This information enables them to better prepare for future events and make informed decisions about how to approach different situations. In addition, the 
-                yearly horoscope can provide a sense of direction and purpose, helping people align their actions with the forces of the universe to achieve greater success 
-                and personal fulfillment in the year ahead.</p>
-            <p class="parrafo-info">Regardless of whether someone is a firm believer in astrology or simply interested in exploring what the yearly horoscope has to say, 
-                this tool offers a fascinating perspective on celestial influences and how they can impact our lives throughout the year. Whether for guidance on important 
-                decisions or simply out of curiosity, the yearly horoscope remains a popular source of information and reflection for many on their journey toward 
-                self-discovery and personal growth.</p>
-            <h2 class="titulo-info">Is the yearly horoscope reliable?</h2>
-            <p class="parrafo-info">The reliability of the yearly horoscope has been the subject of debate and discussion over the years, with divergent opinions on its 
-                validity and accuracy. Those who believe in astrology argue that the yearly horoscope offers a useful and insightful guide to the cosmic energies that 
-                influence our lives, based on expert interpretation of planetary movements and other celestial phenomena. Trained astrologers closely examine the position 
-                of the planets at the time of a person's birth, as well as planetary transits throughout the year, to offer personalized and detailed forecasts.</p>
-            <p class="parrafo-info">However, skeptics argue that the yearly horoscope lacks a scientific basis and that its predictions are vague and generalized, allowing 
-                them to be applied to a wide variety of situations. They argue that astrologers' subjective interpretation and lack of solid empirical evidence undermine the 
-                credibility of the annual horoscope as a reliable predictive tool. Despite these criticisms, many astrology advocates continue to rely on the annual horoscope 
-                as a valuable guide for making important decisions and understanding the cosmic influences in their lives.</p>
-            <p class="parrafo-info">Ultimately, the reliability of the yearly horoscope may vary according to the individual interpretation and experience of the astrologer, 
-                as well as the individual's willingness to accept and apply the advice offered. For some, the yearly horoscope is a reliable source of guidance and insight, 
-                while for others, it may simply be a form of entertainment or personal reflection. As with any self-knowledge tool, the reliability of the yearly horoscope 
-                depends largely on each individual's perspective and beliefs.</p>
+            <h2 class="titulo-info">How do I interpret today's horoscope?</h2>
+            <p class="parrafo-info">Interpreting the horoscope may seem like a challenging task to some, but with some basic understanding, it can be an invaluable tool for 
+                understanding the astrological influences in your life. First, it is important to remember that your zodiac sign is only one piece of the puzzle. In addition, 
+                other factors, such as your ascendant and the position of the planets at the time of your birth, also play a crucial role in your unique horoscope. By 
+                understanding these aspects, you can get a more complete and accurate picture of what the horoscope has to offer.</p>
+            <p class="parrafo-info">Once you take these elements into account, you can begin to interpret your daily, weekly or monthly horoscope more effectively. Notice how 
+                the predictions relate to your current life and past experiences. While it is important to keep an open mind, it is also essential to filter the information 
+                and apply it meaningfully to your own situation. Remember that the horoscope is a guide, not a definitive prediction, and that you have the power to make 
+                conscious decisions that can influence your destiny.</p>
+            <p class="parrafo-info">Ultimately, horoscope interpretation is about finding a balance between intuition and critical thinking. While it is helpful to pay 
+                attention to astrological suggestions, it is also essential to rely on your own experiences and knowledge. In doing so, you can use the horoscope as a tool 
+                for self-exploration, personal growth and making informed decisions in your daily life. Remember that the horoscope is a tool that can give you clarity and 
+                perspective, but it is always you who has ultimate control over your destiny.</p>
+            <h2 class="titulo-info">How do I act on any good or bad prediction?</h2>
+            <p class="parrafo-info">When you encounter a "bad" prediction in your horoscope, it is important to remember that astrological influences are only part of the 
+                equation in your life. Instead of being driven by fear or worry, consider the prediction as an opportunity to reflect on your actions and take proactive steps 
+                to address any challenges that arise. Use this information as a guide to strengthen yourself emotionally and face obstacles with determination and 
+                self-confidence.</p>
+            <p class="parrafo-info">On the other hand, when you find a "good" prediction in your horoscope, it's natural to feel excited and optimistic about the 
+                possibilities ahead. However, it's important to keep your feet on the ground and remember that astrological influences are only part of the story. Use this 
+                positive energy as motivation to move forward with your goals and projects with renewed enthusiasm, but keep a balanced and realistic attitude. Remember that 
+                you are the master of your own destiny and that your actions and decisions also play a crucial role in your success and happiness.</p>
+            <p class="parrafo-info">In summary, whether it is a "bad" or "good" prediction, it is critical to maintain a balanced perspective and focus on the present. Use 
+                horoscope predictions as a tool for self-exploration and personal growth, but remember that you have the power to shape your own destiny with your actions and 
+                choices. Ultimately, trust yourself and your ability to navigate the vicissitudes of life with grace and determination.</p>
           </div>
       </div>
       <div class="footer">
