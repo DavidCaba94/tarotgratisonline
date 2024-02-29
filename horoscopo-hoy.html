@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Horóscopo de Hoy Gratis - Tarot Gratis Online</title>
+        <link rel="icon" type="image/png" href="img/bola.png">
+        <meta charset="UTF-8">
+        <meta name="title" content="Horóscopo de Hoy Gratis - Tarot Gratis Online">
+        <meta name="description" content="¿Listo para comenzar el día con el pie derecho? Consulta tu horóscopo diario gratis en nuestra página web y descubre qué revelan 
+        las estrellas sobre tu jornada. Con predicciones precisas y consejos útiles, nuestro horóscopo te brindará una nueva perspectiva para encarar el día con confianza. 
+        Consulta tu horóscopo para hoy y deja que las influencias cósmicas te guíen en tu camino hacia el éxito.">
+
+        <script src="libs/jquery-3.2.1/jquery-latest.js"></script>
+        <script src="libs/particles-2.0/particles.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
+
+        <link href="libs/bootstrap-4.0.0/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+        <link href="libs/bootstrap-4.0.0/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
+        <link href="libs/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <script src="libs/bootstrap-4.0.0/js/bootstrap.js"></script>
+        <meta name="viewport" content= "width=device-width">
+
+        <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/horoscopo.css" rel="stylesheet" type="text/css"/>
+        <script src="js/horoscopo-hoy.js"></script>
+        <script src="js/particulas.js"></script>
+
+        <script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5NY8CSGMBP"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-5NY8CSGMBP');
+        </script>
+    </head>
+  <body>
+      <div class="row contenedor-cabecera">
+          <div id="particles-js"></div>
+          <div class="row menu">
+              <a href="/"><div class="logo">TAROT GRATIS</div></a>
+              <div id="btn-tarot" class="item">Tarot</div>
+              <a href="oraculo-si-no"><div class="item">Oráculo si o no</div></a>
+              <a href="calculadora-amor"><div class="item">Calculadora del amor</div></a>
+              <a href="compatibilidad"><div class="item">Compatibilidad</div></a>
+              <a href="lectura-mano"><div class="item">Lectura de mano</div></a>
+              <div id="btn-horoscopo" class="item">Horóscopo</div>
+              <a href="cartas"><div class="item">Cartas</div></a>
+              <a href="blog/entradas"><div class="item">Blog</div></a>
+              <a href="en/daily-horoscope">
+                <div class="item">
+                    <img class="img-idioma" src="img/paises/uk-idioma.png" alt="Bandera UK"/>
+                </div>
+              </a>
+          </div>
+          <div id="menu-tarot-desplegable" class="menu-tarot-desplegable">
+            <div class="menu-tarot-desplegable-container">
+                <a href="/tarot"><div class="item">Tirada de Tarot</div></a>
+                <a href="/tarot-si-no"><div class="item">Tarot si o no</div></a>
+            </div>
+          </div>
+          <div id="menu-horoscopo-desplegable" class="menu-horoscopo-desplegable">
+            <div class="menu-horoscopo-desplegable-container">
+                <a href="/horoscopo-diario"><div class="item">Horóscopo diario</div></a>
+                <a href="/horoscopo-mensual"><div class="item">Horóscopo mensual</div></a>
+                <a href="/horoscopo-2024"><div class="item">Horóscopo 2024</div></a>
+            </div>
+          </div>
+          <div class="row menu-movil">
+              <a href="/"><div class="logo">TAROT GRATIS</div></a>
+              <div id="btn-menu" class="hamburger-menu">
+                 <div class="bar"></div>
+            </div>
+          </div>
+          <div id="menu-movil-desplegable" class="row menu-movil-desplegable">
+              <div id="btn-tarot-movil" class="item">Tarot</div>
+              <div id="menu-tarot-desplegable-movil" class="menu-tarot-desplegable-movil">
+                <a href="/tarot"><div class="item">Tirada de Tarot</div></a>
+                <a href="/tarot-si-no"><div class="item">Tarot si o no</div></a>
+              </div>
+              <a href="oraculo-si-no"><div class="item">Oráculo si o no</div></a>
+              <a href="calculadora-amor"><div class="item">Calculadora del amor</div></a>
+              <a href="compatibilidad"><div class="item">Compatibilidad</div></a>
+              <a href="lectura-mano"><div class="item">Lectura de mano</div></a>
+              <div id="btn-horoscopo-movil" class="item">Horóscopo</div>
+              <div id="menu-horoscopo-desplegable-movil" class="menu-horoscopo-desplegable-movil">
+                <a href="/horoscopo-diario"><div class="item">Horóscopo diario</div></a>
+                <a href="/horoscopo-mensual"><div class="item">Horóscopo mensual</div></a>
+                <a href="/horoscopo-2024"><div class="item">Horóscopo 2024</div></a>
+              </div>
+              <a href="cartas"><div class="item">Cartas</div></a>
+              <a href="blog/entradas"><div class="item">Blog</div></a>
+              <a href="expertos"><div class="item">Nuestros expertos</div></a>
+              <a href="en/daily-horoscope">
+                <div class="item">
+                    <img class="img-idioma" src="img/paises/uk-idioma.png" alt="Bandera UK"/>
+                </div>
+              </a>
+              <div class="box-redes">
+                  <div class="" data-href="https://tarotgratisonline.com/" data-layout="button" data-size="large">
+                      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftarotgratisonline.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                          <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" alt="Icono Facebook" />
+                      </a>
+                  </div>
+                  <a href="whatsapp://send?text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online%20https://tarotgratisonline.com">
+                      <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" alt="Icono Whatsapp" />
+                  </a>
+                  <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online&tw_p=tweetbutton&url=http%3A%2F%2Ftarotgratisonline.com%2F" class="" data-text="Tarot Gratis Online - Tirada de tarot gratis online" data-url="https://tarotgratisonline.com/" data-show-count="false">
+                      <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" alt="Icono Twitter" />
+                  </a>
+              </div>
+          </div>
+          <a href="/expertos">
+              <div class="bubble-expertos">
+                  <img class="icono-expertos" src="img/experts-icon.png" alt="Icono expertos"/>
+                  <p class="texto-bubble-expertos">CONSULTA A NUESTROS EXPERTOS</p>
+              </div>
+          </a>
+          <div class="row cabecera">
+              <div class="col-lg-12">
+                    <h1 class="titulo">HORÓSCOPO DE HOY GRATIS</h1>
+                    <div id="text-dia"></div>
+                    <p class="subtitulo">¿Listo para comenzar el día con el pie derecho? Consulta tu <strong>horóscopo de hoy gratis</strong> en nuestra página web y 
+                        descubre qué revelan las estrellas sobre tu jornada. Con <strong>predicciones precisas y consejos útiles</strong>, nuestro horóscopo te brindará una 
+                        nueva perspectiva para encarar el día con confianza. Consulta tu horóscopo para hoy y deja que las influencias cósmicas te guíen en tu camino hacia el 
+                        éxito.</p>
+                    <div id="loading" class="lds-ellipsis visible"><div></div><div></div><div></div><div></div></div>
+                    <div id="box-horoscopos" class="box-horoscopos invisible">
+                        <h2 class="nombre-signo">Aries <span class="fecha-signo">(21 Marzo - 20 Abril)</span></h2>
+                        <p id="pred-aries" class="prediccion"></p>
+                        <h2 class="nombre-signo">Tauro <span class="fecha-signo">(21 Abril - 20 Mayo)</span></h2>
+                        <p id="pred-tauro" class="prediccion"></p>
+                        <h2 class="nombre-signo">Géminis <span class="fecha-signo">(21 Mayo - 20 Junio)</span></h2>
+                        <p id="pred-geminis" class="prediccion"></p>
+                        <h2 class="nombre-signo">Cáncer <span class="fecha-signo">(12 Junio - 20 Julio)</span></h2>
+                        <p id="pred-cancer" class="prediccion"></p>
+                        <h2 class="nombre-signo">Leo <span class="fecha-signo">(21 Julio - 21 Agosto)</span></h2>
+                        <p id="pred-leo" class="prediccion"></p>
+                        <h2 class="nombre-signo">Virgo <span class="fecha-signo">(22 Agosto - 22 Septiembre)</span></h2>
+                        <p id="pred-virgo" class="prediccion"></p>
+                        <h2 class="nombre-signo">Libra <span class="fecha-signo">(23 Septiembre - 22 Octubre)</span></h2>
+                        <p id="pred-libra" class="prediccion"></p>
+                        <h2 class="nombre-signo">Escorpio <span class="fecha-signo">(23 Octubre - 22 Noviembre)</span></h2>
+                        <p id="pred-escorpio" class="prediccion"></p>
+                        <h2 class="nombre-signo">Sagitario <span class="fecha-signo">(23 Noviembre - 20 Diciembre)</span></h2>
+                        <p id="pred-sagitario" class="prediccion"></p>
+                        <h2 class="nombre-signo">Capricornio <span class="fecha-signo">(21 Diciembre - 19 Enero)</span></h2>
+                        <p id="pred-capricornio" class="prediccion"></p>
+                        <h2 class="nombre-signo">Acuario <span class="fecha-signo">(20 Enero - 18 Febrero)</span></h2>
+                        <p id="pred-acuario" class="prediccion"></p>
+                        <h2 class="nombre-signo">Piscis <span class="fecha-signo">(19 Febrero - 20 Marzo)</span></h2>
+                        <p id="pred-piscis" class="prediccion"></p>
+                    </div>
+              </div>
+          </div>
+          <div class="row texto-info">
+              <h2 class="titulo-info">¿Cómo interpreto el horóscopo de hoy?</h2>
+              <p class="parrafo-info">Interpretar el horóscopo puede parecer una tarea desafiante para algunos, pero con un poco de comprensión básica, puede ser una herramienta 
+                invaluable para entender las influencias astrológicas en tu vida. En primer lugar, es importante recordar que tu signo del zodiaco es solo una pieza del rompecabezas. 
+                Además, otros factores, como tu ascendente y la posición de los planetas en el momento de tu nacimiento, también desempeñan un papel crucial en tu horóscopo único. 
+                Al entender estos aspectos, puedes tener una visión más completa y precisa de lo que el horóscopo tiene para ofrecer.</p>
+              <p class="parrafo-info">Una vez que tienes en cuenta estos elementos, puedes comenzar a interpretar tu horóscopo diario, semanal o mensual de manera más 
+                efectiva. Observa cómo se relacionan las predicciones con tu vida actual y tus experiencias pasadas. Si bien es importante mantener una mente abierta, 
+                también es esencial filtrar la información y aplicarla de manera significativa en tu propia situación. Recuerda que el horóscopo es una guía, no una 
+                predicción definitiva, y que tienes el poder de tomar decisiones conscientes que pueden influir en tu destino.</p>
+              <p class="parrafo-info">Finalmente, la interpretación del horóscopo se trata de encontrar un equilibrio entre la intuición y el pensamiento crítico. Si bien 
+                es útil prestar atención a las sugerencias astrológicas, también es esencial confiar en tus propias experiencias y conocimientos. Al hacerlo, puedes utilizar 
+                el horóscopo como una herramienta para la autoexploración, el crecimiento personal y la toma de decisiones informadas en tu vida diaria. Recuerda que el 
+                horóscopo es una herramienta que puede brindarte claridad y perspectiva, pero siempre eres tú quien tiene el control último sobre tu destino.</p>
+              <h2 class="titulo-info">¿Cómo actúo frente a cualquier predicción buena o mala?</h2>
+              <p class="parrafo-info">Cuando te encuentras con una predicción "mala" en tu horóscopo, es importante recordar que las influencias astrológicas son solo 
+                una parte de la ecuación de tu vida. En lugar de dejarte llevar por el miedo o la preocupación, considera la predicción como una oportunidad para reflexionar 
+                sobre tus acciones y tomar medidas proactivas para abordar cualquier desafío que se presente. Utiliza esta información como una guía para fortalecerte 
+                emocionalmente y enfrentar los obstáculos con determinación y confianza en ti mismo.</p>
+              <p class="parrafo-info">Por otro lado, cuando encuentras una predicción "buena" en tu horóscopo, es natural sentirse emocionado y optimista sobre las 
+                posibilidades que se avecinan. Sin embargo, es importante mantener los pies en la tierra y recordar que las influencias astrológicas son solo una parte de 
+                la historia. Aprovecha esta energía positiva como motivación para seguir adelante con tus metas y proyectos con entusiasmo renovado, pero mantén una actitud 
+                equilibrada y realista. Recuerda que eres el dueño de tu propio destino y que tus acciones y decisiones también juegan un papel crucial en tu éxito y 
+                felicidad.</p>
+              <p class="parrafo-info">En resumen, ya sea una predicción "mala" o "buena", es fundamental mantener una perspectiva equilibrada y centrada en el presente. 
+                Utiliza las predicciones del horóscopo como una herramienta para la autoexploración y el crecimiento personal, pero recuerda que tienes el poder de moldear 
+                tu propio destino con tus acciones y elecciones. En última instancia, confía en ti mismo y en tu capacidad para navegar por las vicisitudes de la vida con 
+                gracia y determinación.</p>
+          </div>
+      </div>
+      <div class="footer">
+          <a href="/">TAROT GRATIS ONLINE</a>
+          <p class="copyright">©2024 TAROTGRATISONLINE</p>
+          <div class="box-redes">
+              <div class="" data-href="https://tarotgratisonline.com/" data-layout="button" data-size="large">
+                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftarotgratisonline.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                      <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" alt="Icono Facebook" />
+                  </a>
+              </div>
+              <a href="whatsapp://send?text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online%20https://tarotgratisonline.com">
+                  <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" alt="Icono Whatsapp" />
+              </a>
+              <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online&tw_p=tweetbutton&url=http%3A%2F%2Ftarotgratisonline.com%2F" class="" data-text="Tarot Gratis Online - Tirada de tarot gratis online" data-url="https://tarotgratisonline.com/" data-show-count="false">
+                  <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" alt="Icono Twitter" />
+              </a>
+          </div>
+      </div>
+  </body>
+</html>
