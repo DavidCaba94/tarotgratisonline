@@ -21,13 +21,14 @@ permisos();
 $email = $_GET["email"];
 $fecha = $_GET["fecha"];
 $prediccion = $_GET["prediccion"];
+$periodo = $_GET["periodo"];
 
 // the message
-$msg = "";
+$msg = $prediccion;
 
 // use wordwrap() if lines are longer than 70 characters
-$msg = wordwrap($prediccion,70);
+// $msg = wordwrap($msg,70);
 
 // send email
-mail($email,"Horoscopo diario",$msg,"From: info@lafotodeldia.app");
+mail($email,"Horoscopo ".$periodo." (".$fecha.") | Tarot Gratis Online",$msg,"From: info@tarotgratisonline.com");
 ?>

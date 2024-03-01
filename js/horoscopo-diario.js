@@ -88,7 +88,8 @@ function sendMail() {
         data: {
 			email: email,
 			fecha: fecha,
-			prediccion: prediccion
+			prediccion: prediccion,
+            periodo: 'diario'
 		},
         success: function () { },
         failure: function() { }

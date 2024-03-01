@@ -86,8 +86,9 @@ function sendMail() {
         url: '/js/send_horoscopo.php',
         data: {
 			email: email,
-			fecha: fecha,
-			prediccion: prediccion
+			fecha: new Date().getFullYear(),
+			prediccion: prediccion,
+            periodo: 'anual'
 		},
         success: function () { },
         failure: function() { }
