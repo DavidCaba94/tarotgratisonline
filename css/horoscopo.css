@@ -94,6 +94,9 @@ input[type=text]:focus {
 .prediccion {
   font-size: 20px;
   font-weight: 300;
+  background-color: #ffffff17;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .fecha-signo {
