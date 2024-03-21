@@ -3,7 +3,7 @@
 }
 
 .invisible {
-    display: none;
+  display: none !important;
 }
 
 .cabecera {
@@ -98,6 +98,7 @@
 .descripcion-carta {
     text-align: justify;
     font-weight: 200;
+    padding: 10px;
     justify-content: center;
 }
 
@@ -191,8 +192,8 @@
 [type="radio"]:checked + label:after,
 [type="radio"]:not(:checked) + label:after {
     content: '';
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     background: #ffffff;
     position: absolute;
     top: 3px;

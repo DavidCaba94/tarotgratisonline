@@ -40,6 +40,7 @@
 .descripcion-carta {
     text-align: justify;
     font-weight: 200;
+    padding: 10px;
     justify-content: center;
 }
 

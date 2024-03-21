@@ -13,10 +13,6 @@
         <script src="js/particulas.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
 
-        <link href="libs/bootstrap-4.0.0/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
-        <link href="libs/bootstrap-4.0.0/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
-        <link href="libs/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <script src="libs/bootstrap-4.0.0/js/bootstrap.js"></script>
         <meta name="viewport" content= "width=device-width">
 
         <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
@@ -35,9 +31,9 @@
         </script>
     </head>
   <body>
-      <div class="row contenedor-cabecera">
+      <div class="contenedor-cabecera">
           <div id="particles-js"></div>
-          <div class="row menu">
+          <div class="menu">
               <a href="/"><div class="logo">TAROT GRATIS</div></a>
               <div id="btn-tarot" class="item">Tarot</div>
               <a href="oraculo-si-no"><div class="item">Oráculo si o no</div></a>
@@ -67,13 +63,13 @@
                 <a href="/horoscopo-2024"><div class="item">Horóscopo 2024</div></a>
             </div>
           </div>
-          <div class="row menu-movil">
+          <div class="menu-movil">
               <a href="/"><div class="logo">TAROT GRATIS</div></a>
               <div id="btn-menu" class="hamburger-menu">
                  <div class="bar"></div>
             </div>
           </div>
-          <div id="menu-movil-desplegable" class="row menu-movil-desplegable">
+          <div id="menu-movil-desplegable" class="menu-movil-desplegable">
               <div id="btn-tarot-movil" class="item">Tarot</div>
               <div id="menu-tarot-desplegable-movil" class="menu-tarot-desplegable-movil">
                 <a href="/tarot"><div class="item">Tirada de Tarot</div></a>
@@ -118,27 +114,22 @@
                   <p class="texto-bubble-expertos">CONSULTA A NUESTROS EXPERTOS</p>
               </div>
           </a>
-          <div class="row cabecera">
-              <div class="col-lg-12">
-                  <h1 id="titulo" class="titulo">TAROT GRATIS ONLINE</h1>
-              </div>
-              <div class="col-lg-12">
-                  <p id="subtitulo" class="subtitulo">Consulta tu futuro en nuestro tarot gratis online. Tiradas de cartas, lectura de manos, test de compatibilidad, test del
-                      amor, oráculo del si o no... La mejor web de tarot gratis online.</p>
-                  <a href="/tarot"><div id="boton-cabecera" class="boton">Prueba el tarot</div></a>
-              </div>
-              <div id="flecha-slide">
-                  <div class="arrow"></div>
-              </div>
+          <div class="cabecera">
+                <h1 id="titulo" class="titulo">TAROT GRATIS ONLINE</h1>
+                <p id="subtitulo" class="subtitulo">Consulta tu futuro en nuestro tarot gratis online. Tiradas de cartas, lectura de manos, test de compatibilidad, test del
+                    amor, oráculo del si o no... La mejor web de tarot gratis online.</p>
+                <a href="/tarot"><div id="boton-cabecera" class="boton">Prueba el tarot</div></a>
+                <div id="flecha-slide">
+                    <div class="arrow"></div>
+                </div>
           </div>
-
       </div>
 
-      <div class="row seccion-1">
-          <div class="col-12 col-lg-6">
+      <div class="seccion-1">
+          <div>
               <img class="img-seccion-1" src="img/chakra.png" alt="Chakra"/>
           </div>
-          <div class="col-12 col-lg-6 fondo-seccion-movil">
+          <div class="fondo-seccion-movil">
               <h2 class="titulo-seccion-1">Tirada de tarot</h2>
               <p class="descripcion-seccion-1">Nuestra tirada de tarot gratis te ofrece respuestas rápidas a tus inquietudes. Con nuestro tarot gratis online podrás despejar dudas sobre
                   múltiples aspectos de tu vida. Haz una tirada en nustro tarot gratis online y descubre que te depara el tarot para el día de hoy o para el futuro. El
@@ -148,20 +139,20 @@
               <a href="/tarot"><div class="boton">Prueba el tarot</div></a>
           </div>
       </div>
-      <div class="row seccion-2">
-          <div class="col-lg-6 fondo-seccion2-movil">
+      <div class="seccion-2">
+          <div class="fondo-seccion2-movil">
               <h2 class="titulo-seccion-1">El oráculo del si o no</h2>
               <p class="descripcion-seccion-1">El oráculo del si o no te ayudará a tomar decisiones cuando lo necesites con una simple pregunta. Nuestro oráculo es totalmente gratis
                   y lo puedes usar tantas veces como lo desees. Si necesitas conocer la respuesta a una pregunta, una confirmación a algo que piensas o símplemente sientes curiosidad
                   por algo en especial, el oráculo te guiará hasta haber solucionado todas tus dudas.</p>
               <a href="/oraculo-si-no"><div class="boton">Prueba el oráculo</div></a>
           </div>
-          <div class="col-lg-6">
+          <div>
               <img class="img-seccion-1" src="img/oraculo-griego.png" alt="Oráculo griego" />
           </div>
       </div>
 
-      <div class="row seccion-3">
+      <div class="seccion-3">
           <div class="col-12 col-lg-6">
               <img class="img-seccion-1" src="img/calc-amor.png" alt="Calculadora del amor"/>
           </div>
@@ -177,7 +168,7 @@
               <a href="/calculadora-amor"><div class="boton">Prueba la calculadora</div></a>
           </div>
       </div>
-      <div class="row seccion-4">
+      <div class="seccion-4">
           <div class="col-lg-6 fondo-seccion4-movil">
               <h2 class="titulo-seccion-1">Compatibilidad entre signos</h2>
               <p class="descripcion-seccion-1">Consulta la compatibilidad entre dos signos del zodiaco con nuestro test gratis. El resultado te hará saber el grado de compatibilidad
@@ -190,7 +181,7 @@
           </div>
       </div>
 
-      <div class="row seccion-5">
+      <div class="seccion-5">
           <div class="col-12 col-lg-6">
               <img class="img-seccion-1" src="img/mano.png" alt="Lectura de mano"/>
           </div>
@@ -205,7 +196,7 @@
           </div>
       </div>
 
-      <div class="row seccion-6">
+      <div class="seccion-6">
           <div class="col-lg-6 fondo-seccion6-movil">
               <h2 class="titulo-seccion-1">Significado de las cartas</h2>
               <p class="descripcion-seccion-1">La baraja del Tarot actual se basa en el estándar de las 78 cartas que era popular en el norte de Italia en el siglo XVI.

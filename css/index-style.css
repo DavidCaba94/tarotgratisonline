@@ -1,15 +1,10 @@
-* {
-	padding:0;
-	margin:0;
-}
-
-.row {
-    margin-right: 0px;
-    margin-left: 0px;
+body {
+	margin: 0;
 }
 
 a {
     color: #ffffff !important;
+	text-decoration: none !important;
 }
 
 a:hover {
@@ -32,6 +27,10 @@ body {
 	font-weight: 400;
   	color: white;
 	line-height:20px;
+}
+
+strong {
+    font-weight: 500;
 }
 
 .parrafo {
@@ -60,17 +59,17 @@ body {
 
 .menu-movil {
 	width: 100%;
-	height: 80px;
-	display: inline;
-	background-color: #000000de;
-	padding-top: 30px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000de;
+    padding-top: 30px;
 	z-index: 99;
 }
 
 .menu-movil-desplegable {
 	position: absolute;
 	width: 100%;
-	margin-top: 80px;
 	display: none;
 	background-color: #000000f2;
 	padding-top: 0;
@@ -254,19 +253,21 @@ body {
 }
 
 .titulo {
-	margin-top: 50px;
+	margin: 0;
 	font-weight: 700;
 	font-size: 40px;
+	line-height: 50px;
+	padding: 20px;
 }
 
 .subtitulo {
 	max-width: 900px;
 	margin: 0 auto;
-	margin-top: -70px;
 	font-weight: 100;
 	font-size: 24px;
 	line-height: 1.2;
     text-align: justify;
+	padding: 20px;
 }
 
 .fondo-seccion-movil {
@@ -317,8 +318,11 @@ body {
 .seccion-4,
 .seccion-5,
 .seccion-6 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
 	width: 100%;
-	height: 100%;
 	padding-bottom: 30px;
 	text-align: center;
 	background-color: #000000;
@@ -331,17 +335,17 @@ body {
 
 .boton {
 	width: 200px;
-	height: 50px;
-	margin: 0 auto;
-	margin-top: 30px;
-	background-color: #00000000;
-	color: #ffffff;
-	font-size: 20px;
-	font-weight: 200;
-	padding-top: 15px;
-	border: 1px solid #ffffff;
-	border-radius: 25px;
-	cursor: pointer;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #00000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
 .boton:hover {
@@ -364,11 +368,13 @@ body {
 	margin-top: 40px;
 	text-align: justify;
 	font-weight: 200;
+	padding: 20px;
 }
 
 #flecha-slide {
 	width: 200px;
 	margin: 0 auto;
+	margin-top: 50px;
 	padding: 2em 0;
 	background: #00000000;
 }
@@ -411,7 +417,6 @@ body {
 
 .texto-info {
     display: block;
-    width: 100%;
     padding: 10px;
     padding-bottom: 30px;
     background-color: #000000;
@@ -424,6 +429,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     text-align: center;
+	line-height: 30px;
 }
 
 .parrafo-info {
@@ -525,6 +531,7 @@ body {
 
 	.cabecera {
 	    height: 600px;
+		padding-bottom: 50px;
 	}
 
 	.titulo {
@@ -564,11 +571,6 @@ body {
 
 	.titulo-seccion-1 {
 		margin-top: 20px;
-	}
-
-	.seccion-1 {
-		padding-left: 10%;
-		padding-right: 10%;
 	}
 
 	.fondo-seccion-movil,
@@ -616,16 +618,12 @@ body {
 	}
 
 	.cabecera {
-		padding-top: 50px;
+		padding-top: 10px;
 		height: 900px;
 	}
 
 	.titulo {
 		font-size: 48px;
-	}
-
-	.subtitulo {
-	    margin-top: -100px;
 	}
 
 	.img-seccion-1 {
@@ -655,6 +653,10 @@ body {
 
 	.img-idioma {
 		width: 20px;
+	}
+
+	#flecha-slide {
+		margin-top: 250px;
 	}
 	
 }

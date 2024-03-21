@@ -12,11 +12,7 @@
         <script src="libs/particles-2.0/particles.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
 
-        <link href="libs/bootstrap-4.0.0/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
-        <link href="libs/bootstrap-4.0.0/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
-        <link href="libs/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <script src="libs/bootstrap-4.0.0/js/bootstrap.js"></script>
-        <meta name="viewport" content= "width=device-width, user-scalable=no">
+        <meta name="viewport" content= "width=device-width">
 
         <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
         <link href="css/compatibilidad.css" rel="stylesheet" type="text/css"/>
@@ -36,9 +32,9 @@
         </script>
     </head>
   <body>
-      <div class="row contenedor-cabecera">
+      <div class="contenedor-cabecera">
           <div id="particles-js"></div>
-          <div class="row menu">
+          <div class="menu">
               <a href="/"><div class="logo">TAROT GRATIS</div></a>
               <div id="btn-tarot" class="item">Tarot</div>
               <a href="oraculo-si-no"><div class="item">Oráculo si o no</div></a>
@@ -50,7 +46,7 @@
               <a href="blog/entradas"><div class="item">Blog</div></a>
               <a href="en/compatibility">
                 <div class="item">
-                    <img class="img-idioma" src="img/paises/uk-idioma.png" />
+                    <img class="img-idioma" src="img/paises/uk-idioma.png" alt="Bandera UK" />
                 </div>
               </a>
           </div>
@@ -68,13 +64,13 @@
                 <a href="/horoscopo-2024"><div class="item">Horóscopo 2024</div></a>
             </div>
           </div>
-          <div class="row menu-movil">
+          <div class="menu-movil">
               <a href="/"><div class="logo">TAROT GRATIS</div></a>
               <div id="btn-menu" class="hamburger-menu">
                  <div class="bar"></div>
             </div>
           </div>
-          <div id="menu-movil-desplegable" class="row menu-movil-desplegable">
+          <div id="menu-movil-desplegable" class="menu-movil-desplegable">
               <div id="btn-tarot-movil" class="item">Tarot</div>
               <div id="menu-tarot-desplegable-movil" class="menu-tarot-desplegable-movil">
                 <a href="/tarot"><div class="item">Tirada de Tarot</div></a>
@@ -96,77 +92,75 @@
               <a href="expertos"><div class="item">Nuestros expertos</div></a>
               <a href="en/compatibility">
                 <div class="item">
-                    <img class="img-idioma" src="img/paises/uk-idioma.png" />
+                    <img class="img-idioma" src="img/paises/uk-idioma.png" alt="Bandera UK" />
                 </div>
               </a>
               <div class="box-redes">
                   <div class="" data-href="https://tarotgratisonline.com/" data-layout="button" data-size="large">
                       <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftarotgratisonline.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
-                          <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" />
+                          <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" alt="Icono Facebook" />
                       </a>
                   </div>
                   <a href="whatsapp://send?text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online%20https://tarotgratisonline.com">
-                      <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" />
+                      <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" alt="Icono Whatsapp" />
                   </a>
                   <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online&tw_p=tweetbutton&url=http%3A%2F%2Ftarotgratisonline.com%2F" class="" data-text="Tarot Gratis Online - Tirada de tarot gratis online" data-url="https://tarotgratisonline.com/" data-show-count="false">
-                      <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" />
+                      <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" alt="Icono Twitter" />
                   </a>
               </div>
           </div>
           <a href="/expertos">
               <div class="bubble-expertos">
-                  <img class="icono-expertos" src="img/experts-icon.png" />
+                  <img class="icono-expertos" src="img/experts-icon.png" alt="Icono Expertos" />
                   <p class="texto-bubble-expertos">CONSULTA A NUESTROS EXPERTOS</p>
               </div>
           </a>
-          <div class="row cabecera">
-              <div class="col-lg-12">
-                  <h1 class="titulo">COMPATIBILIDAD DE SIGNOS</h1>
-                  <p class="subtitulo">Consulta la compatibilidad entre dos signos del zodiaco con nuestro test gratis. El resultado te hará saber el grado de compatibilidad
-                  entre dos personas según su signo del zodiaco. Símplemente elige dos signos correspondientes a dos personas diferentes y observa el resultado. Puedes
-                  ayudarte de la <strong>tabla de fechas</strong> de abajo si lo necesitas o leer la <strong>descripción individual</strong> de cada signo.</p>
-                  <div id="formulario-signos" class="visible">
-                      <p>Tu signo:</p>
-                      <div class="contenedor-signos">
-                          <img class="img-signo" src="img/signos/aries.png" data-id="0"/>
-                          <img class="img-signo" src="img/signos/tauro.png" data-id="1"/>
-                          <img class="img-signo" src="img/signos/geminis.png" data-id="2"/>
-                          <img class="img-signo" src="img/signos/cancer.png" data-id="3"/>
-                          <img class="img-signo" src="img/signos/leo.png" data-id="4"/>
-                          <img class="img-signo" src="img/signos/virgo.png" data-id="5"/>
-                          <img class="img-signo" src="img/signos/libra.png" data-id="6"/>
-                          <img class="img-signo" src="img/signos/escorpio.png" data-id="7"/>
-                          <img class="img-signo" src="img/signos/sagitario.png" data-id="8"/>
-                          <img class="img-signo" src="img/signos/capricornio.png" data-id="9"/>
-                          <img class="img-signo" src="img/signos/acuario.png" data-id="10"/>
-                          <img class="img-signo" src="img/signos/piscis.png" data-id="11"/>
-                      </div>
-                      <p>Su signo:</p>
-                      <div class="contenedor-signos">
-                          <img class="img-signo2" src="img/signos/aries.png" data-id2="0"/>
-                          <img class="img-signo2" src="img/signos/tauro.png" data-id2="1"/>
-                          <img class="img-signo2" src="img/signos/geminis.png" data-id2="2"/>
-                          <img class="img-signo2" src="img/signos/cancer.png" data-id2="3"/>
-                          <img class="img-signo2" src="img/signos/leo.png" data-id2="4"/>
-                          <img class="img-signo2" src="img/signos/virgo.png" data-id2="5"/>
-                          <img class="img-signo2" src="img/signos/libra.png" data-id2="6"/>
-                          <img class="img-signo2" src="img/signos/escorpio.png" data-id2="7"/>
-                          <img class="img-signo2" src="img/signos/sagitario.png" data-id2="8"/>
-                          <img class="img-signo2" src="img/signos/capricornio.png" data-id2="9"/>
-                          <img class="img-signo2" src="img/signos/acuario.png" data-id2="10"/>
-                          <img class="img-signo2" src="img/signos/piscis.png" data-id2="11"/>
-                      </div>
-                      <div id="boton-consulta" class="boton">Consultar</div>
-                  </div>
-                  <div id="respuesta-signos" class="respuesta-signos invisible">
-                      <img id="signo-elegido-1" class="img-signo-respuesta" src="img/signos/aries.png"/>
-                      <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
-                      <p id="porcentaje" class="porcentaje invisible">00%</p>
-                      <img id="signo-elegido-2" class="img-signo-respuesta" src="img/signos/aries.png"/>
-                  </div>
-              </div>
+          <div class="cabecera">
+                <h1 class="titulo">COMPATIBILIDAD DE SIGNOS</h1>
+                <p class="subtitulo">Consulta la compatibilidad entre dos signos del zodiaco con nuestro test gratis. El resultado te hará saber el grado de compatibilidad
+                entre dos personas según su signo del zodiaco. Símplemente elige dos signos correspondientes a dos personas diferentes y observa el resultado. Puedes
+                ayudarte de la <strong>tabla de fechas</strong> de abajo si lo necesitas o leer la <strong>descripción individual</strong> de cada signo.</p>
+                <div id="formulario-signos" class="visible">
+                    <p>Tu signo:</p>
+                    <div class="contenedor-signos">
+                        <img class="img-signo" src="img/signos/aries.png" data-id="0" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/tauro.png" data-id="1" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/geminis.png" data-id="2" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/cancer.png" data-id="3" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/leo.png" data-id="4" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/virgo.png" data-id="5" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/libra.png" data-id="6" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/escorpio.png" data-id="7" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/sagitario.png" data-id="8" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/capricornio.png" data-id="9" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/acuario.png" data-id="10" alt="Signo"/>
+                        <img class="img-signo" src="img/signos/piscis.png" data-id="11" alt="Signo"/>
+                    </div>
+                    <p>Su signo:</p>
+                    <div class="contenedor-signos">
+                        <img class="img-signo2" src="img/signos/aries.png" data-id2="0" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/tauro.png" data-id2="1" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/geminis.png" data-id2="2" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/cancer.png" data-id2="3" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/leo.png" data-id2="4" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/virgo.png" data-id2="5" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/libra.png" data-id2="6" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/escorpio.png" data-id2="7" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/sagitario.png" data-id2="8" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/capricornio.png" data-id2="9" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/acuario.png" data-id2="10" alt="Signo"/>
+                        <img class="img-signo2" src="img/signos/piscis.png" data-id2="11" alt="Signo"/>
+                    </div>
+                    <div id="boton-consulta" class="boton">Consultar</div>
+                </div>
+                <div id="respuesta-signos" class="respuesta-signos invisible">
+                    <img id="signo-elegido-1" class="img-signo-respuesta" src="img/signos/aries.png" alt="Signo"/>
+                    <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
+                    <p id="porcentaje" class="porcentaje invisible">00%</p>
+                    <img id="signo-elegido-2" class="img-signo-respuesta" src="img/signos/aries.png" alt="Signo"/>
+                </div>
           </div>
-          <div class="row texto-info">
+          <div class="texto-info">
               <h2 class="titulo-info">Fechas de los signos del zodiaco</h2>
               <div class="parrafo-info">
                   <div class="date-pill">
@@ -333,14 +327,14 @@
           <div class="box-redes">
               <div class="" data-href="https://tarotgratisonline.com/" data-layout="button" data-size="large">
                   <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftarotgratisonline.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
-                      <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" />
+                      <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" alt="Icono Facebook" />
                   </a>
               </div>
               <a href="whatsapp://send?text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online%20https://tarotgratisonline.com">
-                  <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" />
+                  <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" alt="Icono Whatsapp" />
               </a>
               <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online&tw_p=tweetbutton&url=http%3A%2F%2Ftarotgratisonline.com%2F" class="" data-text="Tarot Gratis Online - Tirada de tarot gratis online" data-url="https://tarotgratisonline.com/" data-show-count="false">
-                  <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" />
+                  <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" alt="Icono Twitter" />
               </a>
           </div>
       </div>

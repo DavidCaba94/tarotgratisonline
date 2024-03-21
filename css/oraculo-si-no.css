@@ -3,7 +3,7 @@
 }
 
 .invisible {
-    display: none;
+  display: none !important;
 }
 
 .cabecera {
@@ -31,7 +31,6 @@
 }
 
 .texto-respuesta {
-    margin-top: -30px;
     margin-bottom: 70px;
     font-size: 72px;
     font-weight: 700;
@@ -137,13 +136,6 @@ input[type=text]:focus {
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
-}
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-    .cabecera {
-        padding-top: 50px;
-    }
 }
 
 /*Large devices (desktops, 992px and up)*/

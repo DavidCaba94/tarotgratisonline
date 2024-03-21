@@ -115,7 +115,7 @@ function mostrarPrediccion(){
         $(".contenedor-cartas").append(
             '<div class="row carta">'+
                 '<div class="col-12 col-md-4">'+
-                    '<img class="img-carta" src="/img/mano-'+(i+1)+'.png" />'+
+                    '<img class="img-carta" src="/img/mano-'+(i+1)+'.png" alt="Mano"/>'+
                 '</div>'+
                 '<div class="col-12 col-md-8">'+
                     '<h3 class="titulo-carta">'+respuestas[i][respuestasUsuario[i]-1]+'</h3>'+

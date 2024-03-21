@@ -54,10 +54,10 @@ function generarCartas(){
     for(var i=0; i<3; i++){
         $("#tablero-tarot").append('<div id="card" class="carta carta-'+repartoCartas[i]+'" onclick="voltearCarta('+repartoCartas[i]+')">'+
                                         '<div class="front">'+
-                                            '<img class="img-carta" src="/img/reverso2.png" />'+
+                                            '<img class="img-carta" src="/img/reverso2.png" alt="Carta" />'+
                                         '</div>'+
                                         '<div class="back">'+
-                                            '<img class="img-carta-volteada" src="/img/cartas/carta-'+repartoCartas[i]+'.png" />'+
+                                            '<img class="img-carta-volteada" src="/img/cartas/carta-'+repartoCartas[i]+'.png"  alt="Carta"/>'+
                                         '</div>'+
                                     '</div>');
         $(".carta-"+repartoCartas[i]).click();
@@ -103,7 +103,7 @@ function generarReparto(){
 function generarRespuesta(){
     setTimeout(function() {
             $("#contenedor-cartas").append('<div class="carta-respuesta">'+
-                                                '<img class="img-carta-respuesta" src="/img/cartas/carta-'+cartasVolteadas[0]+'.png" />'+
+                                                '<img class="img-carta-respuesta" src="/img/cartas/carta-'+cartasVolteadas[0]+'.png"  alt="Carta" />'+
                                                 '<div class="titulo-carta">'+titulosCartas[cartasVolteadas[0]]+' dice que...</div>'+
                                                 '<div class="text-respuesta">'+ generarSiNo() +'</div>'+
                                             '</div>');

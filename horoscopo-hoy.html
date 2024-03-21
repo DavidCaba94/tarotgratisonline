@@ -13,10 +13,6 @@
         <script src="libs/particles-2.0/particles.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
 
-        <link href="libs/bootstrap-4.0.0/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
-        <link href="libs/bootstrap-4.0.0/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
-        <link href="libs/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <script src="libs/bootstrap-4.0.0/js/bootstrap.js"></script>
         <meta name="viewport" content= "width=device-width">
 
         <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
@@ -37,9 +33,9 @@
         </script>
     </head>
   <body>
-      <div class="row contenedor-cabecera">
+      <div class="contenedor-cabecera">
           <div id="particles-js"></div>
-          <div class="row menu">
+          <div class="menu">
               <a href="/"><div class="logo">TAROT GRATIS</div></a>
               <div id="btn-tarot" class="item">Tarot</div>
               <a href="oraculo-si-no"><div class="item">Oráculo si o no</div></a>
@@ -69,13 +65,13 @@
                 <a href="/horoscopo-2024"><div class="item">Horóscopo 2024</div></a>
             </div>
           </div>
-          <div class="row menu-movil">
+          <div class="menu-movil">
               <a href="/"><div class="logo">TAROT GRATIS</div></a>
               <div id="btn-menu" class="hamburger-menu">
                  <div class="bar"></div>
             </div>
           </div>
-          <div id="menu-movil-desplegable" class="row menu-movil-desplegable">
+          <div id="menu-movil-desplegable" class="menu-movil-desplegable">
               <div id="btn-tarot-movil" class="item">Tarot</div>
               <div id="menu-tarot-desplegable-movil" class="menu-tarot-desplegable-movil">
                 <a href="/tarot"><div class="item">Tirada de Tarot</div></a>
@@ -120,44 +116,42 @@
                   <p class="texto-bubble-expertos">CONSULTA A NUESTROS EXPERTOS</p>
               </div>
           </a>
-          <div class="row cabecera">
-              <div class="col-lg-12">
-                    <h1 class="titulo">HORÓSCOPO DE HOY GRATIS</h1>
-                    <div id="text-dia"></div>
-                    <p class="subtitulo">¿Listo para comenzar el día con el pie derecho? Consulta tu <strong>horóscopo de hoy gratis</strong> en nuestra página web y 
-                        descubre qué revelan las estrellas sobre tu jornada. Con <strong>predicciones precisas y consejos útiles</strong>, nuestro horóscopo te brindará una 
-                        nueva perspectiva para encarar el día con confianza. Consulta tu horóscopo para hoy y deja que las influencias cósmicas te guíen en tu camino hacia el 
-                        éxito.</p>
-                    <div id="loading" class="lds-ellipsis visible"><div></div><div></div><div></div><div></div></div>
-                    <div id="box-horoscopos" class="box-horoscopos invisible">
-                        <h2 class="nombre-signo">Aries <span class="fecha-signo">(21 Marzo - 20 Abril)</span></h2>
-                        <p id="pred-aries" class="prediccion"></p>
-                        <h2 class="nombre-signo">Tauro <span class="fecha-signo">(21 Abril - 20 Mayo)</span></h2>
-                        <p id="pred-tauro" class="prediccion"></p>
-                        <h2 class="nombre-signo">Géminis <span class="fecha-signo">(21 Mayo - 20 Junio)</span></h2>
-                        <p id="pred-geminis" class="prediccion"></p>
-                        <h2 class="nombre-signo">Cáncer <span class="fecha-signo">(12 Junio - 20 Julio)</span></h2>
-                        <p id="pred-cancer" class="prediccion"></p>
-                        <h2 class="nombre-signo">Leo <span class="fecha-signo">(21 Julio - 21 Agosto)</span></h2>
-                        <p id="pred-leo" class="prediccion"></p>
-                        <h2 class="nombre-signo">Virgo <span class="fecha-signo">(22 Agosto - 22 Septiembre)</span></h2>
-                        <p id="pred-virgo" class="prediccion"></p>
-                        <h2 class="nombre-signo">Libra <span class="fecha-signo">(23 Septiembre - 22 Octubre)</span></h2>
-                        <p id="pred-libra" class="prediccion"></p>
-                        <h2 class="nombre-signo">Escorpio <span class="fecha-signo">(23 Octubre - 22 Noviembre)</span></h2>
-                        <p id="pred-escorpio" class="prediccion"></p>
-                        <h2 class="nombre-signo">Sagitario <span class="fecha-signo">(23 Noviembre - 20 Diciembre)</span></h2>
-                        <p id="pred-sagitario" class="prediccion"></p>
-                        <h2 class="nombre-signo">Capricornio <span class="fecha-signo">(21 Diciembre - 19 Enero)</span></h2>
-                        <p id="pred-capricornio" class="prediccion"></p>
-                        <h2 class="nombre-signo">Acuario <span class="fecha-signo">(20 Enero - 18 Febrero)</span></h2>
-                        <p id="pred-acuario" class="prediccion"></p>
-                        <h2 class="nombre-signo">Piscis <span class="fecha-signo">(19 Febrero - 20 Marzo)</span></h2>
-                        <p id="pred-piscis" class="prediccion"></p>
-                    </div>
-              </div>
+          <div class="cabecera">
+                <h1 class="titulo">HORÓSCOPO DE HOY GRATIS</h1>
+                <div id="text-dia"></div>
+                <p class="subtitulo">¿Listo para comenzar el día con el pie derecho? Consulta tu <strong>horóscopo de hoy gratis</strong> en nuestra página web y 
+                    descubre qué revelan las estrellas sobre tu jornada. Con <strong>predicciones precisas y consejos útiles</strong>, nuestro horóscopo te brindará una 
+                    nueva perspectiva para encarar el día con confianza. Consulta tu horóscopo para hoy y deja que las influencias cósmicas te guíen en tu camino hacia el 
+                    éxito.</p>
+                <div id="loading" class="lds-ellipsis visible"><div></div><div></div><div></div><div></div></div>
+                <div id="box-horoscopos" class="box-horoscopos invisible">
+                    <h2 class="nombre-signo">Aries <span class="fecha-signo">(21 Marzo - 20 Abril)</span></h2>
+                    <p id="pred-aries" class="prediccion"></p>
+                    <h2 class="nombre-signo">Tauro <span class="fecha-signo">(21 Abril - 20 Mayo)</span></h2>
+                    <p id="pred-tauro" class="prediccion"></p>
+                    <h2 class="nombre-signo">Géminis <span class="fecha-signo">(21 Mayo - 20 Junio)</span></h2>
+                    <p id="pred-geminis" class="prediccion"></p>
+                    <h2 class="nombre-signo">Cáncer <span class="fecha-signo">(12 Junio - 20 Julio)</span></h2>
+                    <p id="pred-cancer" class="prediccion"></p>
+                    <h2 class="nombre-signo">Leo <span class="fecha-signo">(21 Julio - 21 Agosto)</span></h2>
+                    <p id="pred-leo" class="prediccion"></p>
+                    <h2 class="nombre-signo">Virgo <span class="fecha-signo">(22 Agosto - 22 Septiembre)</span></h2>
+                    <p id="pred-virgo" class="prediccion"></p>
+                    <h2 class="nombre-signo">Libra <span class="fecha-signo">(23 Septiembre - 22 Octubre)</span></h2>
+                    <p id="pred-libra" class="prediccion"></p>
+                    <h2 class="nombre-signo">Escorpio <span class="fecha-signo">(23 Octubre - 22 Noviembre)</span></h2>
+                    <p id="pred-escorpio" class="prediccion"></p>
+                    <h2 class="nombre-signo">Sagitario <span class="fecha-signo">(23 Noviembre - 20 Diciembre)</span></h2>
+                    <p id="pred-sagitario" class="prediccion"></p>
+                    <h2 class="nombre-signo">Capricornio <span class="fecha-signo">(21 Diciembre - 19 Enero)</span></h2>
+                    <p id="pred-capricornio" class="prediccion"></p>
+                    <h2 class="nombre-signo">Acuario <span class="fecha-signo">(20 Enero - 18 Febrero)</span></h2>
+                    <p id="pred-acuario" class="prediccion"></p>
+                    <h2 class="nombre-signo">Piscis <span class="fecha-signo">(19 Febrero - 20 Marzo)</span></h2>
+                    <p id="pred-piscis" class="prediccion"></p>
+                </div>
           </div>
-          <div class="row texto-info">
+          <div class="texto-info">
               <h2 class="titulo-info">¿Cómo interpreto el horóscopo de hoy?</h2>
               <p class="parrafo-info">Interpretar el horóscopo puede parecer una tarea desafiante para algunos, pero con un poco de comprensión básica, puede ser una herramienta 
                 invaluable para entender las influencias astrológicas en tu vida. En primer lugar, es importante recordar que tu signo del zodiaco es solo una pieza del rompecabezas. 

@@ -10,7 +10,6 @@
 
 .contenedor-blog {
     display: block;
-    width: 100%;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.73);
 }
@@ -33,6 +32,7 @@
 
 .titulo-post {
     text-align: center;
+    line-height: 25px;
 }
 
 .subtitulo-post {
@@ -71,6 +71,7 @@
     max-width: 900px;
     margin: 0 auto;
     margin-top: 30px;
+    padding: 10px;
 }
 
 .box-redes-redactor {
@@ -101,6 +102,7 @@
     font-size: 24px;
     line-height: 1.2;
     text-align: left;
+    padding: 10px;
 }
 
 .titulo-parrafo {
@@ -111,6 +113,7 @@
     font-size: 30px;
     line-height: 1.2;
     text-align: left;
+    padding: 10px;
 }
 
 .parrafo-post {
@@ -121,6 +124,7 @@
     font-size: 24px;
     line-height: 1.2;
     text-align: left;
+    padding: 10px;
 }
 
 .parrafo-post-center {
@@ -131,6 +135,7 @@
     font-size: 24px;
     line-height: 1.2;
     text-align: center;
+    padding: 10px;
 }
 
 .img-post {
@@ -138,26 +143,4 @@
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    .img-post {
-        width: 400px;
-    }
-}
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
-}
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
 }

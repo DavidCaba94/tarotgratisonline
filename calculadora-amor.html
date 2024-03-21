@@ -14,10 +14,6 @@
         <script src="libs/particles-2.0/particles.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
 
-        <link href="libs/bootstrap-4.0.0/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
-        <link href="libs/bootstrap-4.0.0/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
-        <link href="libs/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <script src="libs/bootstrap-4.0.0/js/bootstrap.js"></script>
         <meta name="viewport" content= "width=device-width">
 
         <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
@@ -38,9 +34,9 @@
         </script>
     </head>
   <body>
-      <div class="row contenedor-cabecera">
+      <div class="contenedor-cabecera">
           <div id="particles-js"></div>
-          <div class="row menu">
+          <div class="menu">
               <a href="/"><div class="logo">TAROT GRATIS</div></a>
               <div id="btn-tarot" class="item">Tarot</div>
               <a href="oraculo-si-no"><div class="item">Oráculo si o no</div></a>
@@ -70,13 +66,13 @@
                 <a href="/horoscopo-2024"><div class="item">Horóscopo 2024</div></a>
             </div>
           </div>
-          <div class="row menu-movil">
+          <div class="menu-movil">
               <a href="/"><div class="logo">TAROT GRATIS</div></a>
               <div id="btn-menu" class="hamburger-menu">
                  <div class="bar"></div>
             </div>
           </div>
-          <div id="menu-movil-desplegable" class="row menu-movil-desplegable">
+          <div id="menu-movil-desplegable" class="menu-movil-desplegable">
               <div id="btn-tarot-movil" class="item">Tarot</div>
               <div id="menu-tarot-desplegable-movil" class="menu-tarot-desplegable-movil">
                 <a href="/tarot"><div class="item">Tirada de Tarot</div></a>
@@ -121,50 +117,48 @@
                   <p class="texto-bubble-expertos">CONSULTA A NUESTROS EXPERTOS</p>
               </div>
           </a>
-          <div class="row cabecera">
-              <div class="col-lg-12">
-                  <h1 class="titulo">CALCULADORA DEL AMOR</h1>
-                  <p class="subtitulo">Descubre la verdadera compatibilidad con nuestra emocionante <strong>calculadora del amor gratis</strong>. ¿Quieres saber si estás 
-                    destinado a vivir un romance de cuento de hadas? Nuestra herramienta te revelará la conexión profunda entre tú y tu pareja, explorando aspectos más allá 
-                    de lo físico. Con la combinación única de la <strong>calculadora del amor y el tarot</strong>, desentrañarás los misterios del corazón y encontrarás 
-                    respuestas que te sorprenderán. ¿Es amor verdadero o solo una ilusión? Descúbrelo ahora de forma gratuita y haz que tu historia de amor sea aún más 
-                    extraordinaria.</p>
-                  <div id="formulario-amor" class="visible">
-                      <input id="nombre-1" type="text" placeholder="Escribe aquí tu nombre..."><br>
-                      <input id="nombre-2" type="text" placeholder="Nombre de la otra persona...">
-                      <div id="boton-amor" class="boton">Calcular</div>
-                  </div>
-                  <div id="respuesta-amor" class="respuesta-amor invisible">
-                      <p class="texto-generico">Consulta de compatibilidad para:</p>
-                      <p id="texto-nombres" class="texto-pregunta">Nombres pareja</p>
-                      <div id="loading" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
-                      <div id="porcentajes-respuesta" class="invisible">
-                          <p class="nombre-parametro">Amor <span id="porcentaje-parametro-1" class="porcentaje-parametro">50%</span></p>
-                          <div class="meter white nostripes">
-                          	<span id="porcentaje-1"></span>
-                          </div>
-                          <p class="nombre-parametro">Amistad <span id="porcentaje-parametro-2" class="porcentaje-parametro">50%</span></p>
-                          <div class="meter white nostripes">
-                          	<span id="porcentaje-2"></span>
-                          </div>
-                          <p class="nombre-parametro">Afinidad <span id="porcentaje-parametro-3" class="porcentaje-parametro">50%</span></p>
-                          <div class="meter white nostripes">
-                          	<span id="porcentaje-3"></span>
-                          </div>
-                          <p class="nombre-parametro">Sexo <span id="porcentaje-parametro-4" class="porcentaje-parametro">50%</span></p>
-                          <div class="meter white nostripes">
-                          	<span id="porcentaje-4"></span>
-                          </div>
-                          <p class="nombre-parametro">Pasión <span id="porcentaje-parametro-5" class="porcentaje-parametro">50%</span></p>
-                          <div class="meter white nostripes">
-                          	<span id="porcentaje-5"></span>
-                          </div>
-                      </div>
-                      <div id="boton-nueva-pregunta" class="boton">Consultar de nuevo</div>
-                  </div>
-              </div>
+          <div class="cabecera">
+                <h1 class="titulo">CALCULADORA DEL AMOR</h1>
+                <p class="subtitulo">Descubre la verdadera compatibilidad con nuestra emocionante <strong>calculadora del amor gratis</strong>. ¿Quieres saber si estás 
+                destinado a vivir un romance de cuento de hadas? Nuestra herramienta te revelará la conexión profunda entre tú y tu pareja, explorando aspectos más allá 
+                de lo físico. Con la combinación única de la <strong>calculadora del amor y el tarot</strong>, desentrañarás los misterios del corazón y encontrarás 
+                respuestas que te sorprenderán. ¿Es amor verdadero o solo una ilusión? Descúbrelo ahora de forma gratuita y haz que tu historia de amor sea aún más 
+                extraordinaria.</p>
+                <div id="formulario-amor" class="visible">
+                    <input id="nombre-1" type="text" placeholder="Escribe aquí tu nombre..."><br>
+                    <input id="nombre-2" type="text" placeholder="Nombre de la otra persona...">
+                    <div id="boton-amor" class="boton">Calcular</div>
+                </div>
+                <div id="respuesta-amor" class="respuesta-amor invisible">
+                    <p class="texto-generico">Consulta de compatibilidad para:</p>
+                    <p id="texto-nombres" class="texto-pregunta">Nombres pareja</p>
+                    <div id="loading" class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                    <div id="porcentajes-respuesta" class="invisible">
+                        <p class="nombre-parametro">Amor <span id="porcentaje-parametro-1" class="porcentaje-parametro">50%</span></p>
+                        <div class="meter white nostripes">
+                        <span id="porcentaje-1"></span>
+                        </div>
+                        <p class="nombre-parametro">Amistad <span id="porcentaje-parametro-2" class="porcentaje-parametro">50%</span></p>
+                        <div class="meter white nostripes">
+                        <span id="porcentaje-2"></span>
+                        </div>
+                        <p class="nombre-parametro">Afinidad <span id="porcentaje-parametro-3" class="porcentaje-parametro">50%</span></p>
+                        <div class="meter white nostripes">
+                        <span id="porcentaje-3"></span>
+                        </div>
+                        <p class="nombre-parametro">Sexo <span id="porcentaje-parametro-4" class="porcentaje-parametro">50%</span></p>
+                        <div class="meter white nostripes">
+                        <span id="porcentaje-4"></span>
+                        </div>
+                        <p class="nombre-parametro">Pasión <span id="porcentaje-parametro-5" class="porcentaje-parametro">50%</span></p>
+                        <div class="meter white nostripes">
+                        <span id="porcentaje-5"></span>
+                        </div>
+                    </div>
+                    <div id="boton-nueva-pregunta" class="boton">Consultar de nuevo</div>
+                </div>
           </div>
-          <div class="row texto-info">
+          <div class="texto-info">
               <h2 class="titulo-info">¿En qué consiste la calculadora del amor?</h2>
               <p class="parrafo-info">Nuestra calculadora del amor es totalmente gratis y te ayuda a medir la compatibilidad que hay entre tu y la otra persona. La calculadora mide
                   cinco parámetros fundamentales en la vida de toda pareja, que son: Amor, Amistad, Afinidad, Sexo y Pasión. Si estás conociendo a una persona y necesitas saber

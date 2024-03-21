@@ -14,10 +14,6 @@
         <script src="libs/particles-2.0/particles.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,400,700&display=swap" rel="stylesheet">
 
-        <link href="libs/bootstrap-4.0.0/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
-        <link href="libs/bootstrap-4.0.0/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
-        <link href="libs/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <script src="libs/bootstrap-4.0.0/js/bootstrap.js"></script>
         <meta name="viewport" content= "width=device-width">
 
         <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
@@ -38,9 +34,9 @@
         </script>
     </head>
   <body>
-      <div class="row contenedor-cabecera">
+      <div class="contenedor-cabecera">
           <div id="particles-js"></div>
-          <div class="row menu">
+          <div class="menu">
               <a href="/"><div class="logo">TAROT GRATIS</div></a>
               <div id="btn-tarot" class="item">Tarot</div>
               <a href="oraculo-si-no"><div class="item">Oráculo si o no</div></a>
@@ -70,13 +66,13 @@
                 <a href="/horoscopo-2024"><div class="item">Horóscopo 2024</div></a>
             </div>
           </div>
-          <div class="row menu-movil">
+          <div class="menu-movil">
               <a href="/"><div class="logo">TAROT GRATIS</div></a>
               <div id="btn-menu" class="hamburger-menu">
                  <div class="bar"></div>
             </div>
           </div>
-          <div id="menu-movil-desplegable" class="row menu-movil-desplegable">
+          <div id="menu-movil-desplegable" class="menu-movil-desplegable">
               <div id="btn-tarot-movil" class="item">Tarot</div>
               <div id="menu-tarot-desplegable-movil" class="menu-tarot-desplegable-movil">
                 <a href="/tarot"><div class="item">Tirada de Tarot</div></a>
@@ -121,41 +117,39 @@
                   <p class="texto-bubble-expertos">CONSULTA A NUESTROS EXPERTOS</p>
               </div>
           </a>
-          <div class="row cabecera">
-              <div class="col-lg-12">
-                    <h1 class="titulo">HORÓSCOPO DIARIO GRATIS</h1>
-                    <div id="text-dia"></div>
-                    <p class="subtitulo">¡Descubre lo que los astros tienen reservado para ti cada día! Con nuestro <strong>horóscopo diario gratuito</strong>, recibirás <strong>
-                        predicciones precisas</strong> y perspicaces que te ayudarán a aprovechar al máximo cada jornada. Nuestro equipo de expertos astrólogos ha dedicado 
-                        años de estudio y práctica para brindarte <strong>consejos valiosos sobre amor, trabajo, salud y más</strong>. No dejes que las oportunidades pasen 
-                        desapercibidas, <strong>consulta tu horóscopo diario</strong> con nosotros y comienza tu día con el conocimiento necesario para tomar decisiones 
-                        informadas y alcanzar tus objetivos.</p>
-                    <div id="formulario-oraculo" class="visible">
-                        <p>Selecciona tu signo del zodiaco</p>
-                        <div class="box-signos">
-                            <img class="img-signo" src="img/signos/aries.png" alt="Aries" data-id="0"/>
-                            <img class="img-signo" src="img/signos/tauro.png" alt="Tauro" data-id="1"/>
-                            <img class="img-signo" src="img/signos/geminis.png" alt="Géminis" data-id="2"/>
-                            <img class="img-signo" src="img/signos/cancer.png" alt="Cáncer" data-id="3"/>
-                            <img class="img-signo" src="img/signos/leo.png" alt="Leo" data-id="4"/>
-                            <img class="img-signo" src="img/signos/virgo.png" alt="Virgo" data-id="5"/>
-                            <img class="img-signo" src="img/signos/libra.png" alt="Libra" data-id="6"/>
-                            <img class="img-signo" src="img/signos/escorpio.png" alt="Escorpio" data-id="7"/>
-                            <img class="img-signo" src="img/signos/sagitario.png" alt="Sagitario" data-id="8"/>
-                            <img class="img-signo" src="img/signos/capricornio.png" alt="Capricornio" data-id="9"/>
-                            <img class="img-signo" src="img/signos/acuario.png" alt="Acuario" data-id="10"/>
-                            <img class="img-signo" src="img/signos/piscis.png" alt="Piscis" data-id="11"/>
-                        </div>
-                        <p>Escribe tu email para recibir la lectura de tu horóscopo</p>
-                        <input id="email" type="text" placeholder="Escribe aquí tu email...">
-                        <div id="boton-solicitar" class="boton">Solicitar</div>
+          <div class="cabecera">
+                <h1 class="titulo">HORÓSCOPO DIARIO GRATIS</h1>
+                <div id="text-dia"></div>
+                <p class="subtitulo">¡Descubre lo que los astros tienen reservado para ti cada día! Con nuestro <strong>horóscopo diario gratuito</strong>, recibirás <strong>
+                    predicciones precisas</strong> y perspicaces que te ayudarán a aprovechar al máximo cada jornada. Nuestro equipo de expertos astrólogos ha dedicado 
+                    años de estudio y práctica para brindarte <strong>consejos valiosos sobre amor, trabajo, salud y más</strong>. No dejes que las oportunidades pasen 
+                    desapercibidas, <strong>consulta tu horóscopo diario</strong> con nosotros y comienza tu día con el conocimiento necesario para tomar decisiones 
+                    informadas y alcanzar tus objetivos.</p>
+                <div id="formulario-oraculo" class="visible">
+                    <p>Selecciona tu signo del zodiaco</p>
+                    <div class="box-signos">
+                        <img class="img-signo" src="img/signos/aries.png" alt="Aries" data-id="0"/>
+                        <img class="img-signo" src="img/signos/tauro.png" alt="Tauro" data-id="1"/>
+                        <img class="img-signo" src="img/signos/geminis.png" alt="Géminis" data-id="2"/>
+                        <img class="img-signo" src="img/signos/cancer.png" alt="Cáncer" data-id="3"/>
+                        <img class="img-signo" src="img/signos/leo.png" alt="Leo" data-id="4"/>
+                        <img class="img-signo" src="img/signos/virgo.png" alt="Virgo" data-id="5"/>
+                        <img class="img-signo" src="img/signos/libra.png" alt="Libra" data-id="6"/>
+                        <img class="img-signo" src="img/signos/escorpio.png" alt="Escorpio" data-id="7"/>
+                        <img class="img-signo" src="img/signos/sagitario.png" alt="Sagitario" data-id="8"/>
+                        <img class="img-signo" src="img/signos/capricornio.png" alt="Capricornio" data-id="9"/>
+                        <img class="img-signo" src="img/signos/acuario.png" alt="Acuario" data-id="10"/>
+                        <img class="img-signo" src="img/signos/piscis.png" alt="Piscis" data-id="11"/>
                     </div>
-                    <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
-                    <p id="send-message" class="send-message invisible">Tu horóscopo se ha enviado a la dirección de correo que has proporcionado. Si no lo ves en tu bandeja de entrada revisa la 
-                        carpeta de spam</p>
-              </div>
+                    <p>Escribe tu email para recibir la lectura de tu horóscopo</p>
+                    <input id="email" type="text" placeholder="Escribe aquí tu email...">
+                    <div id="boton-solicitar" class="boton">Solicitar</div>
+                </div>
+                <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
+                <p id="send-message" class="send-message invisible">Tu horóscopo se ha enviado a la dirección de correo que has proporcionado. Si no lo ves en tu bandeja de entrada revisa la 
+                    carpeta de spam</p>
           </div>
-          <div class="row texto-info">
+          <div class="texto-info">
               <h2 class="titulo-info">Comprendiendo el Horóscopo Diario</h2>
               <p class="parrafo-info">El horóscopo diario es una práctica que se remonta a siglos atrás y se basa en la interpretación de la posición y movimiento de los 
                 planetas, las estrellas y otros cuerpos celestes en relación con los signos zodiacales. Cada día, astrólogos y expertos en el campo elaboran predicciones y 
