@@ -23,14 +23,9 @@ body {
 	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 	background-attachment: fixed;
 
-	font-family: "Josefin Sans", Sans-serif;
-	font-weight: 400;
-  	color: white;
+	font-family: Verdana, sans-serif;
+  	color: #e1e1e1;
 	line-height:20px;
-}
-
-strong {
-    font-weight: 500;
 }
 
 .parrafo {
@@ -74,8 +69,7 @@ strong {
 	background-color: #000000f2;
 	padding-top: 0;
 	z-index: 99;
-	font-size: 20px;
-	font-weight: 200;
+	font-size: 16px;
 }
 
 .menu-tarot-desplegable {
@@ -86,7 +80,7 @@ strong {
     background-color: #000000f2;
     padding-top: 20px;
     z-index: 99;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -116,7 +110,7 @@ strong {
     background-color: #000000f2;
     padding-top: 20px;
     z-index: 99;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -262,12 +256,12 @@ strong {
 
 .subtitulo {
 	max-width: 900px;
-	margin: 0 auto;
-	font-weight: 100;
-	font-size: 24px;
-	line-height: 1.2;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 25px;
     text-align: justify;
-	padding: 20px;
+	padding: 10px;
 }
 
 .fondo-seccion-movil {
@@ -340,7 +334,7 @@ strong {
     margin-top: 30px;
     background-color: #00000000;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     padding-top: 10px;
     border: 1px solid #ffffff;
@@ -436,8 +430,7 @@ strong {
     max-width: 900px;
     margin: 0 auto;
     margin-top: 30px;
-    font-size: 18px;
-    font-weight: 200;
+    font-size: 16px;
     text-align: justify;
 }
 
@@ -606,6 +599,7 @@ strong {
 		justify-content: center;
 		background-color: #000000de;
 		padding-top: 40px;
+		font-size: 14px;
 		z-index: 99;
 	}
 

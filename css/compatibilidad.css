@@ -46,8 +46,8 @@
     max-width: 900px;
     margin: 0 auto;
     margin-top: 30px;
-    font-size: 22px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 25px;
     text-align: justify;
 }
 
@@ -253,10 +253,6 @@
 
     .titulo {
         font-size: 40px;
-    }
-
-    .subtitulo {
-        font-size: 24px;
     }
 }
 

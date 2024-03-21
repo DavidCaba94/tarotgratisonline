@@ -39,8 +39,8 @@
 .subtitulo-post {
     text-align: justify;
     font-weight: 200;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 .btn-post {
@@ -50,7 +50,7 @@
     margin-top: 30px;
     background-color: #00000000;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     padding: 10px;
     text-align: center;
@@ -100,8 +100,8 @@
     margin: 0 auto;
     margin-top: 50px;
     font-weight: 100;
-    font-size: 24px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 25px;
     text-align: left;
     padding: 10px;
 }
@@ -122,8 +122,8 @@
     margin: 0 auto;
     margin-top: 20px;
     font-weight: 100;
-    font-size: 24px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 25px;
     text-align: left;
     padding: 10px;
 }
@@ -133,8 +133,8 @@
     margin: 0 auto;
     margin-top: 20px;
     font-weight: 100;
-    font-size: 24px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 25px;
     text-align: center;
     padding: 10px;
 }
