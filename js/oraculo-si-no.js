@@ -1,104 +1,126 @@
-$(document).ready(function(){
-    $('.hamburger-menu').on('click', function() {
-        $('.bar').toggleClass('animate');
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.querySelector(".hamburger-menu");
+    const bars = document.querySelectorAll(".bar");
+
+    if (hamburger) {
+        hamburger.addEventListener("click", function () {
+            bars.forEach(bar => bar.classList.toggle("animate"));
+        });
+    }
+    const btnMenu = document.getElementById("btn-menu");
+    const menuMovil = document.getElementById("menu-movil-desplegable");
+
+    if (btnMenu && menuMovil) {
+        btnMenu.addEventListener("click", function () {
+            toggleMenu(menuMovil);
+        });
+    }
+    const menus = [
+        ["btn-tarot", "menu-tarot-desplegable"],
+        ["btn-tarot-movil", "menu-tarot-desplegable-movil"],
+        ["btn-horoscopo", "menu-horoscopo-desplegable"],
+        ["btn-horoscopo-movil", "menu-horoscopo-desplegable-movil"]
+    ];
+    menus.forEach(([btnId, menuId]) => {
+        const btn = document.getElementById(btnId);
+        const menu = document.getElementById(menuId);
+
+        if (btn && menu) {
+            btn.addEventListener("click", () => toggleMenu(menu));
+        }
     });
+    const botonOraculo = document.getElementById("boton-oraculo");
+    const botonNuevaPregunta = document.getElementById("boton-nueva-pregunta");
+    const inputPregunta = document.getElementById("pregunta");
+    const formulario = document.getElementById("formulario-oraculo");
+    const respuesta = document.getElementById("respuesta-oraculo");
+    const textoPregunta = document.getElementById("texto-pregunta");
+    const textoRespuesta = document.getElementById("texto-respuesta");
+    const loading = document.getElementById("loading");
+    if (botonOraculo) {
+        botonOraculo.addEventListener("click", lanzarOraculo);
+    }
+    if (inputPregunta) {
+        inputPregunta.addEventListener("keypress", function (e) {
+            if (e.key === "Enter") {
+                lanzarOraculo();
+            }
+        });
+    }
+    if (botonNuevaPregunta) {
+        botonNuevaPregunta.addEventListener("click", resetearOraculo);
+    }
+    function lanzarOraculo() {
 
-    $('#btn-menu').on('click', function() {
-        $('#menu-movil-desplegable').slideToggle();
-    });
+        const pregunta = inputPregunta.value.trim();
 
-    $('#btn-tarot').on('click', function() {
-	    $('#menu-tarot-desplegable').slideToggle();
-	});
-
-	$('#btn-tarot-movil').on('click', function() {
-	    $('#menu-tarot-desplegable-movil').slideToggle();
-	});
-
-    $('#btn-horoscopo').on('click', function() {
-	    $('#menu-horoscopo-desplegable').slideToggle();
-	});
-
-	$('#btn-horoscopo-movil').on('click', function() {
-	    $('#menu-horoscopo-desplegable-movil').slideToggle();
-	});
-
-    $("#boton-oraculo").click(function() {
-        if(camposRellenos()){
-            var pregunta = $("#pregunta").val();
-            $("#texto-pregunta").text(pregunta);
-            $("#formulario-oraculo").removeClass("visible");
-            $("#formulario-oraculo").addClass("invisible");
-            $("#respuesta-oraculo").removeClass("invisible");
-            $("#respuesta-oraculo").addClass("visible");
-            var respuestaOraculo = comprobarRespuesta();
-            $("#texto-respuesta").text(respuestaOraculo);
-            escribirFicheroPreguntas(pregunta, respuestaOraculo);
-            setTimeout(function() {
-                $("#loading").removeClass("visible");
-                $("#loading").addClass("invisible");
-                $("#texto-respuesta").removeClass("invisible");
-                $("#texto-respuesta").addClass("visible");
-            }, 3000);
-        } else {
-            $("#pregunta").css("border", "1px solid #ff0000");
+        if (pregunta === "") {
+            inputPregunta.style.border = "1px solid #ff0000";
+            return;
         }
 
-    });
+        textoPregunta.textContent = pregunta;
 
-    $("#boton-nueva-pregunta").click(function() {
-        $("#pregunta").val("");
-        $("#pregunta").css("border", "1px solid #ffffff");
-        $("#respuesta-oraculo").removeClass("visible");
-        $("#respuesta-oraculo").addClass("invisible");
-        $("#formulario-oraculo").removeClass("invisible");
-        $("#formulario-oraculo").addClass("visible");
-        $("#loading").removeClass("invisible");
-        $("#loading").addClass("visible");
-        $("#texto-respuesta").removeClass("visible");
-        $("#texto-respuesta").addClass("invisible");
-    });
+        formulario.classList.remove("visible");
+        formulario.classList.add("invisible");
 
+        respuesta.classList.remove("invisible");
+        respuesta.classList.add("visible");
+
+        const respuestaOraculo = comprobarRespuesta();
+
+        textoRespuesta.textContent = respuestaOraculo;
+
+        escribirFicheroPreguntas(pregunta, respuestaOraculo);
+
+        setTimeout(() => {
+            loading.classList.remove("visible");
+            loading.classList.add("invisible");
+
+            textoRespuesta.classList.remove("invisible");
+            textoRespuesta.classList.add("visible");
+        }, 1500);
+    }
+    function resetearOraculo() {
+
+        inputPregunta.value = "";
+        inputPregunta.style.border = "1px solid #ffffff";
+
+        respuesta.classList.remove("visible");
+        respuesta.classList.add("invisible");
+
+        formulario.classList.remove("invisible");
+        formulario.classList.add("visible");
+
+        loading.classList.remove("invisible");
+        loading.classList.add("visible");
+
+        textoRespuesta.classList.remove("visible");
+        textoRespuesta.classList.add("invisible");
+    }
 });
 
 
-function generarAleatorio(){
-    return Math.floor(Math.random()*1001);
+function generarAleatorio() {
+    return Math.floor(Math.random() * 1001);
 }
-
-function comprobarRespuesta(){
-    var resto = generarAleatorio() % 2;
-    var respuesta = ""
-
-    if( resto == 0) {
-        respuesta = "NO";
+function comprobarRespuesta() {
+    const resto = generarAleatorio() % 2;
+    return resto === 0 ? "NO" : "SI";
+}
+function toggleMenu(menu) {
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
     } else {
-        respuesta = "SI";
+        menu.style.display = "block";
     }
-
-    return respuesta;
 }
-
-function camposRellenos() {
-    var relleno = false;
-    var pregunta = $("#pregunta").val();
-
-    if(pregunta != ""){
-        relleno = true;
-    }
-
-    return relleno;
-}
-
 function escribirFicheroPreguntas(pregunta, respuesta) {
-    var stringLine = JSON.parse('{ "pregunta":"'+ pregunta +'", "respuesta":"'+ respuesta +'"}');
-    $.ajax({
-        type: "GET",
-        dataType : 'json',
-        async: false,
-        url: '/js/save_json.php',
-        data: { data: JSON.stringify(stringLine) },
-        success: function () { },
-        failure: function() { }
-    });
+    const data = {
+        pregunta: pregunta,
+        respuesta: respuesta
+    };
+    fetch("/js/save_json.php?data=" + encodeURIComponent(JSON.stringify(data)))
+        .then(() => {})
+        .catch(() => {});
 }

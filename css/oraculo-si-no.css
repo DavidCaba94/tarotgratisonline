@@ -1,87 +1,110 @@
+/* VISIBILIDAD */
+
 .visible {
-    display: block;
+  display: block;
 }
 
 .invisible {
   display: none !important;
 }
 
+
+/* CABECERA */
+
+h1,h2,h3{
+  text-wrap: balance;
+}
+
 .cabecera {
-    height: 100% !important;
+  height: 100% !important;
 }
 
-.respuesta-oraculo {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
+/* BLOQUES ORÁCULO */
+
+.respuesta-oraculo,
 #formulario-oraculo {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin: 50px 0;
 }
+
+
+/* TEXTOS */
 
 .texto-generico {
-    font-size: 18px;
-    font-weight: 200;
+  font-size: 18px;
+  font-weight: 200;
 }
 
 .texto-pregunta {
-    font-size: 24px;
-    font-weight: 400;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .texto-respuesta {
-    margin-bottom: 70px;
-    font-size: 72px;
-    font-weight: 700;
+  margin-bottom: 70px;
+  font-size: 72px;
+  font-weight: 700;
+  transition: all .4s ease;
 }
 
 .subtitulo {
-    max-width: 900px;
-    margin: 0 auto;
-    margin-top: 30px;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: justify;
+  max-width: 900px;
+  margin: 30px auto 0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
 }
 
+
+/* ENLACE EXTERNO */
+
 .enlace-externo-oraculo {
-    max-width: 650px;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid transparent;
-    border-image: linear-gradient(0.25turn, rgb(138, 17, 219), rgb(39, 216, 223), rgb(53, 230, 171));
-    border-image-slice: 1;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    0.25turn,
+    rgb(138, 17, 219),
+    rgb(39, 216, 223),
+    rgb(53, 230, 171)
+  );
+  border-image-slice: 1;
 }
 
 .click-aqui {
   color: aquamarine;
 }
 
-input[type=text] {
-    width: 320px;
-    padding: 12px 20px;
-    margin: 0 auto;
-    margin-top: 20px;
-    font-family: Verdana, sans-serif;
-    font-weight: 200;
-    box-sizing: border-box;
-    border: 1px solid #ffffff;
-    background-color: #000000ba;
-    color: white;
+
+/* INPUT */
+
+input[type="text"] {
+  width: 320px;
+  padding: 12px 20px;
+  margin: 20px auto 0;
+  font-family: Verdana, sans-serif;
+  font-weight: 200;
+  border: 1px solid #ffffff;
+  background-color: rgba(0,0,0,0.73);
+  color: #fff;
+  box-sizing: border-box;
 }
 
-input[type=text]:focus {
-    outline: none;
+input[type="text"]:focus {
+  outline: none;
 }
 
-/*ANIMACIÓN CARGANDO*/
+
+/* LOADING ANIMATION */
+
 .lds-ellipsis {
   display: inline-block;
   position: relative;
   width: 80px;
   height: 80px;
 }
+
 .lds-ellipsis div {
   position: absolute;
   top: 33px;
@@ -89,66 +112,47 @@ input[type=text]:focus {
   height: 13px;
   border-radius: 50%;
   background: #fff;
-  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  animation: ellipsisMove 0.6s infinite cubic-bezier(0,1,1,0);
 }
+
 .lds-ellipsis div:nth-child(1) {
   left: 8px;
-  animation: lds-ellipsis1 0.6s infinite;
+  animation-name: ellipsisScaleIn;
 }
+
 .lds-ellipsis div:nth-child(2) {
   left: 8px;
-  animation: lds-ellipsis2 0.6s infinite;
 }
+
 .lds-ellipsis div:nth-child(3) {
   left: 32px;
-  animation: lds-ellipsis2 0.6s infinite;
 }
+
 .lds-ellipsis div:nth-child(4) {
   left: 56px;
-  animation: lds-ellipsis3 0.6s infinite;
-}
-@keyframes lds-ellipsis1 {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes lds-ellipsis3 {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
-@keyframes lds-ellipsis2 {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(24px, 0);
-  }
-}
-/*FIN ANIMACIÓN CARGANDO*/
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-
+  animation-name: ellipsisScaleOut;
 }
 
-/*Large devices (desktops, 992px and up)*/
+
+@keyframes ellipsisScaleIn {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+
+@keyframes ellipsisScaleOut {
+  0% { transform: scale(1); }
+  100% { transform: scale(0); }
+}
+
+@keyframes ellipsisMove {
+  0% { transform: translate(0,0); }
+  100% { transform: translate(24px,0); }
+}
+
+
 @media (min-width: 992px) {
-    input[type=text] {
-        width: 900px;
-        margin-top: 50px;
-    }
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-    .cabecera {
-        height: 100% !important;
-    }
+  input[type="text"] {
+    width: 900px;
+    margin-top: 50px;
+  }
 }
