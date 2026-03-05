@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById('current-year').textContent = new Date().getFullYear();
     const hamburger = document.querySelector(".hamburger-menu");
     const bars = document.querySelectorAll(".bar");
 
@@ -17,9 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     const menus = [
         ["btn-tarot", "menu-tarot-desplegable"],
-        ["btn-tarot-movil", "menu-tarot-desplegable-movil"],
-        ["btn-horoscopo", "menu-horoscopo-desplegable"],
-        ["btn-horoscopo-movil", "menu-horoscopo-desplegable-movil"]
+        ["btn-tarot-movil", "menu-tarot-desplegable-movil"]
     ];
     menus.forEach(([btnId, menuId]) => {
         const btn = document.getElementById(btnId);

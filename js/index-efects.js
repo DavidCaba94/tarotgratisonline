@@ -1,27 +1,51 @@
 var bubbleProductosOpen = true;
 
-$(document).ready(function(){
-	$('.hamburger-menu').on('click', function() {
-	    $('.bar').toggleClass('animate');
-	});
+// Espera a que el DOM cargue
+document.addEventListener('DOMContentLoaded', function() {
 
-	$('#btn-menu').on('click', function() {
-	    $('#menu-movil-desplegable').slideToggle();
-	});
+    // Toggle clase "animate" en el menú hamburguesa
+    document.querySelectorAll('.hamburger-menu').forEach(function(menu) {
+        menu.addEventListener('click', function() {
+            document.querySelectorAll('.bar').forEach(function(bar) {
+                bar.classList.toggle('animate');
+            });
+        });
+    });
 
-	$('#btn-tarot').on('click', function() {
-	    $('#menu-tarot-desplegable').slideToggle();
-	});
+    // Función simple para slideToggle
+    function slideToggle(element) {
+        if (window.getComputedStyle(element).display === 'none') {
+            element.style.display = 'block';
+            element.style.height = 'auto';
+        } else {
+            element.style.display = 'none';
+        }
+    }
 
-	$('#btn-tarot-movil').on('click', function() {
-	    $('#menu-tarot-desplegable-movil').slideToggle();
-	});
+    // Menú principal
+    var btnMenu = document.getElementById('btn-menu');
+    var menuMovil = document.getElementById('menu-movil-desplegable');
+    if(btnMenu && menuMovil){
+        btnMenu.addEventListener('click', function() {
+            slideToggle(menuMovil);
+        });
+    }
 
-	$('#btn-horoscopo').on('click', function() {
-	    $('#menu-horoscopo-desplegable').slideToggle();
-	});
+    // Menú Tarot
+    var btnTarot = document.getElementById('btn-tarot');
+    var menuTarot = document.getElementById('menu-tarot-desplegable');
+    if(btnTarot && menuTarot){
+        btnTarot.addEventListener('click', function() {
+            slideToggle(menuTarot);
+        });
+    }
 
-	$('#btn-horoscopo-movil').on('click', function() {
-	    $('#menu-horoscopo-desplegable-movil').slideToggle();
-	});
+    var btnTarotMovil = document.getElementById('btn-tarot-movil');
+    var menuTarotMovil = document.getElementById('menu-tarot-desplegable-movil');
+    if(btnTarotMovil && menuTarotMovil){
+        btnTarotMovil.addEventListener('click', function() {
+            slideToggle(menuTarotMovil);
+        });
+    }
+
 });
