@@ -72,6 +72,7 @@ h1,h2,h3{
 /* ORÁCULOS ESPECIALIZADOS */
 
 .box-oraculos-especializados{
+  max-width: 900px;
   display:flex;
   justify-content:center;
   gap:25px;

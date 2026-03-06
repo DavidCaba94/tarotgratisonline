@@ -2,3 +2,15 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
+
+# redirección de urls limpias hacia carpetas AMOR
+RewriteRule ^oraculo-amor-distancia$ /oraculos/amor/oraculo-amor-distancia.html [L]
+RewriteRule ^oraculo-amor-prohibido$ /oraculos/amor/oraculo-amor-prohibido.html [L]
+RewriteRule ^oraculo-destino-sentimental$ /oraculos/amor/oraculo-destino-sentimental.html [L]
+RewriteRule ^oraculo-gusto-crush$ /oraculos/amor/oraculo-gusto-crush.html [L]
+RewriteRule ^oraculo-me-ama$ /oraculos/amor/oraculo-me-ama.html [L]
+RewriteRule ^oraculo-me-es-infiel$ /oraculos/amor/oraculo-me-es-infiel.html [L]
+RewriteRule ^oraculo-me-extraña$ /oraculos/amor/oraculo-me-extraña.html [L]
+RewriteRule ^oraculo-ex-volvera$ /oraculos/amor/oraculo-ex-volvera.html [L]
+RewriteRule ^oraculo-triangulo-amoroso$ /oraculos/amor/oraculo-triangulo-amoroso.html [L]
+RewriteRule ^oraculo-volveremos-juntos$ /oraculos/amor/oraculo-volveremos-juntos.html [L]
