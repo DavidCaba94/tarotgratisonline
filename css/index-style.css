@@ -195,7 +195,8 @@ body {
 }
 
 .titulo {
-	margin: 0;
+	max-width: 900px;
+	margin: 0 auto;
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 50px;
