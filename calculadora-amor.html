@@ -14,23 +14,45 @@
 
         <meta name="viewport" content= "width=device-width">
 
+        <link rel="preload" href="css/index-style.css" as="style">
         <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
         <link href="css/calculadora-amor.css" rel="stylesheet" type="text/css"/>
         <script src="js/calculadora-amor.js"></script>
 
-        <script data-ad-client="ca-pub-1497368073837433" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <link rel="canonical" href="https://tarotgratisonline.com/calculadora-amor">
 
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5NY8CSGMBP"></script>
-        <script async src="https://fundingchoicesmessages.google.com/i/pub-1497368073837433?ers=1" nonce="qrKZNQXXbHA2vYkYS66mxg"></script><script nonce="qrKZNQXXbHA2vYkYS66mxg">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-5NY8CSGMBP');
+            function loadExternalScripts(){
+            if(window.externalScriptsLoaded) return;
+                window.externalScriptsLoaded = true;
+                /* ADSENSE */
+                var ads = document.createElement("script");
+                ads.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+                ads.async = true;
+                ads.setAttribute("data-ad-client","ca-pub-1497368073837433");
+                document.head.appendChild(ads);
+                /* GOOGLE ANALYTICS */
+                var ga = document.createElement("script");
+                ga.src = "https://www.googletagmanager.com/gtag/js?id=G-5NY8CSGMBP";
+                ga.async = true;
+                document.head.appendChild(ga);
+                gtag('js', new Date());
+                gtag('config', 'G-5NY8CSGMBP');
+                /* FUNDING CHOICES */
+                var fc = document.createElement("script");
+                fc.src = "https://fundingchoicesmessages.google.com/i/pub-1497368073837433?ers=1";
+                fc.async = true;
+                document.head.appendChild(fc);
+            }
+            /* cargar tras interacción */
+            window.addEventListener("scroll", loadExternalScripts);
+            window.addEventListener("mousemove", loadExternalScripts);
+            window.addEventListener("touchstart", loadExternalScripts);
+            /* fallback: cargar tras 3s */
+            setTimeout(loadExternalScripts,3000);
         </script>
-        <link rel="canonical" href="https://tarotgratisonline.com/calculadora-amor">
     </head>
   <body>
       <div class="contenedor-cabecera">

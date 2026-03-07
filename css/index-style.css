@@ -178,13 +178,13 @@ body {
 	font-size:18px;
 	font-weight:700;
 	letter-spacing:1px;
-	color:#a855f7;
+	color:#dbb4ff;
 	margin-right:40px;
 	transition:.3s;
 }
 
 .logo:hover{
-	color:#c084fc;
+	color:#ae5eff;
 	text-shadow:0 0 10px rgba(168,85,247,.6);
 }
 
