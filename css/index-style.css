@@ -369,7 +369,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-	line-height: 30px;
+		line-height: 30px;
 }
 
 .parrafo-info {
@@ -378,6 +378,16 @@ body {
     margin-top: 30px;
     font-size: 16px;
     text-align: justify;
+}
+
+.titulo-faq {
+		max-width: 900px;
+		margin: 0 auto;
+		margin-top: 30px;
+		font-size: 20px;
+		font-weight: 700;
+		text-align: center;
+		line-height: 30px;
 }
 
 .img-idioma {
