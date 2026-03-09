@@ -26,3 +26,5 @@ RewriteRule ^oraculo-subida-sueldo$ /oraculos/dinero/oraculo-subida-sueldo.html 
 RewriteRule ^oraculo-suerte-dinero$ /oraculos/dinero/oraculo-suerte-dinero.html [L]
 RewriteRule ^oraculo-tendre-dinero$ /oraculos/dinero/oraculo-tendre-dinero.html [L]
 RewriteRule ^oraculo-trabajo-pronto$ /oraculos/dinero/oraculo-trabajo-pronto.html [L]
+RewriteRule ^oraculo-sere-rico$ /oraculos/dinero/oraculo-sere-rico.html [L]
+RewriteRule ^oraculo-sere-millonario$ /oraculos/dinero/oraculo-sere-millonario.html [L]
