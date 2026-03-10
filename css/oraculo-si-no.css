@@ -69,6 +69,13 @@ h1,h2,h3{
   margin: 50px 0;
 }
 
+.numero-resultado{
+  font-size:60px;
+  font-weight:bold;
+  color:#f5b800;
+  margin:20px 0;
+}
+
 /* ORÁCULOS ESPECIALIZADOS */
 
 .box-oraculos-especializados{
