@@ -69,11 +69,22 @@ h1,h2,h3{
   margin: 50px 0;
 }
 
+.numeros-resultado {
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
 .numero-resultado{
   font-size:60px;
   font-weight:bold;
   color:#f5b800;
   margin:20px 0;
+}
+
+.numeros-resultado .numero-resultado {
+  font-size: 40px;
 }
 
 /* ORÁCULOS ESPECIALIZADOS */
