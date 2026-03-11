@@ -3,7 +3,22 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
 
-# redirección de urls limpias hacia carpetas AMOR
+# ======================
+# HUB ORACULOS
+# ======================
+RewriteRule ^oraculos$ /oraculos/oraculos.html [L]
+RewriteRule ^oraculos-amor$ /oraculos/oraculos-amor.html [L]
+RewriteRule ^oraculos-destino$ /oraculos/oraculos-destino.html [L]
+RewriteRule ^oraculos-dinero$ /oraculos/oraculos-dinero.html [L]
+RewriteRule ^oraculos-loteria$ /oraculos/oraculos-loteria.html [L]
+RewriteRule ^oraculos-salud$ /oraculos/oraculos-salud.html [L]
+RewriteRule ^oraculos-suerte$ /oraculos/oraculos-suerte.html [L]
+RewriteRule ^oraculos-trabajo$ /oraculos/oraculos-trabajo.html [L]
+
+# ======================
+# ORACULOS AMOR
+# ======================
+
 RewriteRule ^oraculo-amor-distancia$ /oraculos/amor/oraculo-amor-distancia.html [L]
 RewriteRule ^oraculo-amor-prohibido$ /oraculos/amor/oraculo-amor-prohibido.html [L]
 RewriteRule ^oraculo-destino-sentimental$ /oraculos/amor/oraculo-destino-sentimental.html [L]
@@ -15,7 +30,10 @@ RewriteRule ^oraculo-ex-volvera$ /oraculos/amor/oraculo-ex-volvera.html [L]
 RewriteRule ^oraculo-triangulo-amoroso$ /oraculos/amor/oraculo-triangulo-amoroso.html [L]
 RewriteRule ^oraculo-volveremos-juntos$ /oraculos/amor/oraculo-volveremos-juntos.html [L]
 
-# redirección de urls limpias hacia carpetas DINERO
+# ======================
+# ORACULOS DINERO
+# ======================
+
 RewriteRule ^oraculo-abundancia$ /oraculos/dinero/oraculo-abundancia.html [L]
 RewriteRule ^oraculo-conseguire-trabajo$ /oraculos/dinero/oraculo-conseguire-trabajo.html [L]
 RewriteRule ^oraculo-economia$ /oraculos/dinero/oraculo-economia.html [L]
@@ -29,7 +47,10 @@ RewriteRule ^oraculo-trabajo-pronto$ /oraculos/dinero/oraculo-trabajo-pronto.htm
 RewriteRule ^oraculo-sere-rico$ /oraculos/dinero/oraculo-sere-rico.html [L]
 RewriteRule ^oraculo-sere-millonario$ /oraculos/dinero/oraculo-sere-millonario.html [L]
 
-# redirección de urls limpias hacia carpetas LOTERIA
+# ======================
+# ORACULOS LOTERIA
+# ======================
+
 RewriteRule ^oraculo-numero-suerte$ /oraculos/loteria/oraculo-numero-suerte.html [L]
 RewriteRule ^oraculo-numeros-suerte-hoy$ /oraculos/loteria/oraculo-numeros-suerte-hoy.html [L]
 RewriteRule ^oraculo-numeros-loteria$ /oraculos/loteria/oraculo-numeros-loteria.html [L]
