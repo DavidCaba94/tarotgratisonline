@@ -18,7 +18,6 @@ RewriteRule ^oraculos-trabajo$ /oraculos/oraculos-trabajo.html [L]
 # ======================
 # ORACULOS AMOR
 # ======================
-
 RewriteRule ^oraculo-amor-distancia$ /oraculos/amor/oraculo-amor-distancia.html [L]
 RewriteRule ^oraculo-amor-prohibido$ /oraculos/amor/oraculo-amor-prohibido.html [L]
 RewriteRule ^oraculo-destino-sentimental$ /oraculos/amor/oraculo-destino-sentimental.html [L]
@@ -33,7 +32,6 @@ RewriteRule ^oraculo-volveremos-juntos$ /oraculos/amor/oraculo-volveremos-juntos
 # ======================
 # ORACULOS DINERO
 # ======================
-
 RewriteRule ^oraculo-abundancia$ /oraculos/dinero/oraculo-abundancia.html [L]
 RewriteRule ^oraculo-conseguire-trabajo$ /oraculos/dinero/oraculo-conseguire-trabajo.html [L]
 RewriteRule ^oraculo-economia$ /oraculos/dinero/oraculo-economia.html [L]
@@ -50,7 +48,6 @@ RewriteRule ^oraculo-sere-millonario$ /oraculos/dinero/oraculo-sere-millonario.h
 # ======================
 # ORACULOS LOTERIA
 # ======================
-
 RewriteRule ^oraculo-numero-suerte$ /oraculos/loteria/oraculo-numero-suerte.html [L]
 RewriteRule ^oraculo-numeros-suerte-hoy$ /oraculos/loteria/oraculo-numeros-suerte-hoy.html [L]
 RewriteRule ^oraculo-numeros-loteria$ /oraculos/loteria/oraculo-numeros-loteria.html [L]

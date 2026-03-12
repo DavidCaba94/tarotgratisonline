@@ -57,6 +57,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://tarotgratisonline.com/oraculos</loc>
+  <lastmod>2026-03-10T17:44:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://tarotgratisonline.com/oraculo-amor-distancia</loc>
   <lastmod>2026-03-06T19:04:00+00:00</lastmod>
   <priority>0.70</priority>
@@ -245,56 +250,6 @@
   <loc>https://tarotgratisonline.com/blog/entradas</loc>
   <lastmod>2022-10-31T10:46:10+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tarotgratisonline.com/en/</loc>
-  <lastmod>2024-02-20T19:15:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://tarotgratisonline.com/en/tarot</loc>
-  <lastmod>2024-02-20T19:15:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tarotgratisonline.com/en/tarot-yes-no</loc>
-  <lastmod>2024-02-26T01:20:07+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tarotgratisonline.com/en/oracle-yes-no</loc>
-  <lastmod>2024-02-24T19:15:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tarotgratisonline.com/en/love-calculator</loc>
-  <lastmod>2024-02-24T19:15:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tarotgratisonline.com/en/compatibility</loc>
-  <lastmod>2024-02-24T19:15:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tarotgratisonline.com/en/hand-reading</loc>
-  <lastmod>2024-02-24T19:15:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tarotgratisonline.com/en/cards</loc>
-  <lastmod>2024-02-24T19:15:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tarotgratisonline.com/en/experts</loc>
-  <lastmod>2024-02-24T10:46:10+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://tarotgratisonline.com/en/blog/entradas</loc>
-  <lastmod>2022-10-31T10:46:10+00:00</lastmod>
-  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://tarotgratisonline.com/blog/que-es-el-tarot</loc>
