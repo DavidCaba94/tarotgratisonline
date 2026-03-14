@@ -12,21 +12,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function numerosSuerteDelDia(min, max, cantidad) {
     const hoy = new Date();
-    let seed =
-        hoy.getFullYear() * 10000 +
-        (hoy.getMonth() + 1) * 100 +
-        hoy.getDate();
+    let seed = hoy.getFullYear() * 10000 + (hoy.getMonth() + 1) * 100 + hoy.getDate();
     function random() {
-        const x = Math.sin(seed++) * 10000;
-        return x - Math.floor(x);
+        seed ^= seed << 13;
+        seed ^= seed >> 17;
+        seed ^= seed << 5;
+        return (seed < 0 ? ~seed + 1 : seed) % 1000 / 1000;
     }
-    const numeros = [];
-    while (numeros.length < cantidad) {
+    const numeros = new Set();
+    while (numeros.size < cantidad) {
         const numero = Math.floor(random() * (max - min + 1)) + min;
-
-        if (!numeros.includes(numero)) {
-            numeros.push(numero);
-        }
+        numeros.add(numero);
     }
-    return numeros.sort((a, b) => a - b);
+    return Array.from(numeros).sort((a, b) => a - b);
 }

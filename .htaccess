@@ -58,6 +58,7 @@ RewriteRule ^oraculo-ganare-primitiva$ /oraculos/loteria/oraculo-ganare-primitiv
 RewriteRule ^oraculo-me-tocara-loteria$ /oraculos/loteria/oraculo-me-tocara-loteria.html [L]
 RewriteRule ^oraculo-numeros-ganadores$ /oraculos/loteria/oraculo-numeros-ganadores.html [L]
 RewriteRule ^oraculo-ganare-loteria-hoy$ /oraculos/loteria/oraculo-ganare-loteria-hoy.html [L]
+RewriteRule ^oraculo-ganare-loteria-navidad$ /oraculos/loteria/oraculo-ganare-loteria-navidad.html [L]
 RewriteRule ^oraculo-me-tocara-euromillones$ /oraculos/loteria/oraculo-me-tocara-euromillones.html [L]
 RewriteRule ^oraculo-me-tocara-primitiva$ /oraculos/loteria/oraculo-me-tocara-primitiva.html [L]
 RewriteRule ^oraculo-me-tocara-premio$ /oraculos/loteria/oraculo-me-tocara-premio.html [L]
