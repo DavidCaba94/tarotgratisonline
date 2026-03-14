@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         textoRespuesta.textContent = respuestaOraculo;
 
-        escribirFicheroPreguntas(pregunta, respuestaOraculo);
+        incrementarContador();
 
         setTimeout(() => {
             loading.classList.remove("visible");
@@ -114,12 +114,14 @@ function toggleMenu(menu) {
         menu.style.display = "block";
     }
 }
-function escribirFicheroPreguntas(pregunta, respuesta) {
-    const data = {
-        pregunta: pregunta,
-        respuesta: respuesta
-    };
-    fetch("/js/save_json.php?data=" + encodeURIComponent(JSON.stringify(data)))
-        .then(() => {})
-        .catch(() => {});
+function incrementarContador() {
+    fetch("/js/save_json.php")
+        .then(response => response.json())
+        .then(data => {
+            //console.log("Contador total:", data.contadorTotal);
+            //console.log("Contador diario:", data.contadorDiario);
+        })
+        .catch(err => {
+            //console.error("Error al actualizar el contador:", err);
+        });
 }
