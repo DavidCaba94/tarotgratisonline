@@ -393,6 +393,92 @@ body {
 	width: 30px;
 }
 
+.item svg {
+    color: #66ff97;
+    transition: transform 0.2s ease;
+	margin-top: -5px;
+}
+
+.item:hover svg {
+    transform: scale(1.15);
+}
+
+.box-respuestas-diarias {
+	max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+	margin: 0 auto;
+    margin-top: 15px;
+}
+
+.dia-card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.dia-fecha {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.dia-numero {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c084fc;
+	margin-top: 10px;
+}
+
+.box-listado-oraculos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+	margin-top: 20px;
+}
+
+.oraculo-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 15px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.oraculo-item:hover {
+    transform: translateY(-2px);
+    background: #2a0f5a;
+}
+
+.oraculo-rank {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #b88aff;
+    min-width: 40px;
+}
+
+.oraculo-info {
+    display: flex;
+    flex-direction: column;
+	align-items: flex-start;
+}
+
+.oraculo-nombre {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.oraculo-visitas {
+    color: #b88aff;
+    font-size: 0.9em;
+}
+
 /* BUBBLE EXPERTOS */
 .bubble-expertos {
 	display:none;
