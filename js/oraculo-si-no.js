@@ -72,6 +72,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         incrementarContador();
 
+        guardarOraculoStats(
+            botonOraculo.dataset.name,
+            botonOraculo.dataset.url
+        );
+
         setTimeout(() => {
             loading.classList.remove("visible");
             loading.classList.add("invisible");
@@ -124,4 +129,23 @@ function incrementarContador() {
         .catch(err => {
             //console.error("Error al actualizar el contador:", err);
         });
+}
+function guardarOraculoStats(name, url) {
+    fetch("/js/save_oraculo_stats.php", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            name: name,
+            url: url
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        // console.log("Stats actualizadas", data);
+    })
+    .catch(err => {
+        // console.error("Error stats:", err);
+    });
 }
