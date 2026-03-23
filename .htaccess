@@ -25,9 +25,16 @@ RewriteRule ^oraculo-gusto-crush$ /oraculos/amor/oraculo-gusto-crush.html [L]
 RewriteRule ^oraculo-me-ama$ /oraculos/amor/oraculo-me-ama.html [L]
 RewriteRule ^oraculo-me-es-infiel$ /oraculos/amor/oraculo-me-es-infiel.html [L]
 RewriteRule ^oraculo-me-extraña$ /oraculos/amor/oraculo-me-extraña.html [L]
-RewriteRule ^oraculo-ex-volvera$ /oraculos/amor/oraculo-ex-volvera.html [L]
+RewriteRule ^oraculo-mi-ex-volvera$ /oraculos/amor/oraculo-mi-ex-volvera.html [L]
+RewriteRule ^oraculo-ex-volvera$ /oraculo-mi-ex-volvera [R=301,L]
 RewriteRule ^oraculo-triangulo-amoroso$ /oraculos/amor/oraculo-triangulo-amoroso.html [L]
-RewriteRule ^oraculo-volveremos-juntos$ /oraculos/amor/oraculo-volveremos-juntos.html [L]
+RewriteRule ^oraculo-volveremos-juntos$ /oraculo-mi-ex-volvera [R=301,L]
+RewriteRule ^oraculo-mi-ex-me-bloqueo$ /oraculos/amor/oraculo-mi-ex-me-bloqueo.html [L]
+RewriteRule ^oraculo-mi-ex-me-extrana$ /oraculos/amor/oraculo-mi-ex-me-extrana.html [L]
+RewriteRule ^oraculo-mi-ex-me-olvido$ /oraculos/amor/oraculo-mi-ex-me-olvido.html [L]
+RewriteRule ^oraculo-mi-ex-se-arrepentira$ /oraculos/amor/oraculo-mi-ex-se-arrepentira.html [L]
+RewriteRule ^oraculo-mi-ex-tiene-nueva-pareja$ /oraculos/amor/oraculo-mi-ex-tiene-nueva-pareja.html [L]
+RewriteRule ^oraculo-volver-con-mi-ex$ /oraculos/amor/oraculo-volver-con-mi-ex.html [L]
 
 # ======================
 # ORACULOS DINERO
