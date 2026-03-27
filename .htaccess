@@ -35,6 +35,11 @@ RewriteRule ^oraculo-mi-ex-me-olvido$ /oraculos/amor/oraculo-mi-ex-me-olvido.htm
 RewriteRule ^oraculo-mi-ex-se-arrepentira$ /oraculos/amor/oraculo-mi-ex-se-arrepentira.html [L]
 RewriteRule ^oraculo-mi-ex-tiene-nueva-pareja$ /oraculos/amor/oraculo-mi-ex-tiene-nueva-pareja.html [L]
 RewriteRule ^oraculo-volver-con-mi-ex$ /oraculos/amor/oraculo-volver-con-mi-ex.html [L]
+RewriteRule ^oraculo-que-siente-por-mi$ /oraculos/amor/oraculo-que-siente-por-mi.html [L]
+RewriteRule ^oraculo-que-piensa-de-mi$ /oraculos/amor/oraculo-que-piensa-de-mi.html [L]
+RewriteRule ^oraculo-sentimientos-ocultos$ /oraculos/amor/oraculo-sentimientos-ocultos.html [L]
+RewriteRule ^oraculo-si-esta-enamorado$ /oraculos/amor/oraculo-si-esta-enamorado.html [L]
+RewriteRule ^oraculo-si-me-desea$ /oraculos/amor/oraculo-si-me-desea.html [L]
 
 # ======================
 # ORACULOS DINERO
