@@ -40,6 +40,10 @@ RewriteRule ^oraculo-que-piensa-de-mi$ /oraculos/amor/oraculo-que-piensa-de-mi.h
 RewriteRule ^oraculo-sentimientos-ocultos$ /oraculos/amor/oraculo-sentimientos-ocultos.html [L]
 RewriteRule ^oraculo-si-esta-enamorado$ /oraculos/amor/oraculo-si-esta-enamorado.html [L]
 RewriteRule ^oraculo-si-me-desea$ /oraculos/amor/oraculo-si-me-desea.html [L]
+RewriteRule ^oraculo-volveremos-a-hablar$ /oraculos/amor/oraculo-volveremos-a-hablar.html [L]
+RewriteRule ^oraculo-cuando-me-escribira$ /oraculos/amor/oraculo-cuando-me-escribira.html [L]
+RewriteRule ^oraculo-me-llamara$ /oraculos/amor/oraculo-me-llamara.html [L]
+RewriteRule ^oraculo-me-contactara$ /oraculos/amor/oraculo-me-contactara.html [L]
 
 # ======================
 # ORACULOS DINERO
