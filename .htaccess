@@ -44,6 +44,10 @@ RewriteRule ^oraculo-volveremos-a-hablar$ /oraculos/amor/oraculo-volveremos-a-ha
 RewriteRule ^oraculo-cuando-me-escribira$ /oraculos/amor/oraculo-cuando-me-escribira.html [L]
 RewriteRule ^oraculo-me-llamara$ /oraculos/amor/oraculo-me-llamara.html [L]
 RewriteRule ^oraculo-me-contactara$ /oraculos/amor/oraculo-me-contactara.html [L]
+RewriteRule ^oraculo-futuro-amoroso$ /oraculos/amor/oraculo-futuro-amoroso.html [L]
+RewriteRule ^oraculo-cuando-llega-el-amor$ /oraculos/amor/oraculo-cuando-llega-el-amor.html [L]
+RewriteRule ^oraculo-nuevo-amor$ /oraculos/amor/oraculo-nuevo-amor.html [L]
+RewriteRule ^oraculo-amor-verdadero$ /oraculos/amor/oraculo-amor-verdadero.html [L]
 
 # ======================
 # ORACULOS DINERO
