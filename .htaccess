@@ -48,6 +48,10 @@ RewriteRule ^oraculo-futuro-amoroso$ /oraculos/amor/oraculo-futuro-amoroso.html 
 RewriteRule ^oraculo-cuando-llega-el-amor$ /oraculos/amor/oraculo-cuando-llega-el-amor.html [L]
 RewriteRule ^oraculo-nuevo-amor$ /oraculos/amor/oraculo-nuevo-amor.html [L]
 RewriteRule ^oraculo-amor-verdadero$ /oraculos/amor/oraculo-amor-verdadero.html [L]
+RewriteRule ^oraculo-mi-relacion-tiene-futuro$ /oraculos/amor/oraculo-mi-relacion-tiene-futuro.html [L]
+RewriteRule ^oraculo-me-conviene-esta-relacion$ /oraculos/amor/oraculo-me-conviene-esta-relacion.html [L]
+RewriteRule ^oraculo-compatibilidad-amor$ /oraculos/amor/oraculo-compatibilidad-amor.html [L]
+RewriteRule ^oraculo-alma-gemela$ /oraculos/amor/oraculo-alma-gemela.html [L]
 
 # ======================
 # ORACULOS DINERO
