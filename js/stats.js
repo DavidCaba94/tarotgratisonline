@@ -85,9 +85,12 @@ function cargarRankingOraculos() {
             // Ordenar por número de preguntas (descendente)
             data.sort((a, b) => b.numPreguntas - a.numPreguntas);
 
+            // 🔹 Solo los 25 primeros
+            const top25 = data.slice(0, 25);
+
             contenedor.innerHTML = "";
 
-            data.forEach((oraculo, index) => {
+            top25.forEach((oraculo, index) => {
                 const div = document.createElement("a");
                 div.href = `/${oraculo.url}`;
                 div.classList.add("oraculo-item");
