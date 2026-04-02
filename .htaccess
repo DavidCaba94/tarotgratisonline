@@ -103,3 +103,17 @@ RewriteRule ^oraculo-loteria$ /oraculos/loteria/oraculo-loteria.html [L]
 RewriteRule ^oraculo-numero-dinero$ /oraculos/loteria/oraculo-numero-dinero.html [L]
 RewriteRule ^oraculo-numeros-para-jugar$ /oraculos/loteria/oraculo-numeros-para-jugar.html [L]
 RewriteRule ^oraculo-ganare-premio$ /oraculos/loteria/oraculo-ganare-premio.html [L]
+
+# ======================
+# ORACULOS SALUD Y ENERGIA
+# ======================
+RewriteRule ^oraculo-salud-general$ /oraculos/salud/oraculo-salud-general.html [L]
+RewriteRule ^oraculo-embarazo$ /oraculos/salud/oraculo-embarazo.html [L]
+RewriteRule ^oraculo-sere-madre$ /oraculos/salud/oraculo-sere-madre.html [L]
+RewriteRule ^oraculo-tengo-mal-de-ojo$ /oraculos/salud/oraculo-tengo-mal-de-ojo.html [L]
+RewriteRule ^oraculo-energia-negativa$ /oraculos/salud/oraculo-energia-negativa.html [L]
+RewriteRule ^oraculo-limpieza-energetica$ /oraculos/salud/oraculo-limpieza-energetica.html [L]
+RewriteRule ^oraculo-bloqueos-emocionales$ /oraculos/salud/oraculo-bloqueos-emocionales.html [L]
+RewriteRule ^oraculo-sanacion-espiritual$ /oraculos/salud/oraculo-sanacion-espiritual.html [L]
+RewriteRule ^oraculo-estado-de-mi-aura$ /oraculos/salud/oraculo-estado-de-mi-aura.html [L]
+RewriteRule ^oraculo-paz-mental$ /oraculos/salud/oraculo-paz-mental.html [L]
