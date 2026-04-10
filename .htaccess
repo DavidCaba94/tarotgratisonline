@@ -117,3 +117,19 @@ RewriteRule ^oraculo-bloqueos-emocionales$ /oraculos/salud/oraculo-bloqueos-emoc
 RewriteRule ^oraculo-sanacion-espiritual$ /oraculos/salud/oraculo-sanacion-espiritual.html [L]
 RewriteRule ^oraculo-estado-de-mi-aura$ /oraculos/salud/oraculo-estado-de-mi-aura.html [L]
 RewriteRule ^oraculo-paz-mental$ /oraculos/salud/oraculo-paz-mental.html [L]
+
+# ======================
+# ORACULOS TRABAJO
+# ======================
+RewriteRule ^oraculo-conseguire-trabajo$ /oraculos/trabajo/oraculo-conseguire-trabajo.html [L]
+RewriteRule ^oraculo-encontrare-trabajo-pronto$ /oraculos/trabajo/oraculo-encontrare-trabajo-pronto.html [L]
+RewriteRule ^oraculo-me-despediran$ /oraculos/trabajo/oraculo-me-despediran.html [L]
+RewriteRule ^oraculo-tendre-ascenso$ /oraculos/trabajo/oraculo-tendre-ascenso.html [L]
+RewriteRule ^oraculo-cambio-de-trabajo$ /oraculos/trabajo/oraculo-cambio-de-trabajo.html [L]
+RewriteRule ^oraculo-me-conviene-cambiar-de-trabajo$ /oraculos/trabajo/oraculo-me-conviene-cambiar-de-trabajo.html [L]
+RewriteRule ^oraculo-mi-jefe-me-valora$ /oraculos/trabajo/oraculo-mi-jefe-me-valora.html [L]
+RewriteRule ^oraculo-tendre-estabilidad-laboral$ /oraculos/trabajo/oraculo-tendre-estabilidad-laboral.html [L]
+RewriteRule ^oraculo-me-ira-bien-en-el-trabajo$ /oraculos/trabajo/oraculo-me-ira-bien-en-el-trabajo.html [L]
+RewriteRule ^oraculo-superare-entrevista-trabajo$ /oraculos/trabajo/oraculo-superare-entrevista-trabajo.html [L]
+RewriteRule ^oraculo-encontrare-trabajo-este-ano$ /oraculos/trabajo/oraculo-encontrare-trabajo-este-ano.html [L]
+RewriteRule ^oraculo-tendre-exito-profesional$ /oraculos/trabajo/oraculo-tendre-exito-profesional.html [L]
