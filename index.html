@@ -2,21 +2,32 @@
 <html lang="es">
     <head>
         <title>Tarot Gratis Online - Amor, Dinero, Trabajo y Destino</title>
-        <link rel="icon" type="image/png" href="img/bola.png">
+        <link rel="icon" type="image/png" href="/img/bola.png">
         <meta charset="UTF-8">
         <meta name="title" content="Tarot Gratis Online - Amor, Dinero, Trabajo y Destino">
         <meta name="description" content="Descubre tu futuro con nuestro tarot gratis online. Haz tiradas de tarot, consulta el oráculo del sí o no, prueba la calculadora del amor, la lectura de manos y otros tests esotéricos gratuitos.">
 
-        <script src="libs/jquery-3.2.1/jquery-latest.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta name="viewport" content= "width=device-width">
-
-        <link rel="preload" href="css/index-style.css" as="style">
-        <link href="css/index-style.css" rel="stylesheet" type="text/css"/>
-        <link href="css/oraculo-si-no.css" rel="stylesheet" type="text/css"/>
-        <script src="js/index-efects.js"></script>
+        <link rel="preload" href="/css/index-style.css" as="style">
+        <link href="/css/index-style.css" rel="stylesheet" type="text/css"/>
+        <link href="/css/oraculo-si-no.css" rel="stylesheet" type="text/css"/>
+        <script src="/js/index-efects.js" defer></script>
 
         <link rel="canonical" href="https://tarotgratisonline.com/">
+        <!-- Open Graph -->
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="es_ES">
+        <meta property="og:site_name" content="Tarot Gratis Online">
+        <meta property="og:url" content="https://tarotgratisonline.com/">
+        <meta property="og:title" content="Tarot Gratis Online - Amor, Dinero, Trabajo y Destino">
+        <meta property="og:description" content="Descubre tu futuro con nuestro tarot gratis online. Haz tiradas de tarot, consulta el oráculo del sí o no, prueba la calculadora del amor, la lectura de manos y otros tests esotéricos gratuitos.">
+        <meta property="og:image" content="https://tarotgratisonline.com/img/bola.png">
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Tarot Gratis Online - Amor, Dinero, Trabajo y Destino">
+        <meta name="twitter:description" content="Descubre tu futuro con nuestro tarot gratis online. Haz tiradas de tarot, consulta el oráculo del sí o no, prueba la calculadora del amor, la lectura de manos y otros tests esotéricos gratuitos.">
+        <meta name="twitter:image" content="https://tarotgratisonline.com/img/bola.png">
 
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -42,6 +53,19 @@
                 fc.src = "https://fundingchoicesmessages.google.com/i/pub-1497368073837433?ers=1";
                 fc.async = true;
                 document.head.appendChild(fc);
+                /* FACEBOOK SDK */
+                var fb = document.createElement("script");
+                fb.src = "https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v6.0";
+                fb.async = true;
+                fb.defer = true;
+                fb.crossOrigin = "anonymous";
+                document.head.appendChild(fb);
+                /* TWITTER WIDGETS */
+                var tw = document.createElement("script");
+                tw.src = "https://platform.twitter.com/widgets.js";
+                tw.async = true;
+                tw.charset = "utf-8";
+                document.head.appendChild(tw);
             }
             /* cargar tras interacción */
             window.addEventListener("scroll", loadExternalScripts);
@@ -49,6 +73,25 @@
             window.addEventListener("touchstart", loadExternalScripts);
             /* fallback: cargar tras 3s */
             setTimeout(loadExternalScripts,3000);
+        </script>
+        <script type="application/ld+json">
+            [
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebSite",
+                    "name": "Tarot Gratis Online",
+                    "url": "https://tarotgratisonline.com/",
+                    "inLanguage": "es",
+                    "description": "Tarot gratis online: tiradas de tarot, oráculo del sí o no, calculadora del amor, compatibilidad, lectura de manos y oráculos especializados."
+                },
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "name": "Tarot Gratis Online",
+                    "url": "https://tarotgratisonline.com/",
+                    "logo": "https://tarotgratisonline.com/img/bola.png"
+                }
+            ]
         </script>
     </head>
   <body>
@@ -103,19 +146,19 @@
               <div class="box-redes">
                   <div class="" data-href="https://tarotgratisonline.com/" data-layout="button" data-size="large">
                       <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftarotgratisonline.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
-                          <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" alt="Icono Facebook" />
+                          <img id="compartir-facebook" class="compartir-redes" src="/img/facebook.png" alt="Icono Facebook" />
                       </a>
                   </div>
                   <a href="whatsapp://send?text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online%20https://tarotgratisonline.com">
-                      <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" alt="Icono Whatsapp" />
+                      <img id="compartir-whatsapp" class="compartir-redes" src="/img/whatsapp.png" alt="Icono Whatsapp" />
                   </a>
                   <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online&tw_p=tweetbutton&url=http%3A%2F%2Ftarotgratisonline.com%2F" class="" data-text="Tarot Gratis Online - Tirada de tarot gratis online" data-url="https://tarotgratisonline.com/" data-show-count="false">
-                      <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" alt="Icono Twitter" />
+                      <img id="compartir-twitter" class="compartir-redes" src="/img/twitter.png" alt="Icono Twitter" />
                   </a>
               </div>
           </div>
           <div class="bubble-expertos">
-            <img src="img/experts-icon.png" class="icono-expertos">
+            <img src="/img/experts-icon.png" class="icono-expertos">
             <div class="contenido-bubble">
                 <p class="texto-bubble-expertos">
                 Habla con un tarotista ahora
@@ -301,24 +344,22 @@
 
     <div class="footer">
         <a href="/">TAROT GRATIS ONLINE</a>
-        <p class="copyright">©2024 TAROTGRATISONLINE</p>
+        <p class="copyright">© <span id="current-year"></span> TAROTGRATISONLINE</p>
         <div class="box-redes">
             <div class="" data-href="https://tarotgratisonline.com/" data-layout="button" data-size="large">
                 <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftarotgratisonline.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
-                    <img id="compartir-facebook" class="compartir-redes" src="img/facebook.png" alt="Icono Facebook" />
+                    <img id="compartir-facebook" class="compartir-redes" src="/img/facebook.png" alt="Icono Facebook" />
                 </a>
             </div>
             <a href="whatsapp://send?text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online%20https://tarotgratisonline.com">
-                <img id="compartir-whatsapp" class="compartir-redes" src="img/whatsapp.png" alt="Icono Whatsapp" />
+                <img id="compartir-whatsapp" class="compartir-redes" src="/img/whatsapp.png" alt="Icono Whatsapp" />
             </a>
             <a href="https://twitter.com/intent/tweet?ref_src=twsrc%5Etfw&text=Tarot%20Gratis%20Online%20-%20Tirada%20de%20tarot%20gratis%20online&tw_p=tweetbutton&url=http%3A%2F%2Ftarotgratisonline.com%2F" class="" data-text="Tarot Gratis Online - Tirada de tarot gratis online" data-url="https://tarotgratisonline.com/" data-show-count="false">
-                <img id="compartir-twitter" class="compartir-redes" src="img/twitter.png" alt="Icono Twitter"/>
+                <img id="compartir-twitter" class="compartir-redes" src="/img/twitter.png" alt="Icono Twitter"/>
             </a>
         </div>
     </div>
 
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v6.0"></script>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
   </body>
 </html>

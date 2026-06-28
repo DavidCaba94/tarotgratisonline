@@ -3,6 +3,10 @@ var bubbleProductosOpen = true;
 // Espera a que el DOM cargue
 document.addEventListener('DOMContentLoaded', function() {
 
+    // Año actual en el footer
+    var yearEl = document.getElementById('current-year');
+    if (yearEl) { yearEl.textContent = new Date().getFullYear(); }
+
     // Toggle clase "animate" en el menú hamburguesa
     document.querySelectorAll('.hamburger-menu').forEach(function(menu) {
         menu.addEventListener('click', function() {
