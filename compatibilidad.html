@@ -8,8 +8,6 @@
         <meta name="description" content="Consulta la compatibilidad entre dos signos del zodiaco con nuestro test gratis. El resultado te hará saber el grado de compatibilidad
         entre dos personas según su signo del zodiaco. El mejor test de compatibilidad gratis para signos del zodiaco.">
 
-        <script src="/libs/jquery-3.2.1/jquery-latest.js" defer></script>
-
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="preload" href="/css/index-style.css" as="style">
@@ -189,44 +187,51 @@
                     <p class="subtitulo">Consulta la compatibilidad entre dos signos del zodiaco con nuestro test gratis. El resultado te hará saber el grado de compatibilidad
                     entre dos personas según su signo del zodiaco. Símplemente elige dos signos correspondientes a dos personas diferentes y observa el resultado. Puedes
                     ayudarte de la <strong>tabla de fechas</strong> de abajo si lo necesitas o leer la <strong>descripción individual</strong> de cada signo.</p>
-                    <div id="formulario-signos" class="visible">
-                        <p>Tu signo:</p>
-                        <div class="contenedor-signos">
-                            <img class="img-signo" src="/img/signos/aries.png" data-id="0" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/tauro.png" data-id="1" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/geminis.png" data-id="2" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/cancer.png" data-id="3" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/leo.png" data-id="4" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/virgo.png" data-id="5" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/libra.png" data-id="6" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/escorpio.png" data-id="7" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/sagitario.png" data-id="8" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/capricornio.png" data-id="9" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/acuario.png" data-id="10" alt="Signo"/>
-                            <img class="img-signo" src="/img/signos/piscis.png" data-id="11" alt="Signo"/>
+                    <div id="compat-tool">
+                        <div id="compat-selector" class="oracle-card">
+                            <div class="compat-grupo">
+                                <h2 class="compat-grupo-titulo" id="compat-label-1">Signo 1</h2>
+                                <div id="compat-signos-1" class="compat-signos" role="radiogroup" aria-labelledby="compat-label-1"></div>
+                            </div>
+                            <div class="compat-grupo">
+                                <h2 class="compat-grupo-titulo" id="compat-label-2">Signo 2</h2>
+                                <div id="compat-signos-2" class="compat-signos" role="radiogroup" aria-labelledby="compat-label-2"></div>
+                            </div>
+                            <button type="button" id="btn-calcular" class="compat-btn" disabled>Calcular compatibilidad</button>
                         </div>
-                        <p>Su signo:</p>
-                        <div class="contenedor-signos">
-                            <img class="img-signo2" src="/img/signos/aries.png" data-id2="0" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/tauro.png" data-id2="1" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/geminis.png" data-id2="2" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/cancer.png" data-id2="3" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/leo.png" data-id2="4" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/virgo.png" data-id2="5" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/libra.png" data-id2="6" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/escorpio.png" data-id2="7" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/sagitario.png" data-id2="8" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/capricornio.png" data-id2="9" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/acuario.png" data-id2="10" alt="Signo"/>
-                            <img class="img-signo2" src="/img/signos/piscis.png" data-id2="11" alt="Signo"/>
+
+                        <div id="compat-resultado" class="oracle-card" aria-live="polite" hidden>
+                            <div class="compat-pareja">
+                                <div class="compat-pareja-signo">
+                                    <img id="compat-res-img-1" src="/img/signos/aries.png" alt=""/>
+                                    <span id="compat-res-nombre-1"></span>
+                                </div>
+                                <span class="compat-corazon" aria-hidden="true">❤️</span>
+                                <div class="compat-pareja-signo">
+                                    <img id="compat-res-img-2" src="/img/signos/aries.png" alt=""/>
+                                    <span id="compat-res-nombre-2"></span>
+                                </div>
+                            </div>
+
+                            <div id="compat-barras" class="compat-barras"></div>
+
+                            <div id="compat-interpretacion" class="compat-interpretacion"></div>
+
+                            <div class="compat-cta">
+                                <p class="compat-cta-titulo" id="compat-cta-titulo"></p>
+                                <ul class="compat-cta-lista">
+                                    <li>Fortalezas</li>
+                                    <li>Debilidades</li>
+                                    <li>Compatibilidad sentimental</li>
+                                    <li>Comunicación</li>
+                                    <li>Pasión</li>
+                                    <li>Consejos para la relación</li>
+                                </ul>
+                                <a id="compat-cta-link" class="compat-btn" href="#">Leer análisis completo →</a>
+                            </div>
+
+                            <button type="button" id="btn-reiniciar" class="compat-btn-secundario">Probar otra combinación</button>
                         </div>
-                        <div id="boton-consulta" class="boton">Consultar</div>
-                    </div>
-                    <div id="respuesta-signos" class="respuesta-signos invisible">
-                        <img id="signo-elegido-1" class="img-signo-respuesta" src="/img/signos/aries.png" alt="Signo"/>
-                        <div id="loading" class="lds-ellipsis invisible"><div></div><div></div><div></div><div></div></div>
-                        <p id="porcentaje" class="porcentaje invisible">00%</p>
-                        <img id="signo-elegido-2" class="img-signo-respuesta" src="/img/signos/aries.png" alt="Signo"/>
                     </div>
             </div>
             <div class="texto-info">
