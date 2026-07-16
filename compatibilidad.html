@@ -183,215 +183,243 @@
                     <li aria-current="page">Compatibilidad</li>
                     </ol>
                 </nav>
-                    <h1 class="titulo">COMPATIBILIDAD DE SIGNOS</h1>
-                    <p class="subtitulo">Consulta la compatibilidad entre dos signos del zodiaco con nuestro test gratis. El resultado te hará saber el grado de compatibilidad
-                    entre dos personas según su signo del zodiaco. Símplemente elige dos signos correspondientes a dos personas diferentes y observa el resultado. Puedes
-                    ayudarte de la <strong>tabla de fechas</strong> de abajo si lo necesitas o leer la <strong>descripción individual</strong> de cada signo.</p>
-                    <div id="compat-tool">
-                        <div id="compat-selector" class="oracle-card">
-                            <div class="compat-grupo">
-                                <h2 class="compat-grupo-titulo" id="compat-label-1">Signo 1</h2>
-                                <div id="compat-signos-1" class="compat-signos" role="radiogroup" aria-labelledby="compat-label-1"></div>
+                <h1 class="titulo-info">Calculadora de Compatibilidad entre Signos del Zodiaco</h1>
+                <p class="parrafo-info">
+                    Descubre gratis la <strong>compatibilidad entre signos del zodiaco</strong> y averigua qué tan bien encajan dos personas según la astrología. Nuestra calculadora te permite seleccionar dos signos y obtener un porcentaje orientativo acompañado de distintos indicadores relacionados con el amor, la comunicación, la pasión y la estabilidad de la relación.
+                </p>
+                <p class="parrafo-info">
+                    Si alguna vez te has preguntado <strong>qué signo es compatible contigo</strong>, si tu pareja ideal pertenece a otro elemento o cómo se llevan Aries y Leo, Tauro y Virgo o Libra y Acuario, esta herramienta te ayudará a explorar las compatibilidades más populares del horóscopo de una forma rápida, sencilla y entretenida.
+                </p>
+                <p class="parrafo-info">
+                    La astrología ha estudiado durante siglos la relación entre los doce signos del zodiaco. Cada signo posee características, fortalezas y debilidades propias, y la combinación de dos personalidades puede dar lugar a relaciones llenas de pasión, amistad, comprensión o grandes desafíos. Precisamente por eso, la <strong>compatibilidad zodiacal</strong> es uno de los temas más buscados por quienes desean conocer mejor sus relaciones sentimentales.
+                </p>
+                <p class="parrafo-info">
+                    Utiliza nuestra <strong>calculadora de compatibilidad amorosa</strong> para obtener un resultado inmediato y, además, descubrirás información detallada sobre cada signo, sus mejores combinaciones y las relaciones que suelen destacar por su conexión emocional, su química o su capacidad para construir una pareja estable.
+                </p>
+                <div id="compat-tool">
+                    <div id="compat-selector" class="oracle-card">
+                        <div class="compat-grupo">
+                            <h2 class="compat-grupo-titulo" id="compat-label-1">Signo 1</h2>
+                            <div id="compat-signos-1" class="compat-signos" role="radiogroup" aria-labelledby="compat-label-1"></div>
+                        </div>
+                        <div class="compat-grupo">
+                            <h2 class="compat-grupo-titulo" id="compat-label-2">Signo 2</h2>
+                            <div id="compat-signos-2" class="compat-signos" role="radiogroup" aria-labelledby="compat-label-2"></div>
+                        </div>
+                        <button type="button" id="btn-calcular" class="compat-btn" disabled>Calcular compatibilidad</button>
+                    </div>
+
+                    <div id="compat-resultado" class="oracle-card" aria-live="polite" hidden>
+                        <div class="compat-pareja">
+                            <div class="compat-pareja-signo">
+                                <img id="compat-res-img-1" src="/img/signos/aries.png" alt=""/>
+                                <span id="compat-res-nombre-1"></span>
                             </div>
-                            <div class="compat-grupo">
-                                <h2 class="compat-grupo-titulo" id="compat-label-2">Signo 2</h2>
-                                <div id="compat-signos-2" class="compat-signos" role="radiogroup" aria-labelledby="compat-label-2"></div>
+                            <span class="compat-corazon" aria-hidden="true">❤️</span>
+                            <div class="compat-pareja-signo">
+                                <img id="compat-res-img-2" src="/img/signos/aries.png" alt=""/>
+                                <span id="compat-res-nombre-2"></span>
                             </div>
-                            <button type="button" id="btn-calcular" class="compat-btn" disabled>Calcular compatibilidad</button>
                         </div>
 
-                        <div id="compat-resultado" class="oracle-card" aria-live="polite" hidden>
-                            <div class="compat-pareja">
-                                <div class="compat-pareja-signo">
-                                    <img id="compat-res-img-1" src="/img/signos/aries.png" alt=""/>
-                                    <span id="compat-res-nombre-1"></span>
-                                </div>
-                                <span class="compat-corazon" aria-hidden="true">❤️</span>
-                                <div class="compat-pareja-signo">
-                                    <img id="compat-res-img-2" src="/img/signos/aries.png" alt=""/>
-                                    <span id="compat-res-nombre-2"></span>
-                                </div>
-                            </div>
+                        <div id="compat-barras" class="compat-barras"></div>
 
-                            <div id="compat-barras" class="compat-barras"></div>
+                        <div id="compat-interpretacion" class="compat-interpretacion"></div>
 
-                            <div id="compat-interpretacion" class="compat-interpretacion"></div>
-
-                            <div class="compat-cta">
-                                <p class="compat-cta-titulo" id="compat-cta-titulo"></p>
-                                <ul class="compat-cta-lista">
-                                    <li>Fortalezas</li>
-                                    <li>Debilidades</li>
-                                    <li>Compatibilidad sentimental</li>
-                                    <li>Comunicación</li>
-                                    <li>Pasión</li>
-                                    <li>Consejos para la relación</li>
-                                </ul>
-                                <a id="compat-cta-link" class="compat-btn" href="#">Leer análisis completo →</a>
-                            </div>
-
-                            <button type="button" id="btn-reiniciar" class="compat-btn-secundario">Probar otra combinación</button>
+                        <div class="compat-cta">
+                            <p class="compat-cta-titulo" id="compat-cta-titulo"></p>
+                            <ul class="compat-cta-lista">
+                                <li>Fortalezas</li>
+                                <li>Debilidades</li>
+                                <li>Compatibilidad sentimental</li>
+                                <li>Comunicación</li>
+                                <li>Pasión</li>
+                                <li>Consejos para la relación</li>
+                            </ul>
+                            <a id="compat-cta-link" class="compat-btn" href="#">Leer análisis completo →</a>
                         </div>
-                    </div>
-            </div>
-            <div class="texto-info">
-                <h2 class="titulo-info">Fechas de los signos del zodiaco</h2>
-                <div class="parrafo-info">
-                    <div class="date-pill">
-                        <p class="signo-pill">Aries</p>
-                        <p class="fecha-pill">21 Marzo - 20 Abril</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Tauro</p>
-                        <p class="fecha-pill">21 Abril - 20 Mayo</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Géminis</p>
-                        <p class="fecha-pill">21 Mayo - 20 Junio</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Cáncer</p>
-                        <p class="fecha-pill">12 Junio - 20 Julio</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Leo</p>
-                        <p class="fecha-pill">21 Julio - 21 Agosto</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Virgo</p>
-                        <p class="fecha-pill">22 Agosto - 22 Septiembre</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Libra</p>
-                        <p class="fecha-pill">23 Septiembre - 22 Octubre</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Escorpio</p>
-                        <p class="fecha-pill">23 Octubre - 22 Noviembre</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Sagitario</p>
-                        <p class="fecha-pill">23 Noviembre - 20 Diciembre</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Capricornio</p>
-                        <p class="fecha-pill">21 Diciembre - 19 Enero</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Acuario</p>
-                        <p class="fecha-pill">20 Enero - 18 Febrero</p>
-                    </div>
-                    <div class="date-pill">
-                        <p class="signo-pill">Piscis</p>
-                        <p class="fecha-pill">19 Febrero - 20 Marzo</p>
+
+                        <button type="button" id="btn-reiniciar" class="compat-btn-secundario">Probar otra combinación</button>
                     </div>
                 </div>
-                <h2 class="titulo-info">Características de los signos del zodiaco</h2>
-                <div class="parrafo-signos">
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/aries.png" alt="Aries"/>
-                        <p class="descripcion-signo">
-                            Aries es el primer signo del zodíaco y simboliza el principio. Eres activo, creativo, aventurero e impulsivo, con reacciones que pueden llegar a ser algo
-                            bruscas. Podríamos decir que tu lema es atreverse ahora, arrepentirse luego. También sueles mostrarte impaciente cuando las cosas no van todo lo deprisa
-                            que, según tú, deberían ir. Vives la vida a mil por hora.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/tauro.png" alt="Tauro"/>
-                        <p class="descripcion-signo">
-                            Te gustan las cosas bonitas que te ofrece la naturaleza, pues en general eres una persona de gustos sencillos que ama y sabe apreciar la belleza en todas
-                            sus vertientes. Tú mismo irradias armonía y sensualidad. Eres realista, con los pies en el suelo.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/geminis.png" alt="Géminis"/>
-                        <p class="descripcion-signo">
-                            El signo de Géminis es un signo dual, lo que te permite adaptarte fácilmente a cualquier situación. Sensible e intuitivo, te gusta aprender cosas nuevas
-                            y rodearte de gente dispuesta a compartir tus ideales.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/cancer.png" alt="Cáncer"/>
-                        <p class="descripcion-signo">
-                            Eres una persona muy sensible. A imagen del cangrejo, posees un caparazón duro para protegerte del exterior. Tu interior es frágil, tiendes a pasar a lo
-                            largo de tu vida por altibajos emocionales, y sueles retrotraerte a tu infancia en busca de respuestas sobre tu “yo” actual. En ocasiones te enfrentas a
-                            la vida con cierto miedo hacia el futuro.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/leo.png" alt="Leo"/>
-                        <p class="descripcion-signo">
-                            Leo personifica al León. Es fuerte, admirado por todos y su poder es el motor de su vida. A menudo caes en la superficialidad y la ostentación, aunque
-                            también hay que decir que eres mucho más que la imagen que los demás se hacen de ti.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/virgo.png" alt="Virgo"/>
-                        <p class="descripcion-signo">
-                            Prudente y razonable, posees en ocasiones un espíritu analítico, en ocasiones crítico, sobre ti mismo y sobre los que te rodean. Eres meticuloso y te
-                            gustan las cosas bien hechas, pero ¡ojo! bien hechas a tu manera, que es la única válida a tu modo de entender. Puedes llegar a obsesionarte por pequeños
-                            detalles que los demás apenas ven.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/libra.png" alt="Libra"/>
-                        <p class="descripcion-signo">
-                            Eres dulce y seductor. Te gusta rodearte de belleza y armonía, tu realización personal pasa por el contacto y la forma de relacionarte con los demás.
-                            Inquieto y curioso por naturaleza, tiendes a sentirte a menudo frustrado e insatisfecho cuando crees o presientes que las cosas no van por el camino que
-                            tú quisieras. Te comprometes difícilmente, pero cuando lo haces tu compromiso es firme.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/escorpio.png" alt="Escorpio"/>
-                        <p class="descripcion-signo">
-                            El Escorpio es el signo del instinto, de la potencia, de la seguridad, así como del mundo interior, de los fantasmas que cada uno alberga en su interior.
-                            Eres una persona extrema en todo lo que emprendes, te haces notar sin quererlo, pues tu paso firme, seguro y fuerte se hace sentir. No pasas desapercibido.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/sagitario.png" alt="Sagitario"/>
-                        <p class="descripcion-signo">
-                            Te caracterizas por tu personalidad independiente, franca y amable, abierta a los demás, a los nuevos desafíos, pero también abierto a ti mismo y a
-                            indagar en tus expectativas personales. Eres idealista, generoso y sincero, no tienes miedo de tus palabras. Te gusta rodearte de sabiduría y
-                            conocimientos, tú mismo eres un sabio y un filósofo. Tu temperamento es propenso al buen humor y al optimismo.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/capricornio.png" alt="Capricornio"/>
-                        <p class="descripcion-signo">
-                            Con tu gran ambición, no podemos dejar de introducir las tendencias vitales de tu signo Capricornio sin mencionar desde ya tu enorme disciplina en el
-                            trabajo, aunque también en otros ámbitos de tu vida, en busca continua de una realización profesional y, por extensión, personal. Discreto y tranquilo,
-                            recorres el camino fijado en tu vida sin hacer notar tus intenciones, lo que te vuelve misterioso e imprevisible de cara a los demás.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/acuario.png" alt="Acuario"/>
-                        <p class="descripcion-signo">
-                            Eres un ser social y siempre sueles rodearte de amigos y de gente conocida. Eres idealista, expansivo, con un gran sentido de la justicia y de la
-                            tolerancia, te comprometes en ese sentido con tal de ayudar en la medida de lo posible a hacer de tu mundo un lugar mejor. Simbolizas la esperanza y
-                            los sueños, la espiritualidad aplicada a la vida real.
-                        </p>
-                    </div>
-                    <div class="separador"></div>
-                    <div class="contenedor-signo">
-                        <img class="imagen-signo" src="/img/signos/piscis.png" alt="Piscis"/>
-                        <p class="descripcion-signo">
-                            Eres un signo dual, difícil de describir, pues tu imaginación y mundo interior no tienen límites. Tú mismo puedes tener en ocasiones dificultad para
-                            determinar dónde termina lo real y dónde empieza lo imaginario. Tu gran sensibilidad e intuición incrementan tu receptividad a aquellas cosas
-                            difícilmente perceptibles para los signos más terrenales, por así decirlo, como los signos de tierra. Pero también eres más vulnerable y frágil que
-                            los demás signos.
-                        </p>
-                    </div>
+            </div>
+            <div class="texto-info">
+                <h2 class="titulo-info">¿Qué aspectos analiza nuestra calculadora?</h2>
+                <p class="parrafo-info">
+                    Cada pareja vive las relaciones de una forma diferente. Algunas destacan por una gran conexión emocional, otras por la pasión, mientras que otras construyen vínculos estables gracias a la confianza y la comunicación. Por eso nuestra herramienta no se limita a mostrar un único porcentaje, sino que representa diferentes áreas de compatibilidad para ofrecer una visión mucho más completa.
+                </p>
+                <ul class="lista-info">
+                    <li><strong>❤️ Amor:</strong> refleja la conexión sentimental y la facilidad para crear un vínculo afectivo duradero.</li>
+
+                    <li><strong>🤝 Comunicación:</strong> muestra la capacidad que tienen ambos signos para entenderse, dialogar y resolver conflictos.</li>
+
+                    <li><strong>🔥 Pasión:</strong> representa la atracción física, la intensidad emocional y la química que suele existir entre ambos.</li>
+
+                    <li><strong>💍 Estabilidad:</strong> indica las posibilidades de construir una relación equilibrada y mantener objetivos comunes a largo plazo.</li>
+
+                    <li><strong>⭐ Compatibilidad global:</strong> resume la afinidad general teniendo en cuenta todos los factores anteriores.</li>
+                </ul>
+                <p class="parrafo-info">
+                    La combinación de estos indicadores permite comprender mucho mejor por qué dos signos pueden llevarse especialmente bien en algunos aspectos y, al mismo tiempo, encontrar dificultades en otros. Precisamente esa combinación de fortalezas y diferencias es lo que hace única cada compatibilidad del zodiaco.
+                </p>
+                <h2 class="titulo-info">¿Cómo funciona la compatibilidad entre signos del zodiaco?</h2>
+                <p class="parrafo-info">
+                    La <strong>compatibilidad entre signos</strong> es una interpretación astrológica que analiza cómo interactúan las características tradicionales de dos signos del zodiaco. En astrología, cada signo pertenece a uno de los cuatro elementos —fuego, tierra, aire y agua— y posee una manera particular de amar, comunicarse, tomar decisiones y afrontar los conflictos.
+                </p>
+                <p class="parrafo-info">
+                    Cuando dos signos se combinan, pueden aparecer afinidades naturales o diferencias importantes. Por ejemplo, algunos signos comparten una energía muy similar y suelen entenderse con facilidad, mientras que otros tienen personalidades opuestas que pueden generar tanto una gran atracción como ciertos desafíos en la convivencia.
+                </p>
+                <p class="parrafo-info">
+                    Nuestra herramienta utiliza estas relaciones astrológicas para mostrar un resultado orientativo acompañado de varios indicadores relacionados con la relación. El objetivo es ofrecer una experiencia entretenida que te permita descubrir cómo encajan dos signos y explorar sus puntos fuertes y débiles.
+                </p>
+                <p class="parrafo-info">
+                    Es importante recordar que la astrología se interpreta tradicionalmente como una guía simbólica y recreativa. La comunicación, el respeto, la confianza y los valores compartidos siguen siendo factores fundamentales en cualquier relación, independientemente del signo zodiacal de cada persona.
+                </p>
+                <h2 class="titulo-info">Los cuatro elementos y la compatibilidad zodiacal</h2>
+                <p class="parrafo-info">
+                    En astrología, los doce signos del zodiaco se agrupan en cuatro elementos. Comprender estos elementos ayuda a entender por qué algunas parejas parecen complementarse tan bien y por qué otras necesitan encontrar un mayor equilibrio.
+                </p>
+                <h3 class="titulo-faq">🔥 Signos de fuego</h3>
+                <p class="parrafo-info">
+                    <strong>Aries, Leo y Sagitario</strong> destacan por su energía, entusiasmo y pasión. Suelen vivir las relaciones de forma intensa y disfrutan de la aventura y la espontaneidad.
+                </p>
+                <h3 class="titulo-faq">🌱 Signos de tierra</h3>
+                <p class="parrafo-info">
+                    <strong>Tauro, Virgo y Capricornio</strong> valoran la estabilidad, la seguridad y la constancia. Buscan relaciones sólidas y suelen demostrar su cariño mediante hechos más que con palabras.
+                </p>
+                <h3 class="titulo-faq">🌬️ Signos de aire</h3>
+                <p class="parrafo-info">
+                    <strong>Géminis, Libra y Acuario</strong> se caracterizan por la comunicación, la curiosidad y la creatividad. Necesitan sentirse estimulados intelectualmente y disfrutan compartiendo ideas y experiencias.
+                </p>
+                <h3 class="titulo-faq">💧 Signos de agua</h3>
+                <p class="parrafo-info">
+                    <strong>Cáncer, Escorpio y Piscis</strong> son conocidos por su sensibilidad, intuición y profundidad emocional. Viven las relaciones con gran intensidad y suelen dar mucha importancia a los sentimientos.
+                </p>
+                <p class="parrafo-info">
+                    Aunque los signos del mismo elemento suelen compartir ciertas afinidades, la compatibilidad zodiacal es mucho más compleja y depende de numerosos factores astrológicos. Por eso, cada combinación de signos tiene características únicas que merecen analizarse individualmente.
+                </p>
+                <h2 class="titulo-info">Explora la compatibilidad de cada signo</h2>
+                <p class="parrafo-info">
+                    Además de utilizar la calculadora, puedes consultar información detallada sobre la personalidad de cada signo y descubrir con qué signos suele tener una mejor conexión sentimental.
+                </p>
+                <div class="grid-signos">
+                    <a href="/compatibilidad-signos/aries/">♈ Aries</a>
+                    <a href="/compatibilidad-signos/tauro/">♉ Tauro</a>
+                    <a href="/compatibilidad-signos/geminis/">♊ Géminis</a>
+                    <a href="/compatibilidad-signos/cancer/">♋ Cáncer</a>
+                    <a href="/compatibilidad-signos/leo/">♌ Leo</a>
+                    <a href="/compatibilidad-signos/virgo/">♍ Virgo</a>
+                    <a href="/compatibilidad-signos/libra/">♎ Libra</a>
+                    <a href="/compatibilidad-signos/escorpio/">♏ Escorpio</a>
+                    <a href="/compatibilidad-signos/sagitario/">♐ Sagitario</a>
+                    <a href="/compatibilidad-signos/capricornio/">♑ Capricornio</a>
+                    <a href="/compatibilidad-signos/acuario/">♒ Acuario</a>
+                    <a href="/compatibilidad-signos/piscis/">♓ Piscis</a>
+                </div>
+                <h2 class="titulo-info">¿Qué hace que dos signos sean compatibles?</h2>
+                <p class="parrafo-info">
+                    La compatibilidad entre dos signos del zodiaco no depende únicamente de que pertenezcan al mismo elemento o compartan determinadas características. La astrología interpreta la relación entre ambos teniendo en cuenta la personalidad que tradicionalmente se atribuye a cada signo, su forma de expresar las emociones, la manera en la que afrontan los conflictos y el modo en que construyen sus relaciones personales.
+                </p>
+                <p class="parrafo-info">
+                    Algunas combinaciones destacan por la facilidad con la que se comunican y comprenden mutuamente, mientras que otras generan una fuerte atracción precisamente porque sus diferencias se complementan. Existen parejas que conectan desde el primer momento gracias a intereses y valores similares, mientras que otras necesitan más tiempo para encontrar un equilibrio que les permita crecer juntas.
+                </p>
+                <p class="parrafo-info">
+                    La compatibilidad zodiacal tampoco debe entenderse como un resultado absoluto. Dos personas pueden compartir el mismo signo y tener personalidades completamente distintas, del mismo modo que dos signos considerados poco compatibles pueden construir relaciones muy felices. La carta astral completa, el ascendente, la Luna y otros factores astrológicos también pueden influir en la interpretación de una relación.
+                </p>
+                <p class="parrafo-info">
+                    Por ese motivo, el porcentaje que muestra nuestra calculadora debe interpretarse como una referencia basada en la astrología tradicional. Es una forma rápida de descubrir las fortalezas y los posibles retos de una pareja, pero siempre será la comunicación, el respeto y el compromiso entre ambas personas lo que determine el éxito de una relación.
+                </p>
+                <h2 class="titulo-info">¿Influye el ascendente en la compatibilidad amorosa?</h2>
+                <p class="parrafo-info">
+                    Aunque el signo solar es el aspecto más conocido de la astrología, no es el único que puede influir en la compatibilidad entre dos personas. Cada carta astral está formada por numerosos elementos, como el ascendente, la posición de la Luna o la ubicación de los distintos planetas en el momento del nacimiento. Todos ellos aportan matices que ayudan a comprender mejor la personalidad y la forma de relacionarse de cada individuo.
+                </p>
+                <p class="parrafo-info">
+                    El <strong>ascendente</strong>, por ejemplo, representa la manera en la que una persona se muestra al mundo, afronta nuevas experiencias y establece sus primeras relaciones con los demás. Por ese motivo, dos personas con signos solares poco compatibles pueden descubrir una mayor afinidad cuando su ascendente favorece la comunicación, el entendimiento o la atracción mutua.
+                </p>
+                <p class="parrafo-info">
+                    De la misma forma, la posición de la <strong>Luna</strong> se relaciona tradicionalmente con las emociones, la sensibilidad y la forma de expresar los sentimientos. Analizar estos factores permite obtener una visión mucho más completa de una relación que la ofrecida únicamente por el signo del zodiaco.
+                </p>
+                <p class="parrafo-info">
+                    Nuestra calculadora utiliza el signo solar como punto de partida porque es el elemento astrológico más conocido y el que permite realizar una consulta rápida y sencilla. Sin embargo, si deseas profundizar en la compatibilidad entre dos personas, lo más recomendable es estudiar la carta astral completa, donde intervienen muchos más factores que enriquecen la interpretación.
+                </p>
+                <h2 class="titulo-info">Mitos y realidades sobre la compatibilidad entre signos</h2>
+                <p class="parrafo-info">
+                    La astrología lleva siglos despertando interés y curiosidad, pero también ha dado lugar a numerosas creencias que no siempre reflejan cómo se interpreta realmente la compatibilidad entre los signos del zodiaco. A continuación aclaramos algunos de los mitos más habituales para ayudarte a entender mejor cómo debe interpretarse el resultado de nuestra calculadora.
+                </p>
+                <h3 class="titulo-faq">❌ Mito: Dos personas del mismo signo siempre forman la pareja perfecta</h3>
+                <p class="parrafo-info">
+                    Compartir el mismo signo puede hacer que ambas personas tengan formas de pensar o de actuar similares, pero eso no garantiza una relación perfecta. En algunos casos estas semejanzas facilitan la convivencia y el entendimiento, mientras que en otros pueden hacer que ambos choquen precisamente por compartir los mismos puntos débiles.
+                </p>
+                <h3 class="titulo-faq">✅ Realidad: Cada combinación tiene fortalezas y desafíos</h3>
+                <p class="parrafo-info">
+                    No existen parejas completamente compatibles ni relaciones destinadas al fracaso únicamente por el signo del zodiaco. Cada combinación presenta aspectos en los que resulta más fácil conectar y otros que requieren mayor comunicación, comprensión y esfuerzo por ambas partes.
+                </p>
+                <h3 class="titulo-faq">❌ Mito: Los signos opuestos nunca funcionan juntos</h3>
+                <p class="parrafo-info">
+                    Es habitual pensar que dos signos muy diferentes son incompatibles. Sin embargo, en astrología muchas parejas consideradas opuestas consiguen complementarse precisamente gracias a esas diferencias. Lo que una persona aporta puede equilibrar aquello que le falta a la otra, creando relaciones muy enriquecedoras.
+                </p>
+                <h3 class="titulo-faq">✅ Realidad: La compatibilidad va mucho más allá del signo solar</h3>
+                <p class="parrafo-info">
+                    El signo solar es solo una pequeña parte de la carta astral. Factores como el ascendente, la Luna o la posición de los planetas también forman parte de la interpretación astrológica y pueden modificar significativamente la afinidad entre dos personas.
+                </p>
+                <h3 class="titulo-faq">❌ Mito: Un porcentaje alto garantiza una relación duradera</h3>
+                <p class="parrafo-info">
+                    La compatibilidad zodiacal no debe interpretarse como una predicción del futuro. Un porcentaje elevado simplemente indica que, según la tradición astrológica, ambos signos suelen compartir características que favorecen la relación. El éxito de una pareja depende siempre de aspectos como la confianza, el respeto, la comunicación y el compromiso mutuo.
+                </p>
+                <h3 class="titulo-faq">✅ Realidad: La astrología es una herramienta para conocerse mejor</h3>
+                <p class="parrafo-info">
+                    Muchas personas utilizan la compatibilidad entre signos como una forma de reflexionar sobre la personalidad, la comunicación o las emociones dentro de una relación. Entendida desde esa perspectiva, puede convertirse en un punto de partida interesante para comprender mejor las fortalezas y los retos que pueden aparecer entre dos personas.
+                </p>
+                <h2 class="titulo-info">Preguntas frecuentes sobre la compatibilidad entre signos</h2>
+                <div class="faq">
+                    <h3 class="titulo-faq">¿Cómo funciona la calculadora de compatibilidad entre signos?</h3>
+                    <p class="parrafo-info">
+                        Nuestra calculadora compara las características tradicionalmente asociadas a cada signo del zodiaco y genera una estimación de compatibilidad basada en la astrología. El resultado muestra diferentes indicadores relacionados con el amor, la comunicación, la pasión y la estabilidad para ofrecer una visión general de la relación.
+                    </p>
+                    <h3 class="titulo-faq">¿Qué significa el porcentaje de compatibilidad?</h3>
+                    <p class="parrafo-info">
+                        El porcentaje representa una estimación orientativa de la afinidad entre dos signos del zodiaco. Cuanto mayor sea el resultado, más características compatibles suelen compartir según la astrología tradicional. No debe interpretarse como una garantía del éxito o del fracaso de una relación.
+                    </p>
+                    <h3 class="titulo-faq">¿La compatibilidad entre signos puede predecir el futuro de una relación?</h3>
+                    <p class="parrafo-info">
+                        No. La compatibilidad zodiacal ofrece una interpretación basada en la tradición astrológica, pero el futuro de una relación depende siempre de factores como la comunicación, el respeto, la confianza y el compromiso entre ambas personas.
+                    </p>
+                    <h3 class="titulo-faq">¿Dos personas del mismo signo son siempre compatibles?</h3>
+                    <p class="parrafo-info">
+                        No necesariamente. Compartir el mismo signo puede facilitar el entendimiento en algunos aspectos, pero también puede hacer que ambas personas tengan fortalezas y debilidades muy similares. Cada relación es única y depende de muchos más factores que el signo solar.
+                    </p>
+                    <h3 class="titulo-faq">¿Los signos opuestos pueden formar una buena pareja?</h3>
+                    <p class="parrafo-info">
+                        Sí. En astrología existen muchas combinaciones de signos opuestos que consiguen complementarse perfectamente. Las diferencias pueden convertirse en un punto fuerte cuando ambas personas aprenden a comprenderse y a aprovechar las cualidades del otro.
+                    </p>
+                    <h3 class="titulo-faq">¿Influye el ascendente en la compatibilidad amorosa?</h3>
+                    <p class="parrafo-info">
+                        Sí. El ascendente forma parte de la carta astral y puede aportar información muy valiosa sobre la personalidad y la forma de relacionarse de una persona. Por ese motivo, un estudio completo de compatibilidad suele analizar muchos más elementos además del signo solar.
+                    </p>
+                    <h3 class="titulo-faq">¿La calculadora sirve solo para relaciones de pareja?</h3>
+                    <p class="parrafo-info">
+                        Aunque está pensada principalmente para conocer la compatibilidad amorosa, muchas personas la utilizan también para explorar la afinidad entre amigos, familiares o compañeros de trabajo desde un punto de vista astrológico.
+                    </p>
+                    <h3 class="titulo-faq">¿Qué signos suelen ser más compatibles entre sí?</h3>
+                    <p class="parrafo-info">
+                        No existe una única respuesta válida. Algunas combinaciones suelen compartir una gran afinidad según la astrología, mientras que otras necesitan encontrar un mayor equilibrio. En nuestra sección de compatibilidad de cada signo podrás descubrir las características específicas de cada combinación.
+                    </p>
+                    <h3 class="titulo-faq">¿Puedo utilizar la calculadora tantas veces como quiera?</h3>
+                    <p class="parrafo-info">
+                        Sí. La calculadora es completamente gratuita y puedes consultar la compatibilidad entre cualquier combinación de signos del zodiaco todas las veces que desees.
+                    </p>
+                    <h3 class="titulo-faq">¿La calculadora de compatibilidad entre signos es gratuita?</h3>
+                    <p class="parrafo-info">
+                        Sí. Todas las consultas son totalmente gratuitas y no es necesario registrarse para conocer la compatibilidad entre dos signos del zodiaco.
+                    </p>
+                    <h3 class="titulo-faq">¿Cómo puedo conocer una compatibilidad más precisa?</h3>
+                    <p class="parrafo-info">
+                        Para realizar un análisis más completo es recomendable estudiar la carta astral de ambas personas, teniendo en cuenta elementos como el ascendente, la Luna y la posición de los planetas en el momento del nacimiento. La calculadora ofrece una primera aproximación rápida basada en el signo solar.
+                    </p>
+                    <h3 class="titulo-faq">¿Dónde puedo consultar la compatibilidad de un signo concreto?</h3>
+                    <p class="parrafo-info">
+                        Además de la calculadora, puedes acceder a nuestras páginas dedicadas a cada signo del zodiaco, donde encontrarás información detallada sobre su personalidad y sus compatibilidades con el resto de signos.
+                    </p>
                 </div>
             </div>
         </div>
