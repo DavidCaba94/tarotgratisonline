@@ -208,9 +208,15 @@ body {
     margin: 0 auto;
     margin-top: 30px;
     font-size: 16px;
-    line-height: 25px;
-    text-align: justify;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.82);
+    text-align: left;
 	padding: 10px;
+}
+
+.subtitulo strong {
+    color: #d9b8ff;
+    font-weight: 600;
 }
 
 .fondo-seccion-movil {
@@ -276,24 +282,25 @@ body {
 }
 
 .boton {
-	width: 200px;
-    height: 30px;
+	width: 220px;
     margin: 0 auto;
     margin-top: 30px;
-    background-color: #00000000;
+    background: linear-gradient(135deg, #9333ea, #6366f1);
     color: #ffffff;
     font-size: 16px;
-    font-weight: 200;
-    padding-top: 10px;
-    border: 1px solid #ffffff;
-    border-radius: 25px;
+    font-weight: 600;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+    box-sizing: border-box;
     cursor: pointer;
+    transition: transform .25s ease, box-shadow .25s ease;
 }
 
 .boton:hover {
-	background-color: #ffffff;
-	color: #000000;
-	transition: .35s linear;
+	transform: translateY(-2px);
+	box-shadow: 0 10px 25px rgba(147, 51, 234, 0.4);
 }
 
 .img-seccion-1 {
@@ -344,13 +351,23 @@ body {
 	justify-content: center;
 	width: 100%;
 	height: auto;
-	padding-top: 20px;
+	margin-top: 60px;
+	padding: 40px 20px 30px;
+	box-sizing: border-box;
 	border-top: 1px solid #ffffff24;
 	text-align: center;
 }
 
+.footer > a {
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
 .copyright {
 	font-weight: 200;
+	font-size: 13px;
+	color: rgba(255, 255, 255, 0.5);
 	margin-top: 20px;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -365,11 +382,21 @@ body {
 .titulo-info {
     max-width: 900px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
 		line-height: 30px;
+}
+
+.titulo-info::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 3px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #9333ea, #6366f1);
+    margin: 14px auto 0;
 }
 
 .parrafo-info {
@@ -377,16 +404,60 @@ body {
     margin: 0 auto;
     margin-top: 30px;
     font-size: 16px;
-    text-align: justify;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.82);
+    text-align: left;
+}
+
+.parrafo-info strong {
+    color: #d9b8ff;
+    font-weight: 600;
 }
 
 .titulo-faq {
 	max-width: 900px;
 	margin: 0 auto;
 	margin-top: 30px;
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 30px;
+	padding: 16px 20px 12px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 28px;
+	color: #d9b8ff;
+	background: rgba(255, 255, 255, 0.04);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: none;
+	border-radius: 14px 14px 0 0;
+	box-sizing: border-box;
+}
+
+/* Cuerpo de la tarjeta FAQ: hasta 3 parrafos seguidos tras el titulo */
+.titulo-faq + .parrafo-info,
+.titulo-faq + .parrafo-info + .parrafo-info,
+.titulo-faq + .parrafo-info + .parrafo-info + .parrafo-info {
+	margin-top: 0;
+	padding: 0 20px 4px;
+	background: rgba(255, 255, 255, 0.04);
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	box-sizing: border-box;
+}
+
+/* Cierre inferior de la tarjeta en el ultimo parrafo del bloque */
+.titulo-faq + .parrafo-info:not(:has(+ .parrafo-info)),
+.titulo-faq + .parrafo-info + .parrafo-info:not(:has(+ .parrafo-info)),
+.titulo-faq + .parrafo-info + .parrafo-info + .parrafo-info {
+	padding-bottom: 16px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 0 0 14px 14px;
+}
+
+/* Fallback para navegadores sin :has() */
+@supports not (selector(:has(+ *))) {
+	.titulo-faq + .parrafo-info {
+		padding-bottom: 16px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		border-radius: 0 0 14px 14px;
+	}
 }
 
 .img-idioma {
