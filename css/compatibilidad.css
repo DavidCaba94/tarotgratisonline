@@ -502,6 +502,40 @@ ul.lista-info li {
 }
 ul.lista-info li strong { color: #d9b8ff; }
 
+/* --- CTA hacia la vertical /compatibilidad-signos/ --- */
+.cta-signos {
+    max-width: 700px;
+    margin: 40px auto 0;
+    padding: 30px 24px;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid rgba(185, 131, 255, 0.35);
+    background: linear-gradient(160deg, rgba(147, 51, 234, 0.15), rgba(99, 102, 241, 0.08));
+    box-sizing: border-box;
+}
+
+.cta-signos-titulo {
+    margin: 0 0 10px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.cta-signos-texto {
+    margin: 0 0 4px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.cta-signos-boton {
+    display: inline-block;
+    width: auto;
+    padding: 15px 34px;
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
 .grid-signos {
     max-width: 900px;
     margin: 30px auto;
