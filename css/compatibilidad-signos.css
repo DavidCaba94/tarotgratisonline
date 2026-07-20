@@ -532,6 +532,173 @@
     margin-top: auto;
 }
 
+/* =========================================================
+   HOJAS DE COMBINACIÓN (/compatibilidad-signos/{a}/{b}/)
+   ========================================================= */
+
+/* --- Hero de pareja --- */
+.hero-pareja {
+    max-width: 760px;
+    margin: 30px auto 0;
+    padding: 30px 24px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(185, 131, 255, 0.18);
+    box-sizing: border-box;
+}
+
+.hero-pareja-signos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 14px;
+}
+
+.hero-pareja-signo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.hero-pareja-signo img {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+}
+
+.hero-pareja-signo span {
+    font-size: 17px;
+    font-weight: 600;
+    color: #d9b8ff;
+}
+
+.hero-pareja-corazon {
+    font-size: 30px;
+}
+
+.hero-pareja-veredicto {
+    margin: 0 0 4px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.hero-pareja-porcentaje {
+    margin: 0;
+    font-size: 46px;
+    font-weight: 700;
+    color: #f5c542;
+    line-height: 1.1;
+}
+
+.hero-pareja .estrellas {
+    display: block;
+    font-size: 20px;
+    margin: 6px 0 18px;
+}
+
+.hero-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn-cta-secundario {
+    display: inline-block;
+    margin-top: 26px;
+    padding: 13px 24px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.05);
+    color: #ffffff !important;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+
+.btn-cta-secundario:hover {
+    transform: translateY(-2px);
+    border-color: #b983ff;
+    background: rgba(185, 131, 255, .15);
+}
+
+/* --- Compatibilidad rápida (porcentajes) --- */
+.stats-rapidas {
+    max-width: 900px;
+    margin: 30px auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+}
+
+.stat-rapida {
+    padding: 16px 12px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+
+.stat-rapida-label {
+    margin: 0 0 6px;
+    font-size: 13px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.stat-rapida-valor {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 700;
+    color: #d9b8ff;
+}
+
+.stat-rapida-global .stat-rapida-valor {
+    color: #f5c542;
+}
+
+/* --- Compatibilidad por áreas --- */
+.grid-areas {
+    max-width: 1000px;
+    margin: 30px auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+}
+
+.tarjeta-area {
+    padding: 22px 24px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.tarjeta-area h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #d9b8ff;
+}
+
+.tarjeta-area p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.82);
+    text-align: left;
+}
+
 /* --- Responsive --- */
 @media (max-width: 600px) {
     .grid-tarjetas-signos {
@@ -550,5 +717,26 @@
 
     .hero-signo-nombre {
         font-size: 26px;
+    }
+
+    .hero-pareja-signos {
+        gap: 14px;
+    }
+
+    .hero-pareja-signo img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .hero-pareja-porcentaje {
+        font-size: 38px;
+    }
+
+    .grid-areas {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-rapidas {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
