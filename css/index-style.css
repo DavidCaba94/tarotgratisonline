@@ -28,35 +28,119 @@ body {
 	display:none;
 	align-items:center;
 	justify-content:center;
+	flex-wrap:nowrap;
+	gap:2px;
 	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:70px;
-	background:rgba(10,5,25,0.75);
-	backdrop-filter:blur(14px);
-	border-bottom:1px solid rgba(255,255,255,.08);
+	top:18px;
+	left:50%;
+	transform:translateX(-50%);
+	width:auto;
+	max-width:calc(100% - 32px);
+	height:auto;
+	padding:7px 14px;
+	background:rgba(20,10,40,0.55);
+	backdrop-filter:blur(18px) saturate(140%);
+	-webkit-backdrop-filter:blur(18px) saturate(140%);
+	border:1px solid rgba(255,255,255,.12);
+	border-radius:999px;
+	box-shadow:0 12px 40px rgba(0,0,0,.45), 0 0 0 1px rgba(147,51,234,.10), inset 0 1px 0 rgba(255,255,255,.08);
 	z-index:1000;
+}
+
+/* Reserva el espacio de la barra fija en móvil (se anula en escritorio) */
+.contenedor-cabecera{
+	padding-top: 84px;
 }
 
 .menu-movil{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
-    padding: 20px;
+    height: 56px;
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    z-index: 1000;
+    padding: 0 22px 0 22px;
+    background:rgba(20,10,40,0.55);
+    backdrop-filter:blur(18px) saturate(140%);
+    -webkit-backdrop-filter:blur(18px) saturate(140%);
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:999px;
+    box-shadow:0 12px 40px rgba(0,0,0,.45), 0 0 0 1px rgba(147,51,234,.10), inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+.menu-movil .logo{
+	margin-right:0;
+}
+
+/* Hamburguesa centrada dentro de la píldora móvil */
+.menu-movil .hamburger-menu{
+	margin-top:0;
+	height:22px;
+	width:30px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.menu-movil .bar{
+	transform:none;
 }
 
 .menu-movil-desplegable{
 	display: none;
-	padding:25px;
+	position: fixed;
+	top: 80px;
+	left: 12px;
+	right: 12px;
+	z-index: 999;
+	max-height: calc(100vh - 96px);
+	overflow-y: auto;
+	padding: 12px;
+	background:rgba(20,10,40,0.92);
+	backdrop-filter:blur(18px) saturate(140%);
+	-webkit-backdrop-filter:blur(18px) saturate(140%);
+	border:1px solid rgba(255,255,255,.12);
+	border-radius:22px;
+	box-shadow:0 18px 50px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+.menu-movil-desplegable .item{
+	margin: 2px 0;
+	padding: 13px 16px;
+	border-radius: 14px;
+	text-align: left;
+	transition: background .2s ease, color .2s ease;
+}
+
+.menu-movil-desplegable .item:hover,
+.menu-movil-desplegable .item:active{
+	background: rgba(147,51,234,.22);
+	color: #fff;
+}
+
+.menu-movil-desplegable .item::after{
+	display: none;
+}
+
+.menu-tarot-desplegable-movil .item{
+	padding-left: 30px;
+	font-weight: 400;
+}
+
+.menu-movil-desplegable .box-redes{
+	margin-top: 8px;
+	padding-top: 14px;
+	border-top: 1px solid rgba(255,255,255,.10);
 }
 
 .menu-tarot-desplegable{
 	display: none;
 	position:sticky;
 	width: 300px;
-	top: 160px;
+	top: 84px;
     left: calc(50% - 151px);
 	background:rgba(20,10,40,0.95);
 	backdrop-filter:blur(12px);
@@ -747,14 +831,37 @@ body {
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+	.contenedor-cabecera {
+		padding-top: 0;
+	}
+
 	.menu {
-		width: 100%;
-		height: 100px;
 		display: flex;
-		justify-content: center;
-		padding-top: 40px;
 		font-size: 14px;
-		z-index: 99;
+	}
+
+	.menu .item {
+		margin: 0;
+		padding: 9px 14px;
+		height: auto;
+		line-height: 1;
+		white-space: nowrap;
+		border-radius: 999px;
+		transition: background .25s ease, color .25s ease;
+	}
+
+	.menu .item:hover {
+		background: rgba(147,51,234,.22);
+		color: #fff;
+	}
+
+	.menu .item::after {
+		display: none;
+	}
+
+	.menu .logo {
+		margin: 0 10px 0 4px;
+		padding: 9px 4px;
 	}
 
 	.menu-movil {
@@ -767,7 +874,7 @@ body {
 
 	.cabecera {
 		padding: 10px;
-		margin-top: 160px;
+		margin-top: 100px;
 	}
 
 	.titulo {

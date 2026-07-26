@@ -217,9 +217,6 @@
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .cabecera {
-        padding-top: 50px;
-    }
 
     .respuesta-signos {
         display: none;
