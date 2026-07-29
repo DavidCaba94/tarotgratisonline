@@ -271,6 +271,39 @@
     border: 1px solid rgba(185, 131, 255, 0.5);
 }
 
+/* ===== Cartas invertidas: pareja derecha / invertida ===== */
+.par-cartas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.par-cartas figure {
+    margin: 0;
+    text-align: center;
+}
+
+.par-cartas img {
+    width: 130px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.par-cartas .invertida img {
+    transform: rotate(180deg);
+}
+
+.par-cartas figcaption {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.82);
+}
+
 /* ===== Preguntas frecuentes (FAQ) — mismo estilo que el resto del sitio ===== */
 .faq {
     max-width: 900px;
