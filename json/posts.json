@@ -130,5 +130,65 @@
             "titulo": "CARTAS INVERTIDAS DEL TAROT: CÓMO INTERPRETARLAS",
             "descripcion": "¿Una carta al revés significa lo contrario? Casi nunca. Aprende los 5 métodos reales para interpretar las cartas invertidas, con ejemplos visuales de arcanos mayores y los errores más comunes al leerlas.",
             "url": "/blog/cartas-invertidas-tarot"
+    },
+    {
+            "id": "23",
+            "titulo": "¿QUÉ SIGNIFICA SOÑAR CON AGUA?",
+            "descripcion": "El agua es el gran símbolo de las emociones. Descubre qué significa soñar con agua según su estado (clara, turbia, agitada), dónde aparece (mar, río, inundación) y lo que haces en el sueño.",
+            "url": "/blog/significado-sonar-con-agua"
+    },
+    {
+            "id": "24",
+            "titulo": "¿QUÉ SIGNIFICA SOÑAR CON TU EX?",
+            "descripcion": "Soñar con tu ex casi nunca significa que quieras volver. Descubre qué simboliza de verdad esa persona en tus sueños y qué te está diciendo tu inconsciente sobre tu presente.",
+            "url": "/blog/significado-sonar-con-un-ex"
+    },
+    {
+            "id": "25",
+            "titulo": "¿QUÉ SIGNIFICA SOÑAR CON ESTAR EMBARAZADA?",
+            "descripcion": "Rara vez anuncia un embarazo real. Descubre por qué soñar con embarazo simboliza un proyecto o una etapa que crece dentro de ti, incluso si eres hombre.",
+            "url": "/blog/significado-sonar-con-embarazo"
+    },
+    {
+            "id": "26",
+            "titulo": "¿QUÉ SIGNIFICA SOÑAR CON ARAÑAS?",
+            "descripcion": "La araña puede advertirte de una situación que te atrapa o hablarte de tu poder creador. Descubre el significado según el contexto: telarañas, que te pique, grandes o matarla.",
+            "url": "/blog/significado-sonar-con-aranas"
+    },
+    {
+            "id": "27",
+            "titulo": "TIRADA DE TAROT DE 3 CARTAS: CÓMO HACERLA E INTERPRETARLA",
+            "descripcion": "La tirada más popular del tarot, paso a paso: cómo formular la pregunta, las variantes (pasado-presente-futuro y más) y el secreto para enlazar las cartas y construir una lectura de verdad.",
+            "url": "/blog/tirada-tarot-tres-cartas"
+    },
+    {
+            "id": "28",
+            "titulo": "LA CARTA DE LA MUERTE EN EL TAROT: SIGNIFICADO REAL",
+            "descripcion": "La carta que más asusta casi nunca habla de morir. Descubre el verdadero significado del arcano 13: transformación y finales, su lectura derecha, invertida y en el amor.",
+            "url": "/blog/carta-la-muerte-tarot"
+    },
+    {
+            "id": "29",
+            "titulo": "CÓMO LIMPIAR Y CARGAR TU BARAJA DE TAROT",
+            "descripcion": "Mantén tus lecturas claras con esta guía práctica: 6 métodos para limpiar tu baraja (humo, luna, sal, cristales), cómo cargarla de energía y cada cuánto conviene hacerlo.",
+            "url": "/blog/como-limpiar-cargar-baraja-tarot"
+    },
+    {
+            "id": "30",
+            "titulo": "LOS 12 SIGNOS DEL ZODIACO: FECHAS, ELEMENTOS Y PERSONALIDAD",
+            "descripcion": "Guía completa de los 12 signos del zodiaco: sus fechas exactas, los 4 elementos (fuego, tierra, aire y agua) y la personalidad y los retos de cada signo.",
+            "url": "/blog/signos-del-zodiaco"
+    },
+    {
+            "id": "31",
+            "titulo": "LAS FASES DE LA LUNA Y SU SIGNIFICADO ESPIRITUAL",
+            "descripcion": "Luna nueva, creciente, llena y menguante. Descubre la energía de cada fase lunar y qué hacer en cada momento para alinear tus intenciones con el ciclo de la luna.",
+            "url": "/blog/fases-de-la-luna-significado"
+    },
+    {
+            "id": "32",
+            "titulo": "EL SIGNIFICADO DE LAS VELAS SEGÚN SU COLOR",
+            "descripcion": "El color de una vela determina su intención. Descubre qué representa cada color (blanca, roja, verde, amarilla, azul, morada, rosa y negra) y cómo usarlas para enfocar tus deseos.",
+            "url": "/blog/significado-velas-por-color"
     }
 ]
